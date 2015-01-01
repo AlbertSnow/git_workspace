@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.opengl.GLSurfaceView"/>
+<fullyQualifiedTypeName name="android.opengl.GLES20"/>
+<fullyQualifiedTypeName name="com.example.testgit.Triangle"/>
+<fullyQualifiedTypeName name="java.nio.FloatBuffer"/>
+<fullyQualifiedTypeName name="java.nio.ShortBuffer"/>
+<fullyQualifiedTypeName name="com.example.testgit.MyRenderer"/>
+<fullyQualifiedTypeName name="java.nio.IntBuffer"/>
+<fullyQualifiedTypeName name="java.nio.ByteBuffer"/>
+<fullyQualifiedTypeName name="java.nio.ByteOrder"/>
+<fullyQualifiedTypeName name="android.opengl.GLSurfaceView.Renderer"/>
+</qualifiedTypeNameHistroy>
