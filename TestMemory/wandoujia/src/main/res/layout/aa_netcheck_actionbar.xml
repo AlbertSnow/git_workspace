@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:focusable="true" android:addStatesFromChildren="true" android:layout_width="56.0dip" android:layout_height="48.0dip" style="?attr/actionButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center" android:id="@id/abs__imageButton" android:background="@null" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/netcheck_entrance" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+</LinearLayout>

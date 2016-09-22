@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hibernate_arc_margin">160.0dip</dimen>
+    <dimen name="hibernate_cloud_margin">50.0dip</dimen>
+    <dimen name="hibernate_icons_margin">93.0dip</dimen>
+    <dimen name="hibernate_moon_margin">30.0dip</dimen>
+    <dimen name="hibernate_sky_height">140.0dip</dimen>
+</resources>

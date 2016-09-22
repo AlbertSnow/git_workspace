@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.p4.startpage.view.feed.view.StartFeedCard android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/card_item_tiny_banner_card"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/banner" style="@style/card_tiny_banner" />
+</com.wandoujia.p4.startpage.view.feed.view.StartFeedCard>

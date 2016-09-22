@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/msp_font_medium" android:textColor="@color/msp_dialog_tiltle_blue" android:gravity="center" android:id="@id/dialog_title" android:layout_width="fill_parent" android:layout_height="40.0dip" android:drawablePadding="10.0dip" />
+    <ImageView android:id="@id/dialog_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="@dimen/msp_margin_left" android:layout_marginRight="@dimen/msp_margin_right" android:src="@drawable/msp_dialog_divider" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/msp_font_medium" android:textColor="#ff666666" android:id="@id/dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/msp_margin_left" android:layout_marginTop="@dimen/msp_margin_top" android:layout_marginRight="@dimen/msp_margin_right" android:layout_marginBottom="@dimen/msp_margin_bottom" android:maxWidth="225.0dip" android:minHeight="30.0dip" />
+    <FrameLayout android:id="@id/dialog_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_button_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="22.0dip" android:src="@drawable/msp_dialog_split_h" android:scaleType="fitXY" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <Button android:textSize="18.0sp" android:textColor="@drawable/msp_color_dialog_button" android:layout_gravity="center" android:id="@id/left_button" android:background="@drawable/msp_dialog_button_submit" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="45.0dip" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/dialog_split_v" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="45.0dip" android:src="@drawable/msp_dialog_split_v" android:scaleType="fitXY" />
+            <Button android:textSize="18.0sp" android:textColor="@drawable/msp_color_dialog_button" android:layout_gravity="center" android:id="@id/right_button" android:background="@drawable/msp_dialog_button_submit" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="45.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

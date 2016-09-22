@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.jupiter.library.view.DownloadTabView android:gravity="center" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="20.0dip" android:layout_height="1.0dip" />
+    <FrameLayout android:id="@id/icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_xxsmall" android:layout_marginRight="@dimen/margin_xxsmall">
+        <ImageView android:id="@id/icon_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_download_light" android:scaleType="centerInside" />
+        <ImageView android:id="@id/icon_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_download_dark" android:scaleType="centerInside" />
+    </FrameLayout>
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="@dimen/text_mini" android:textColor="@color/warning_red" android:id="@id/number_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="20.0dip" android:singleLine="true" jupiter:fontName="bold" />
+</com.wandoujia.jupiter.library.view.DownloadTabView>

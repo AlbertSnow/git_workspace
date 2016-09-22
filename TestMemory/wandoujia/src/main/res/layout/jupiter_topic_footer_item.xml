@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/model" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/jupiter_special_footer_item_mask"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="left" android:id="@id/icon_container" android:background="@drawable/jupiter_special_icon_container" android:layout_width="92.0dip" android:layout_height="92.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/card_padding_vertical">
+        <com.wandoujia.image.view.AsyncImageView android:id="@id/icon_1" style="@style/jupiter_flat_icons" />
+        <com.wandoujia.image.view.AsyncImageView android:id="@id/icon_2" android:layout_marginLeft="4.0dip" android:layout_toRightOf="@id/icon_1" style="@style/jupiter_flat_icons" />
+        <com.wandoujia.image.view.AsyncImageView android:id="@id/icon_3" android:layout_marginTop="4.0dip" android:layout_below="@id/icon_1" style="@style/jupiter_flat_icons" />
+        <com.wandoujia.image.view.AsyncImageView android:id="@id/icon_4" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_toRightOf="@id/icon_3" android:layout_below="@id/icon_2" style="@style/jupiter_flat_icons" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon_container" android:layout_centerVertical="true">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/action_button" android:layout_alignParentTop="true" style="@style/text_title.white" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:singleLine="true" android:layout_toLeftOf="@id/action_button" android:layout_below="@id/title" style="@style/text_body3.white" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/description" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:maxLines="2" android:layout_below="@id/sub_title" android:layout_alignLeft="@id/title" android:lineSpacingExtra="4.0dip" style="@style/text_body3.white" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="@color/white_30_transparency" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="16.0dip" android:layout_below="@id/icon_container" />
+</RelativeLayout>

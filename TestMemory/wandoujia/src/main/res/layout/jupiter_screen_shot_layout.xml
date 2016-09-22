@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="140.0dip" android:layout_height="250.0dip" android:foreground="@drawable/bg_screenshot"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" fresco:actualImageScaleType="fitXY" />
+</FrameLayout>

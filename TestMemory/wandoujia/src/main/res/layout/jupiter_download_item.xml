@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="84.0dip" android:layout_centerVertical="true" style="@style/jupiter_card_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="@dimen/margin_xlarge" android:layout_marginRight="10.0dip" android:layout_centerVertical="true" />
+    <com.wandoujia.ripple_framework.view.StatefulButton android:id="@id/action_button" android:layout_marginRight="@dimen/margin_xlarge" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/card_action_button" />
+    <ImageView android:id="@id/close" android:layout_width="44.0dip" android:layout_height="84.0dip" android:src="@drawable/ic_close_small_light" android:scaleType="center" android:layout_toLeftOf="@id/action_button" android:layout_centerVertical="true" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xlarge" android:layout_toLeftOf="@id/close" android:layout_toRightOf="@id/icon" style="@style/lite_list_item_title" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:gravity="top" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" android:layout_below="@id/title" android:layout_alignLeft="@id/title" android:layout_alignRight="@id/title" style="@style/text_caption3" />
+    <include layout="@layout/jupiter_progress_part" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:layout_width="fill_parent" android:layout_height="wrap_content" jupiter:action_menu="@menu/menu_toolbar_explore" />
+    <com.wandoujia.p4.views.NetContentListView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@color/grey_93" android:dividerHeight="1.0px" android:overScrollMode="never" style="@style/card_list_view"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

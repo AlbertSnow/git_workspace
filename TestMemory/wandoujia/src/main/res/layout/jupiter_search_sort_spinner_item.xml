@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/spinner_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/text_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_xlarge" android:layout_alignParentLeft="true" style="@style/text_cell_title" />
+    <ImageView android:id="@id/more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xsmall" android:layout_marginRight="@dimen/margin_xlarge" android:src="@drawable/search_more" android:layout_alignParentRight="true" />
+</RelativeLayout>

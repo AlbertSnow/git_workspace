@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:background="@color/holo_red_light" style="@style/floating_tips_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/content_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/homepage_cover_panel_padding" android:text="@string/tips_no_flow" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/floating_tips_text" />
+    <ImageView android:id="@id/operation_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/app_detail_normal_padding" android:src="@drawable/ic_tip_next" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

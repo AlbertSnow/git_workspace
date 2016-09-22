@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.game_launcher.views.GameDailyTextView android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="@dimen/game_launcher_daily_title_height" style="@style/game_launcher_daily_title" />
+</com.wandoujia.game_launcher.views.GameDailyTextView>

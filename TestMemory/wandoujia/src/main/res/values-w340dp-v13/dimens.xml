@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_section_item_width">112.0dip</dimen>
+    <dimen name="card_section_tiny_title_width">78.0dip</dimen>
+    <dimen name="disk_clean_icon_area_height">160.0dip</dimen>
+    <dimen name="disk_clean_title_margin_top">40.0dip</dimen>
+</resources>

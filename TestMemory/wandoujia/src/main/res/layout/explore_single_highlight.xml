@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center|top" android:layout_gravity="center" android:background="@color/white_no_transparency" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/card_section_item_width">
+        <View android:background="@drawable/explore_ad_bg" android:layout_width="220.0dip" android:layout_height="120.0dip" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/root" android:background="#9924aa42" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="220.0dip" android:layout_height="120.0dip">
+            <ImageView android:id="@id/ic_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_adinfo" android:layout_centerHorizontal="true" />
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="13.0dip" android:textColor="@color/pure_white" android:ellipsize="end" android:gravity="center" android:id="@id/sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="3" android:layout_below="@id/ic_info" android:lineSpacingExtra="2.0dip" style="@style/text_cell_title" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="220.0dip" android:layout_height="68.0dip" android:layout_below="@id/root">
+            <com.wandoujia.image.view.AsyncImageView android:layout_gravity="center_horizontal" android:id="@id/icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@color/green_primary" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:maxWidth="85.0dip" android:singleLine="true" android:layout_toRightOf="@id/icon" style="@style/text_cell_title" />
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/app_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="7.0dip" android:singleLine="true" android:layout_toRightOf="@id/icon" android:layout_below="@id/title" style="@style/text_caption3" />
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:textColor="@color/ads_label_color" android:id="@id/ad_label" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="14.0dip" android:text="@string/ads_label" android:layout_toRightOf="@id/title" style="@style/ads_label" />
+            <com.wandoujia.ripple_framework.view.StatefulButton android:id="@id/action_button" android:text="@string/install" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/card_action_button_mini" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="#ffeeeeee" android:layout_width="1.0px" android:layout_height="172.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/wdj_pay_home_padding_left" android:paddingTop="@dimen/wdj_pay_home_padding_top" android:paddingRight="@dimen/wdj_pay_home_padding_right" android:paddingBottom="@dimen/wdj_pay_home_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:textColor="@color/wandou_font_color_black" android:layout_gravity="left" android:id="@id/pay_result_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wdj_pay_title_padding_top" android:layout_marginBottom="@dimen/wdj_pay_title_padding_bottom" android:text="支付成功" />
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="19.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="@color/wandou_font_color_grey" android:id="@id/result_message" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/pay_result_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="6.0dip">
+        <Button android:id="@id/wdj_pay_result_contact" android:layout_width="fill_parent" android:layout_height="@dimen/wdj_pay_button_height" android:layout_marginRight="10.0dip" android:text="@string/wdj_pay_contact" android:layout_weight="1.0" style="@style/wdj_pay_button_grey" />
+        <Button android:id="@id/wdj_pay_result_back" android:layout_width="fill_parent" android:layout_height="@dimen/wdj_pay_button_height" android:text="@string/wdj_pay_back" android:layout_weight="1.0" style="@style/wdj_pay_button" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/recheck_pay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0dip" android:textColor="@color/wandou_font_color_black" android:layout_gravity="left" android:id="@id/recheck_result_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wdj_pay_title_padding_top" android:layout_marginBottom="@dimen/wdj_pay_title_padding_bottom" android:text="充值成功，输入密码支付" />
+        <EditText android:textSize="16.0dip" android:textColor="@color/wandou_font_color_black" android:textColorHint="@color/wandou_font_hint_color_grey" android:id="@id/recheck_payment_password_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/balance_payment_password_input_hint" android:layout_below="@id/wdj_other_payments_panel" android:inputType="textPassword" style="@style/EditTextWandouTheme" />
+        <Button android:id="@id/recheck_pay_submit" android:layout_width="fill_parent" android:layout_height="@dimen/wdj_pay_button_height" android:text="@string/pay_at_once" android:layout_weight="1.0" style="@style/wdj_pay_button" />
+    </LinearLayout>
+</LinearLayout>

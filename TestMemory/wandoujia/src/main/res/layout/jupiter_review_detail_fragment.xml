@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/background_frame" android:background="@color/black_80_transparency" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/background_content" android:background="@color/bg_default" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.wandoujia.ripple_framework.view.SwipeBackContainer android:id="@id/swipe" android:layout_width="fill_parent" android:layout_height="fill_parent" jupiter:swipeOrientation="bottom">
+        <include layout="@layout/rip_recycler_auto_loading" />
+    </com.wandoujia.ripple_framework.view.SwipeBackContainer>
+    <com.wandoujia.image.view.AsyncImageView android:layout_gravity="top" android:id="@id/icon_for_animation" android:layout_width="@dimen/detail_icon_width" android:layout_height="@dimen/detail_icon_height" android:layout_marginTop="@dimen/detail_icon_absolute_top" />
+    <LinearLayout android:orientation="vertical" android:id="@id/header_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.wandoujia.jupiter.toolbar.JupiterToolbar android:id="@id/jupiter_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" jupiter:action_menu="@menu/menu_review_single" />
+        <include android:layout_width="fill_parent" android:layout_height="@dimen/jupiter_card_micro_height" layout="@layout/jupiter_review_detail_header_bar" />
+        <View android:background="@color/grey_93" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="700">
+    <propertyValuesHolder
+        android:propertyName="bigStarRadius"
+        android:valueType="intType"
+        android:valueTo="100">
+        <keyframe
+            android:fraction="0"
+            android:value="10" />
+        <keyframe
+            android:fraction=".7"
+            android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+            android:value="@integer/max_radius" />
+        <keyframe
+            android:fraction="1"
+            android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+            android:value="100" />
+    </propertyValuesHolder>
+    <propertyValuesHolder
+        android:propertyName="bigStarAlpha"
+        android:valueType="intType"
+        android:valueFrom="0"
+        android:valueTo="255"
+        />
+<!--
+    <propertyValuesHolder android:propertyName="y" android:valueTo="200" />
+-->
+</objectAnimator>

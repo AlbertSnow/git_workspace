@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.jupiter.library.view.SelectTabView android:gravity="center" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="20.0dip" android:layout_height="1.0dip" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textColor="@color/selector_sliding_tab" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_xsmall" android:layout_marginRight="@dimen/margin_xsmall" android:text="@string/upgrade" style="@style/text_cell_title" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="@dimen/text_mini" android:textColor="@color/warning_red" android:id="@id/number_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="20.0dip" android:singleLine="true" jupiter:fontName="bold" />
+</com.wandoujia.jupiter.library.view.SelectTabView>

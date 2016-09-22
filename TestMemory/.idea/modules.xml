@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestMemory.iml" filepath="$PROJECT_DIR$/TestMemory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myanimation/myanimation.iml" filepath="$PROJECT_DIR$/myanimation/myanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testas/testas.iml" filepath="$PROJECT_DIR$/testas/testas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testgradle/testgradle.iml" filepath="$PROJECT_DIR$/testgradle/testgradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testopengl/testopengl.iml" filepath="$PROJECT_DIR$/testopengl/testopengl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testphonestate/testphonestate.iml" filepath="$PROJECT_DIR$/testphonestate/testphonestate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testplug/testplug.iml" filepath="$PROJECT_DIR$/testplug/testplug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testplughost/testplughost.iml" filepath="$PROJECT_DIR$/testplughost/testplughost.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testprocess/testprocess.iml" filepath="$PROJECT_DIR$/testprocess/testprocess.iml" />
+    </modules>
+  </component>
+</project>

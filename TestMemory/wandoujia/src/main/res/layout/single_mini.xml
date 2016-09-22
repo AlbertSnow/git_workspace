@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/model" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/jupiter_card_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/jupiter_card_mini" />
+</RelativeLayout>

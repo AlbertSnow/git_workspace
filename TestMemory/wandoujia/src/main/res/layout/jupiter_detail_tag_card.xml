@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="24.0dip" android:paddingTop="@dimen/margin_medium" android:paddingRight="32.0dip" android:paddingBottom="@dimen/margin_medium" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flow="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.p4.game.view.FlowLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/detail_tags_container" android:layout_width="fill_parent" android:layout_height="wrap_content" flow:horizontalSpacing="8.0dip" />
+</FrameLayout>

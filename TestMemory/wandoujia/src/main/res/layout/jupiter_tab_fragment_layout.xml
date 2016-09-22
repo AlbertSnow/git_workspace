@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.wandoujia.jupiter.toolbar.JupiterToolbar android:layout_width="fill_parent" android:layout_height="wrap_content" jupiter:action_menu="@menu/menu_toolbar_explore" />
+        <include layout="@layout/rip_sliding_tab" />
+        <com.wandoujia.ripple_framework.view.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ViewStub android:id="@id/stub_loading" android:layout="@layout/rip_loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/game_launcher_story_item_view_padding" android:paddingTop="@dimen/padding_xxlarge" android:paddingRight="@dimen/game_launcher_story_item_view_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_color_black" android:id="@id/story_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/quote_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/story_text">
+        <com.wandoujia.game_launcher.views.QuotationTextView android:textColor="@color/text_color_black" android:gravity="center_horizontal" android:id="@id/quote_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.5" />
+        <com.wandoujia.launcher.launcher.views.CircleAsyncImageView android:id="@id/quote_author_avatar" android:layout_width="@dimen/quote_avatar_size" android:layout_height="@dimen/quote_avatar_size" android:layout_marginRight="@dimen/margin_xsmall" android:layout_toLeftOf="@id/quote_author_name" android:layout_below="@id/quote_text" />
+        <TextView android:textColor="@color/pure_black_translucent_50" android:id="@id/quote_author_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/quote_text" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/image_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.wandoujia.image.view.AsyncImageView android:layout_gravity="left" android:id="@id/image_first" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        <com.wandoujia.image.view.AsyncImageView android:layout_gravity="right" android:id="@id/image_second" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </FrameLayout>
+</RelativeLayout>

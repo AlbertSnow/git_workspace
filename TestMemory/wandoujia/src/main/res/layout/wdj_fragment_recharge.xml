@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/wdj_pay_home_padding_left" android:paddingTop="@dimen/wdj_pay_home_padding_top" android:paddingRight="@dimen/wdj_pay_home_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:textColor="@color/wandou_font_color_black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wdj_pay_title_padding_top" android:layout_marginBottom="-4.0dip" android:text="@string/wdj_recharge_title" />
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/wdj_recharge_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/wdj_other_payment_layout" />
+            <Button android:id="@id/recharge_button" android:layout_width="fill_parent" android:layout_height="@dimen/wdj_pay_button_height" android:layout_marginTop="17.0dip" android:text="@string/wdj_recharge_at_once" android:layout_below="@id/wdj_recharge_panel" style="@style/wdj_pay_button" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/wandou_font_color_grey" android:gravity="center" android:id="@id/wdj_recharge_feedback_link" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/wdj_pay_feedback" android:layout_below="@id/recharge_button" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

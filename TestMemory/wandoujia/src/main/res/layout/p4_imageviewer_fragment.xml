@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/text_color_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/white" android:gravity="center" android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="@dimen/toolbar_height" android:layout_marginTop="@dimen/status_bar_height" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/download_btn" android:layout_width="@dimen/toolbar_height" android:layout_height="@dimen/toolbar_height" android:src="@drawable/ic_install_dark" android:scaleType="centerInside" android:layout_alignTop="@id/indicator" android:layout_alignParentRight="true" />
+    <com.wandoujia.jupiter.imageviewer.views.GalleryViewPager android:id="@id/image_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/download_btn" />
+</RelativeLayout>

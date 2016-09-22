@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_list_item_background" android:paddingLeft="56.0dip" android:paddingRight="@dimen/margin_xlarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_xsmall" android:layout_toLeftOf="@id/action" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/lite_list_item_title" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center_vertical" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small" android:singleLine="true" style="@style/text_caption3" />
+    </LinearLayout>
+    <ImageView android:id="@id/action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/category_icon_grey_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

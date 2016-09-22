@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.p4.card.views.ContentCardView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wandoujia="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/card_item_body_view" android:layout_width="fill_parent" android:layout_height="@dimen/card_item_my_thing_download_inline_height">
+        <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_marginLeft="@dimen/app_detail_source_font" android:layout_marginTop="@dimen/text_size_micro" android:layout_marginRight="@dimen/app_detail_source_font" android:layout_marginBottom="@dimen/text_size_micro" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="false" style="@style/card_icon_mini" />
+        <ImageView android:id="@id/badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <com.wandoujia.p4.button.views.StatefulButton android:textColor="@color/white" android:id="@id/action_button" android:layout_marginLeft="@dimen/text_size_micro" android:layout_marginRight="@dimen/app_detail_source_font" android:text="@string/go_and_see" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/card_action_button" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/action_button" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+            <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/homepage_cover_panel_padding" android:layout_alignParentTop="true" style="@style/card_title" />
+            <TextView android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_detail_icon_left_margin" android:layout_below="@id/title" android:layout_alignLeft="@id/title" style="@style/card_sub_title" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.wandoujia.p4.card.views.ContentCardView>

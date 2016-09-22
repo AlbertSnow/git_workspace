@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.jupiter.category.view.CategoryScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="@dimen/margin_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/jupiter_home_page_default_header_total_height" android:layout_marginBottom="@dimen/margin_medium" android:layout_alignParentTop="true" />
+        <View android:id="@id/divider" android:layout_width="@dimen/margin_medium" android:layout_height="1.0dip" android:layout_centerInParent="true" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/title_left" android:paddingLeft="@dimen/category_list_line_item_icon_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/divider" android:layout_below="@id/header" android:layout_alignParentLeft="true" style="@style/category_group_name" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/title_right" android:paddingLeft="@dimen/category_list_line_item_icon_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/divider" android:layout_below="@id/header" android:layout_alignParentRight="true" style="@style/category_group_name" />
+        <com.wandoujia.jupiter.category.view.SubCategoryView android:id="@id/categories_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/divider" android:layout_below="@id/title_left" android:layout_alignParentLeft="true" />
+        <com.wandoujia.jupiter.category.view.SubCategoryView android:id="@id/categories_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/divider" android:layout_below="@id/title_right" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</com.wandoujia.jupiter.category.view.CategoryScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mini_widget_label_input" android:paddingLeft="@dimen/mini_margin_default" android:paddingRight="@dimen/mini_margin_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mini_element_default_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/mini_text_size_large" android:textColor="@color/mini_text_color_gray" android:id="@id/mini_widget_label_input_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mini_margin_default" />
+    <com.alipay.android.mini.widget.CustomEditText android:textSize="@dimen/mini_text_size_large" android:textColorHint="@color/mini_input_hint_color" android:id="@id/mini_widget_label_input_input" android:background="#00000000" android:paddingLeft="5.0dip" android:paddingTop="@dimen/mini_margin_top" android:paddingRight="5.0dip" android:paddingBottom="@dimen/mini_margin_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+</LinearLayout>

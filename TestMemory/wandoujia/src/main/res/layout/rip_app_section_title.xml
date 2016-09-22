@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="@dimen/text_grande" android:textStyle="bold" android:textColor="@color/text_color_black" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="title" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="11.0sp" android:textColor="@color/grey_60" android:gravity="center" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="24.0dip" android:lineSpacingExtra="5.0dip" />
+    <View android:background="@color/list_background" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

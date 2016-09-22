@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#33f9d942" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" style="@style/game_detail_card_with_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wandoujia="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/meta_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/meta" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:id="@id/info_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_upgrade" />
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:layout_gravity="center_vertical" android:id="@id/upgrade_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_xlarge" android:text="@string/my_thing_app_group_title_upgradable_recommend" style="@style/lite_list_item_title" />
+        </LinearLayout>
+        <Spinner android:id="@id/open_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/meta" android:layout_alignParentRight="true" style="@style/app_category_spinner_sort_type" />
+    </RelativeLayout>
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center|left" android:id="@id/upgrade_version" android:background="@drawable/jupiter_detail_upgrade_version_bg" android:padding="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginBottom="@dimen/margin_medium" android:layout_below="@id/meta_container" style="@style/text_cell_title" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center|left" android:id="@id/upgrade_full_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_xlarge" android:layout_below="@id/upgrade_version" android:layout_alignLeft="@id/upgrade_version" style="@style/text_cell_title" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center|left" android:id="@id/upgrade_patch_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_large" android:layout_toRightOf="@id/upgrade_full_size" android:layout_alignBaseline="@id/upgrade_full_size" style="@style/text_subtitle" />
+    <com.wandoujia.p4.views.ExpandablePanel android:id="@id/upgrade_expand_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_below="@id/upgrade_full_size" wandoujia:handle="@id/collapse_value" wandoujia:content="@id/expand_value" wandoujia:iconimage="@id/icon_value" wandoujia:animationDuration="400">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/expand_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/p4_detail_description" />
+        <RelativeLayout android:id="@id/collapse_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/app_detail_title_top_margin" android:layout_below="@id/expand_value">
+            <com.wandoujia.p4.views.ExpandablePanelIcon android:id="@id/icon_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" wandoujia:expandedIconSrc="@drawable/ic_arrow_up_grey" wandoujia:collapsedIconSrc="@drawable/ic_arrow_down_grey" />
+        </RelativeLayout>
+    </com.wandoujia.p4.views.ExpandablePanel>
+</RelativeLayout>

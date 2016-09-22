@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/account_sdk_pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/account_sdk_normal_text_size" android:textColor="#ffaaaaaa" android:id="@id/account_captcha_hint_textview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/account_sdk_normal_margin" android:text="@string/account_sdk_captcha_hint" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/account_sdk_normal_margin">
+        <EditText android:textColor="@color/account_sdk_grey" android:id="@id/account_captcha_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/account_sdk_normal_margin" android:hint="@string/account_sdk_vcode_hint" android:singleLine="true" android:layout_weight="0.5" />
+        <ImageView android:layout_gravity="fill" android:id="@id/account_captcha" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

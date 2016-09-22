@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.jupiter.homepage.HomePageRecyclerViewAutoLoadingLayout android:id="@id/loadable_recycler_view" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.wandoujia.ripple_framework.view.ObservableRecyclerView android:id="@id/recycler_view" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.wandoujia.jupiter.homepage.HomePageRecyclerViewAutoLoadingLayout>
+</LinearLayout>

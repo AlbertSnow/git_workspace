@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/account_sdk_sina_login_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/account_login_sina" android:background="@drawable/account_sdk_ic_sina_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/account_sdk_qq_login_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/account_login_qq" android:background="@drawable/account_sdk_ic_qq_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/account_sdk_wechat_login_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/account_login_wechat" android:background="@drawable/account_sdk_ic_wechat_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

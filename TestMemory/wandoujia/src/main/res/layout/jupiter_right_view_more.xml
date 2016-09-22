@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textColor="@color/green_primary" android:gravity="center_vertical" android:id="@id/view_all" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/view_all_with_arrow" app:fontName="bold" />
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:src="@drawable/ic_arrow_right_green_more" />
+</LinearLayout>

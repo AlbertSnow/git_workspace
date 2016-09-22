@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/category_line_item_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="48.0dip" style="@style/text_flat_button" />
+    <View android:background="@color/grey_96" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

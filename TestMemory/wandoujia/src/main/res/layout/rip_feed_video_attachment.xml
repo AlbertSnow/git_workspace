@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ripple="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="@dimen/favor_view_height" android:layout_centerVertical="true">
+        <com.wandoujia.image.view.AsyncImageView android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="left" android:id="@id/feed_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="" android:maxLines="2" android:lineSpacingExtra="@dimen/article_title_line_space" ripple:fontName="black" style="@style/text_headline" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="left" android:id="@id/snippet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" android:maxLines="3" android:lineSpacingMultiplier="1.2" style="@style/text_body3" />
+        <RelativeLayout android:id="@id/attachment" android:background="@color/list_background" android:layout_width="fill_parent" android:layout_height="@dimen/video_icon_height_attachment" android:layout_marginTop="@dimen/margin_base">
+            <include layout="@layout/rip_video_attachment" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom|center|right" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/rip_feed_actionbar" />
+    </FrameLayout>
+    <com.wandoujia.ripple_framework.view.OfflineStatusView android:id="@id/offline_status" android:layout_width="wrap_content" android:layout_height="24.0dip" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/toolbar_margin" android:background="@color/green_primary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_margin" />
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/bg_default" android:layout_width="fill_parent" android:layout_height="48.0dip" android:minHeight="48.0dip" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:titleTextAppearance="@style/Toolbar.TitleText" app:theme="@style/ThemeOverlay.AppCompat.Light" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/toolbar_deco" android:background="@color/black_10_transparency" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

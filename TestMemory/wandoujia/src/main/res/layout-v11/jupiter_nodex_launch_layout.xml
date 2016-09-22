@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:paddingTop="@dimen/splash_top_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_body1" android:textColor="@color/text_body1_white" android:gravity="center" android:id="@id/button" android:visibility="invisible" android:layout_width="128.0dip" android:layout_height="36.0dip" android:layout_marginBottom="@dimen/splash_bottom_margin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/card_action_button" />
+    <TextView android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xlarge" android:layout_marginBottom="@dimen/splash_subtitle_bottom_margin" android:layout_above="@id/button" android:layout_centerHorizontal="true" android:alpha="0.0" style="@style/text_body3" />
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/subtitle" android:layout_centerHorizontal="true" style="@style/text_display" />
+    <ImageView android:id="@id/background_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/onboard_splash_logo" android:layout_above="@id/title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/background_logo" android:layout_alignBottom="@id/background_logo">
+        <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="3.0" />
+        <TextView android:layout_gravity="center|top" android:id="@id/tips" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/being_prepared" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

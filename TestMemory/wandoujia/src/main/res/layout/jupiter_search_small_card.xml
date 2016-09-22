@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/model" android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" />
+    <View android:layout_width="0.0dip" android:layout_height="10.0dip" android:layout_below="@id/icon" />
+    <com.wandoujia.ripple_framework.view.StatefulButton android:id="@id/action_button" android:layout_marginRight="20.0dip" android:text="@string/install" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/card_action_button" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/action_button" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" jupiter:fontName="bold" style="@style/lite_list_item_title" />
+    <ImageView android:id="@id/badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

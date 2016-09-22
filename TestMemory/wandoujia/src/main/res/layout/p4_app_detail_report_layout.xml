@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@color/white" android:padding="@dimen/app_report_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/app_report_text_size" android:textColor="@color/black_grey" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_report_text_margin" android:text="@string/app_detail_report_category_title" />
+            <GridView android:gravity="center" android:id="@id/grid_view" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="@dimen/app_report_text_margin" android:columnWidth="@dimen/app_report_column_width" android:numColumns="2" android:layout_below="@id/title" android:layout_alignLeft="@id/title" />
+            <EditText android:textSize="@dimen/app_report_text_size" android:textColorHint="@color/grey" android:gravity="center|left|top" android:id="@id/edit_text" android:background="@drawable/aa_searchbox" android:padding="@dimen/app_report_text_padding" android:layout_width="fill_parent" android:layout_height="@dimen/app_report_edit_text_height" android:layout_marginTop="@dimen/app_report_text_padding" android:hint="@string/app_detail_report_category_more" android:singleLine="false" android:layout_below="@id/grid_view" />
+            <Button android:textColor="@color/white" android:id="@id/button" android:background="@drawable/bg_drawable_explore_home" android:layout_width="fill_parent" android:layout_height="@dimen/app_report_button_height" android:layout_marginTop="@dimen/app_report_text_margin" android:text="@string/app_detail_report_category_submit" android:layout_below="@id/edit_text" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

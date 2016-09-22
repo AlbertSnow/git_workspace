@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="setting_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/jupiter_preference_category_layout" android:title="@string/setting_download_title" android:key="setting_common">
+        <CheckBoxPreference android:enabled="false" android:layout="@layout/jupiter_preference_checkbox_layout" android:title="@string/setting_auto_install_apk" android:key="setting_auto_install_apk" android:summary="@string/setting_auto_install_apk_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:layout="@layout/jupiter_preference_checkbox_layout" android:title="@string/setting_title_root_intall" android:key="setting_root_install" android:summary="@string/install_only_for_root_users" android:defaultValue="false" />
+        <CheckBoxPreference android:layout="@layout/jupiter_preference_checkbox_layout" android:title="@string/setting_apk_delete_after_dl" android:key="is_delete_after_install" android:defaultValue="true" />
+        <CheckBoxPreference android:layout="@layout/jupiter_preference_checkbox_layout" android:title="@string/setting_auto_check_app_upgrade" android:key="setting_auto_check_app_upgrade" android:summary="@string/setting_auto_check_app_upgrade_summary" android:defaultValue="true" />
+        <Preference android:layout="@layout/jupiter_preference_item_layout" android:title="@string/apk_download_location_title" android:key="setting_apk_download_location" android:summary="@string/apk_download_location_summary" />
+        <Preference android:layout="@layout/jupiter_preference_item_layout" android:title="@string/install_location_title" android:key="setting_root_install_location" android:summary="@string/install_location_auto" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/jupiter_preference_category_layout" android:title="@string/setting_normal" android:key="setting_basic">
+        <Preference android:icon="@drawable/category_icon_grey_arrow" android:layout="@layout/jupiter_preference_item_layout" android:title="@string/setting_title_connection" android:key="setting_connection" />
+        <Preference android:icon="@drawable/category_icon_grey_arrow" android:layout="@layout/jupiter_preference_item_layout" android:title="@string/setting_notify_title" android:key="setting_notify_entry" android:summary="@string/setting_notify_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/jupiter_preference_category_layout" android:title="@string/setting_title_categoty_advanced" android:key="setting_advanced">
+        <Preference android:layout="@layout/jupiter_preference_item_layout" android:title="@string/setting_title_shortcut" android:key="setting_shortcut" />
+        <Preference android:layout="@layout/jupiter_preference_item_layout" android:title="@string/setting_title_clear_cache" android:key="setting_clear_cache" android:summary="@string/setting_summary_clear_cache" />
+        <CheckBoxPreference android:layout="@layout/jupiter_preference_checkbox_layout" android:title="@string/setting_title_font" android:key="setting_custom_font" android:summary="@string/setting_summary_font" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/jupiter_preference_category_without_title_layout">
+        <Preference android:icon="@drawable/category_icon_grey_arrow" android:layout="@layout/jupiter_preference_item_layout" android:title="@string/setting_title_about" android:key="setting_about_entry" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/jupiter_preference_category_without_title_layout" android:key="setting_feedback_category">
+        <Preference android:icon="@drawable/category_icon_grey_arrow" android:layout="@layout/jupiter_preference_item_layout" android:title="@string/feedback" android:key="setting_feed_back" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/jupiter_preference_category_without_title_layout" android:key="account_logout_category">
+        <Preference android:layout="@layout/jupiter_preference_item_layout" android:title="@string/wdj_paysdk_account_logout" android:key="account_logout" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/jupiter_preference_category_without_title_layout" />
+</PreferenceScreen>

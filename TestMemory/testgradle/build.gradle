@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        applicationId "com.google.testgradle"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    android.applicationVariants.each { variant ->
+        println "------------------------testVariant begin--------------------------------"
+        println "name ${variant.name}"
+        println "type ${variant.type}"
+        println "outPutFile ${variant.outputFile}"
+        println "------------------------end--------------------------------"
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.0.0'
+
+}
+
+beforeEvaluate{
+    println "before EValuate------------------------------------------------------------------------------"
+}
+
+afterEvaluate {
+    println "" +
+            "---------------------------"
+//    project ->
+//        android.applicationVariants.each{ variant ->
+//            println "------------------------testVariant begin--------------------------------"
+//            println "name ${variant.name}"
+//            println "type ${variant.buildType.name}"
+//            variant.outputs.each { output ->
+//                if (output.outputFile != null && output.outputFile.name.endsWith('.apk'))
+//                    println "OutputFile: ${output.outputFile.getAbsolutePath()}"
+//                }
+//            println "------------------------end--------------------------------"
+//        }
+}

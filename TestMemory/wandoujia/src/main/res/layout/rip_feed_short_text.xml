@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center_vertical" android:id="@id/snippet" android:paddingBottom="@dimen/favor_view_height" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="28.0dip" android:maxLines="5" android:layout_alignParentBottom="true" android:lineSpacingMultiplier="1.2" style="@style/text_body2" />
+    <include layout="@layout/rip_feed_actionbar" />
+    <com.wandoujia.ripple_framework.view.OfflineStatusView android:id="@id/offline_status" android:layout_width="wrap_content" android:layout_height="24.0dip" />
+</RelativeLayout>

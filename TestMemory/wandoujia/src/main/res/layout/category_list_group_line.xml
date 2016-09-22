@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/model" android:background="@drawable/category_line_item_selector" android:paddingLeft="@dimen/category_list_line_item_icon_left" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/category_list_line_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_width="@dimen/category_list_line_item_icon_size" android:layout_height="@dimen/category_list_line_item_icon_size" android:layout_marginRight="@dimen/category_list_line_item_icon_left" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/text_body1" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/category_list_line_item_description_right" android:singleLine="true" style="@style/text_caption2" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/category_list_line_item_action_right" android:singleLine="true" android:drawableRight="@drawable/category_icon_grey_arrow" />
+</LinearLayout>

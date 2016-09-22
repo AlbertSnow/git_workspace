@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/sliding_tab_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.ripple_framework.view.slidingtab.PagerSlidingTabStrip android:id="@id/sliding_tab" style="@style/sliding_tab_green" />
+    <View android:layout_gravity="bottom" android:id="@id/divider" android:background="@color/black_10_transparency" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

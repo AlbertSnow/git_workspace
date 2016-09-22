@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/av_bg_drawable_warning" app:state_warning="true" />
+    <item android:drawable="@drawable/av_bg_drawable_explore_app" app:state_highLight="true" />
+    <item android:state_enabled="false" android:drawable="@color/transparent" />
+    <item android:drawable="@drawable/av_bg_drawable_explore_app" />
+</selector>

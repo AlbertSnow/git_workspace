@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_bar" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ripple="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.ripple_framework.view.FavorView android:id="@id/favorite_operation" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="32.0dip" android:layout_height="fill_parent" ripple:favoredDrawable="@drawable/icon_favorited_red" ripple:unfavoredDrawable="@drawable/level_ic_unfavored" />
+    <TextView android:textSize="9.0dip" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/fav_number" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="16.0dip" android:maxLines="1" />
+</LinearLayout>

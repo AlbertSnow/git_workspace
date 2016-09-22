@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ballot_nominate_card" android:padding="@dimen/card_padding" android:layout_width="fill_parent" android:layout_height="@dimen/card_game_screenshot_horizontal_height" style="@style/card_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_color_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/community_ballot_nominate_message" />
+    <Button android:textSize="@dimen/text_size_large" android:layout_gravity="bottom|center" android:id="@id/nominate_button" android:paddingLeft="@dimen/padding_huge" android:paddingRight="@dimen/padding_huge" android:layout_width="wrap_content" android:layout_height="@dimen/entrances_view_height" android:text="@string/community_ballot_status_nominate_submit" style="@style/card_action_button" />
+</FrameLayout>

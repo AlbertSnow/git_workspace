@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/model" android:paddingBottom="20.0dip" android:clickable="true" android:clipToPadding="false" android:layout_width="@dimen/card_section_item_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/jupiter_section_item_no_button_merge" />
+    <com.wandoujia.ripple_framework.view.StatefulButton android:id="@id/action_button" android:background="@drawable/jupiter_button_bg_normal" android:layout_marginTop="8.0dip" android:text="@string/install" style="@style/card_section_bottom_button" />
+</LinearLayout>

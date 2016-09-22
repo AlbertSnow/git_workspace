@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/tips_loading1" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading2" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading3" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading4" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading5" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading6" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading7" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading8" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading9" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading10" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading11" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading12" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading13" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading14" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading15" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading16" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading17" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading18" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading19" />
+    <item android:duration="100" android:drawable="@drawable/tips_loading20" />
+</animation-list>

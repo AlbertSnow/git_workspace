@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center_vertical" android:paddingLeft="@dimen/app_detail_source_font" android:paddingTop="@dimen/app_detail_left_margin" android:paddingRight="@dimen/app_detail_source_font" android:paddingBottom="@dimen/app_detail_left_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/recommend_for_you" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/card_sub_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

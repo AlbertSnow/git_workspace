@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content" wandoujia:progress_anchorView="@id/sub_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wandoujia="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center_vertical" android:id="@id/progress_bar_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/sub_title" android:layout_alignBottom="@id/sub_title" style="@style/text_caption3" />
+    <TextView android:id="@id/progress_bar_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title" android:layout_alignLeft="@id/progress_bar_status" style="@style/card_download_speed" />
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_marginTop="1.0dip" android:layout_toLeftOf="@id/action_button" android:layout_below="@id/progress_bar_speed" android:layout_alignLeft="@id/progress_bar_speed" style="@style/card_download_progress" />
+</merge>

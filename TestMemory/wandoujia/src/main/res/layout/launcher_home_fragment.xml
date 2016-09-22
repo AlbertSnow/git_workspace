@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/launcher_home" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.launcher_base.launcher.view.WallpaperView android:id="@id/wallpaper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" launcher:mask_color="@color/pure_black_translucent_30" />
+    <View android:id="@id/navigation_view" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" android:layout_alignParentBottom="true" />
+    <View android:id="@id/status_bar" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/pager_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="wrap_content" android:layout_height="@dimen/launcher_pager_height" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.wandoujia.launcher_base.launcher.view.SlidingTabDot android:id="@id/sliding_tab_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

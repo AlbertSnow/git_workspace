@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.accessibility.hibernation.view.SkyView android:orientation="vertical" android:id="@id/sky_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/star1" android:background="@drawable/hibernation_img_star1" android:layout_width="fill_parent" android:layout_height="@dimen/hibernate_sky_height" />
+    <View android:id="@id/star2" android:background="@drawable/hibernation_img_star2" android:layout_width="fill_parent" android:layout_height="@dimen/hibernate_sky_height" />
+    <View android:id="@id/star3" android:background="@drawable/hibernation_img_star3" android:layout_width="fill_parent" android:layout_height="@dimen/hibernate_sky_height" />
+    <View android:id="@id/moon" android:background="@drawable/hibernation_img_moon" android:layout_width="32.0dip" android:layout_height="36.0dip" android:layout_marginLeft="108.0dip" android:layout_marginTop="@dimen/hibernate_moon_margin" />
+    <View android:id="@id/cloud" android:background="@drawable/hibernation_img_cloud" android:layout_width="144.0dip" android:layout_height="41.0dip" android:layout_marginTop="@dimen/hibernate_cloud_margin" />
+</com.wandoujia.accessibility.hibernation.view.SkyView>

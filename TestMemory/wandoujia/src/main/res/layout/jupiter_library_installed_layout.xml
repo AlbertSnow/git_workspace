@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/spinner_layout" android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.wandoujia.ripple_framework.view.Spinner android:id="@id/sorter" android:layout_width="fill_parent" android:layout_height="@dimen/spinner_height">
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_xlarge" android:layout_weight="1.0" style="@style/text_cell_title" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_xlarge" android:src="@drawable/search_more" />
+        </com.wandoujia.ripple_framework.view.Spinner>
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/grey_96" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/spinner_layout" />
+    <include layout="@layout/jupiter_library_multi_select_tips_layout" />
+    <com.wandoujia.ripple_framework.view.RecyclerViewAutoLoadingLayout android:id="@id/loadable_recycler_view" android:background="@color/grey_96" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/multi_delete_layout" android:layout_below="@id/divider">
+        <com.wandoujia.ripple_framework.view.ObservableRecyclerView android:id="@id/recycler_view" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.wandoujia.ripple_framework.view.RecyclerViewAutoLoadingLayout>
+</RelativeLayout>

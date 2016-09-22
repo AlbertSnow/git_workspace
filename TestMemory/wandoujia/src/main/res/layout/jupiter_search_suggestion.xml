@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/jupiter_card_micro_height" style="@style/jupiter_card_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/grey_93" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ImageView android:id="@id/icon" android:layout_marginLeft="@dimen/jupiter_card_micro_left_margin" android:layout_marginRight="8.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/micro_card_icon" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/jupiter_card_micro_right_margin" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" style="@style/lite_list_item_title" />
+</RelativeLayout>

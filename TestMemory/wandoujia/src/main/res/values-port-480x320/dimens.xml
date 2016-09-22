@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="onboard_banner_height">104.0dip</dimen>
+    <dimen name="onboard_icon_margin_top">10.0dip</dimen>
+    <dimen name="onboard_title_margin_top">66.0dip</dimen>
+</resources>

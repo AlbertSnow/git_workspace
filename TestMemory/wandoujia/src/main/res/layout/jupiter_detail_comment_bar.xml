@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/comment_bar" android:paddingLeft="@dimen/margin_xlarge" android:paddingRight="@dimen/margin_xlarge" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" style="@style/jupiter_divider" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/detail_comment_bar_height"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/heart_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_like_big" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center_vertical" android:id="@id/comment_edit" android:background="@drawable/jupiter_comment_edit_background" android:paddingLeft="@dimen/padding_xlarge" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/margin_xlarge" android:text="@string/app_comment_hint" style="@style/text_caption1" />
+    </LinearLayout>
+</LinearLayout>

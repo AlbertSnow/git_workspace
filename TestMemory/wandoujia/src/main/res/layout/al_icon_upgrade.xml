@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/progress_area" android:layout_width="60.0dip" android:layout_height="60.0dip" android:foreground="@drawable/bg_icon_mask" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <com.wandoujia.p4.app_launcher.clean.widget.CircleProgressBar android:id="@id/circle_progress" android:layout_width="fill_parent" android:layout_height="fill_parent" app:primaryColor="#fff3b4b1" app:bgColor="@color/white" app:currentProgress="100" app:edgeCircleSize="6.0dip" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/holo_red_light" android:gravity="center" android:layout_gravity="center" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:id="@id/title" android:layout_marginTop="6.0dip" android:text="@string/app_launcher_upgrade" android:layout_below="@id/progress_area" style="@style/launcher_cell_title" />
+</RelativeLayout>

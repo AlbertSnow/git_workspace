@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/jupiter_card_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/jupiter_item_bg_with_mask" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/header" layout="@layout/jupiter_section_header_with_more" />
+        <com.wandoujia.ripple_framework.view.SectionItemContainer android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/section_margin_top" style="@style/SectionItemContainerStyle" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.p4.community.card.view.CommunityGroupGridCardView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/grid_card_list_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_width="@dimen/search_item_height" android:layout_height="@dimen/search_item_height" android:layout_marginTop="10.0dip" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/text_color_black" android:id="@id/title" android:paddingLeft="@dimen/margin_medium" android:paddingRight="@dimen/margin_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_below="@id/icon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/grey" android:id="@id/sub_title" android:paddingLeft="@dimen/app_detail_normal_padding" android:paddingRight="@dimen/app_detail_normal_padding" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/title" android:layout_centerHorizontal="true" />
+</com.wandoujia.p4.community.card.view.CommunityGroupGridCardView>

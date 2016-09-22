@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:singleLine="true" style="@style/lite_list_item_title" />
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="@dimen/text_size_tiny" android:textColor="@color/search_hot_query_mark_new" android:layout_gravity="top" android:id="@id/ad_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/mark_new" android:layout_toRightOf="@id/title" android:layout_marginStart="3.0dip" />
+        </RelativeLayout>
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="12.0dip" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="subtitle" android:singleLine="true" android:layout_below="@id/jupiter_card_title" style="@style/text_caption3" />
+    </LinearLayout>
+</RelativeLayout>

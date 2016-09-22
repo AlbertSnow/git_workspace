@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:background="@color/text_color_black" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:layout_gravity="top" android:id="@id/screenshot_gallery" android:background="@color/text_color_black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:spacing="16.0dip" />
+    <com.wandoujia.phoenix2.av.view.PagePointsBox android:layout_gravity="bottom" android:id="@id/page_points_box" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginTop="@dimen/text_size_micro" />
+</merge>

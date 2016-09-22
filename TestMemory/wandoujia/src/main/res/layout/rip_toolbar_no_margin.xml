@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/rip_detail_menu_feed" />
+    <View android:layout_gravity="bottom" android:id="@id/toolbar_deco" android:background="@color/divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</FrameLayout>

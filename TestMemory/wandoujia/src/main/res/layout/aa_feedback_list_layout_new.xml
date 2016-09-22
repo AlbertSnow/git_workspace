@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/aa_app_list_item_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:id="@id/jupiter_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/app_detail_full_page_a" android:background="@color/text_color_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/i_want_to_say" android:layout_below="@id/jupiter_toolbar" />
+    <RelativeLayout android:id="@id/i_want_to_say" android:background="@drawable/aa_one_key_upgrade_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dropdown_item_height" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/text_size_large" android:textColor="@color/text_color_black" android:id="@id/textView_iwanttosay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_iwanttosay" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/listView_feedbackList" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/aa_line" android:layout_above="@id/i_want_to_say" android:layout_below="@id/jupiter_toolbar" android:layout_alignParentLeft="true" />
+</RelativeLayout>

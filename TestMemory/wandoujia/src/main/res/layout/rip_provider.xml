@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ripple="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <RelativeLayout android:id="@id/provider_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+            <com.wandoujia.image.view.AsyncImageView android:id="@id/provider_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="24.0dip" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center_vertical" android:id="@id/provider_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:singleLine="true" android:layout_toRightOf="@id/provider_icon" style="@style/text_caption3" />
+        </RelativeLayout>
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/publish_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/text_caption3" />
+    </RelativeLayout>
+</merge>

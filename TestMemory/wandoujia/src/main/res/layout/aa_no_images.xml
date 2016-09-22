@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aa_photo_empty" />
+        <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/ade_grey" android:id="@id/tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_size_xxhuge" android:text="@string/no_image_tip" />
+    </LinearLayout>
+</FrameLayout>

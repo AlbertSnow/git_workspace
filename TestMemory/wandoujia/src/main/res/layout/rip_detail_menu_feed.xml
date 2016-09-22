@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/detail_toolbar" android:background="@color/bg_default" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/close" android:layout_width="@dimen/toolbar_icon_size" android:layout_height="@dimen/toolbar_icon_size" android:layout_marginLeft="10.0dip" android:src="@drawable/cancel_black" android:scaleType="center" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <include layout="@layout/rip_detail_action_menu" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/open_app" android:layout_width="@dimen/toolbar_icon_size" android:layout_height="@dimen/toolbar_icon_size" android:layout_marginRight="10.0dip" android:src="@drawable/go" android:scaleType="center" />
+    </LinearLayout>
+</RelativeLayout>

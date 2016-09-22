@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/home_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/fragment_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.wandoujia.ripple_framework.view.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/cover_container" android:layout_width="fill_parent" android:layout_height="@dimen/jupiter_home_page_default_header_total_height">
+        <com.wandoujia.image.view.AsyncImageView android:id="@id/cover_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/home_cover" android:scaleType="centerCrop" />
+        <LinearLayout android:layout_width="@dimen/max_title_width" android:layout_height="@dimen/max_title_height" android:layout_marginTop="@dimen/cover_margin_top" android:layout_centerHorizontal="true">
+            <com.wandoujia.image.view.AsyncImageView android:layout_gravity="center_vertical" android:id="@id/cover_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.wandoujia.jupiter.homepage.splashwindow.SplashView android:id="@id/splash_window" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.wandoujia.jupiter.toolbar.MythingMenuView android:layout_gravity="right" android:id="@id/lib_icon_image" android:layout_width="@dimen/jupiter_home_page_search_height" android:layout_height="@dimen/jupiter_home_page_search_height" android:layout_marginLeft="8.0dip" android:layout_marginTop="@dimen/jupiter_home_page_default_header_search_margin_top" android:layout_marginRight="8.0dip" android:layout_marginBottom="@dimen/jupiter_home_page_header_tab_margin_top" />
+    <FrameLayout android:orientation="vertical" android:id="@id/header_container" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/jupiter_home_page_default_header_total_height">
+        <com.wandoujia.jupiter.view.HeaderBgMaskView android:id="@id/header_bg_mask" android:background="@color/green_primary" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/search_box" android:layout_width="fill_parent" android:layout_height="@dimen/jupiter_home_page_default_header_height">
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/search_container" android:background="@drawable/jupiter_search_edit_background" android:paddingRight="52.0dip" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/margin_xlarge" android:layout_marginTop="@dimen/jupiter_home_page_default_header_search_container_margin_top" android:layout_marginRight="@dimen/search_container_margin_right" android:hint="@string/search_input_hint" android:singleLine="true" android:layout_alignParentLeft="true" style="@style/jupiter_edit_text" />
+            <ImageView android:id="@id/search_btn" android:layout_width="24.0dip" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/ic_search_green" android:layout_alignTop="@id/search_container" android:layout_alignRight="@id/search_container" android:layout_alignBottom="@id/search_container" />
+            <View android:id="@id/search_divider" android:background="@color/grey_93" android:layout_width="1.0px" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip" android:layout_toLeftOf="@id/search_btn" android:layout_alignTop="@id/search_btn" android:layout_alignBottom="@id/search_btn" />
+        </RelativeLayout>
+        <com.wandoujia.ripple_framework.view.slidingtab.PagerSlidingTabStrip android:layout_gravity="bottom" android:id="@id/sliding_tab" jupiter:tabPaddingLeftRight="8.0dip" style="@style/sliding_tab_transparent" />
+        <View android:layout_gravity="bottom" android:id="@id/divider" android:background="@color/black_10_transparency" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </FrameLayout>
+</FrameLayout>

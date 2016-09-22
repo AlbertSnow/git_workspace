@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/account_sdk_title_area" layout="@layout/account_sdk_title_layout" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.wandoujia.base.view.NonLeakingWebView android:id="@id/account_sdk_web" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/account_sdk_web_loading_progress" android:visibility="visible" android:layout_width="@dimen/account_sdk_webview_loading_bound" android:layout_height="@dimen/account_sdk_webview_loading_bound" android:indeterminateDrawable="@drawable/account_sdk_loading_page_progress" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:background="@drawable/account_sdk_wdj_logo" android:layout_width="42.0dip" android:layout_height="42.0dip" />
+    <TextView android:textSize="@dimen/account_sdk_large_text_size" android:textColor="@color/account_sdk_ade_dark_green" android:gravity="center_vertical" android:id="@id/account_sdk_fragment_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" />
+</LinearLayout>

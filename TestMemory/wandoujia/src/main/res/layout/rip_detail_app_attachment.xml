@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/bg_default" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/attachment" android:background="@color/bg_attach" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_margin="16.0dip">
+        <include layout="@layout/rip_item_attachment" />
+    </RelativeLayout>
+</FrameLayout>

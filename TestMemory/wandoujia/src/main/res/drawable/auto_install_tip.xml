@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_00" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_01" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_02" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_03" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_04" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_05" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_06" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_07" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_08" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_09" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_10" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_11" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_12" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_13" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_14" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_15" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_16" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_17" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_18" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_19" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_20" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_21" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_22" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_23" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_24" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_25" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_26" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_27" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_28" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_29" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_30" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_31" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_32" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_33" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_34" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_35" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_36" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_37" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_38" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_39" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_40" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_41" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_42" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_43" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_44" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_45" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_46" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_47" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_48" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_49" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_50" />
+    <item android:duration="40" android:drawable="@drawable/auto_install_tip_51" />
+</animation-list>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.game_launcher.views.GameStoryView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.game_launcher.views.LoadingView android:layout_gravity="center" android:id="@id/loading" android:layout_width="@dimen/loading_size" android:layout_height="@dimen/loading_size" />
+    <RelativeLayout android:id="@id/story_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <FrameLayout android:id="@id/story_image_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sonic="http://schemas.android.com/apk/res-auto">
+            <com.wandoujia.launcher.launcher.views.TopCropAsyncImageView android:layout_gravity="left" android:id="@id/story_title_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" sonic:topRadius="10.0" sonic:maxHeight="@dimen/game_launcher_header_image_max_height" sonic:minHeight="@dimen/game_launcher_header_image_min_height" />
+            <View android:layout_gravity="bottom" android:background="@drawable/bg_launcher_headerpic" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+        </FrameLayout>
+        <android.support.v7.widget.RecyclerView android:id="@id/story_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/story_more_arrow" />
+        <ImageView android:id="@id/story_more_arrow" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_small" android:src="@drawable/story_up_button" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.wandoujia.game_launcher.views.GameStoryView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/extension_listview" android:background="@color/text_color_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/aa_line" android:layout_weight="1.0" />
+    <TextView android:textColor="@color/ade_red" android:id="@id/download_warnning" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_warnning" />
+</LinearLayout>

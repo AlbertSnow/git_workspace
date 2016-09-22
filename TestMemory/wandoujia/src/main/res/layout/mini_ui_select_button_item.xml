@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/mini_text_black" android:gravity="center_vertical" android:id="@id/mini_select_button_text" android:layout_width="wrap_content" android:layout_height="@dimen/msp_dimen_40" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/mini_select_button_img" android:layout_width="wrap_content" android:layout_height="@dimen/msp_dimen_40" android:layout_marginRight="10.0dip" android:src="@drawable/mini_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="@dimen/text_size_micro" android:textColor="@color/white" android:gravity="center" android:id="@id/subscribe_button" android:background="@drawable/jupiter_button_bg" android:layout_width="108.0dip" android:layout_height="32.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:text="@string/begin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <View android:id="@id/divider_line" android:background="@color/dropdown_menu_list_item_bg_color_pressed" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/subscribe_button" />
+    <com.wandoujia.ripple_framework.view.RecyclerViewAutoLoadingLayout android:id="@id/loadable_recycler_view" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/divider_line">
+        <com.wandoujia.ripple_framework.view.ObservableRecyclerView android:id="@id/recycler_view" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.wandoujia.ripple_framework.view.RecyclerViewAutoLoadingLayout>
+</RelativeLayout>

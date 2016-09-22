@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.game_launcher.views.GameStoryAppInfoCardView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/app_info_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/game_launcher_story_header_margin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <include layout="@layout/game_launcher_content_app_info" />
+        <LinearLayout android:layout_gravity="bottom|center" android:background="@color/black_no_transparency" android:layout_width="12.0dip" android:layout_height="3.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="9.0dip" />
+    </com.wandoujia.game_launcher.views.GameStoryAppInfoCardView>
+</RelativeLayout>

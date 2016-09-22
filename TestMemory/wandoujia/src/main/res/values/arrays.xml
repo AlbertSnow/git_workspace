@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_sdk_avatar_methods">
+        <item>拍摄照片</item>
+        <item>从图片库中选择</item>
+        <item>用新浪微博头像</item>
+        <item>用Qzone头像</item>
+        <item>用人人网头像</item>
+    </string-array>
+    <string-array name="account_sdk_avatar_methods_oem">
+        <item>拍摄照片</item>
+        <item>从图片库中选择</item>
+        <item>用Qzone头像</item>
+        <item>用人人网头像</item>
+    </string-array>
+    <string-array name="account_sdk_no_social_avatar_methods">
+        <item>拍摄照片</item>
+        <item>从图片库中选择</item>
+    </string-array>
+    <string-array name="add_favorite">
+        <item></item>
+        <item>收藏</item>
+    </string-array>
+    <string-array name="ads_filter">
+        <item>不区分广告</item>
+        <item>无通知栏广告</item>
+        <item>无广告</item>
+    </string-array>
+    <string-array name="avatar_methods">
+        <item>拍摄照片</item>
+        <item>从图片库中选择</item>
+        <item>用新浪微博头像</item>
+        <item>用Qzone头像</item>
+        <item>用人人网头像</item>
+    </string-array>
+    <string-array name="category_apps_sort_type">
+        <item>默认排序</item>
+        <item>最热</item>
+        <item>最新</item>
+    </string-array>
+    <string-array name="clean_report_checkbox_names">
+        <item>文件信息描述错误</item>
+        <item>应用名对应错误</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="community_ballot_group_type">
+        <item>游戏</item>
+        <item>影视</item>
+        <item>动漫</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="community_group_ceategories_title">
+        <item>游戏</item>
+        <item>影视</item>
+        <item>动漫</item>
+        <item>投票中</item>
+    </string-array>
+    <string-array name="csv_ai_column_names">
+        <item>姓</item>
+        <item>中间名</item>
+        <item>名</item>
+        <item>姓名</item>
+        <item>中文名</item>
+        <item>英文名</item>
+        <item>Name</item>
+        <item>英文称谓</item>
+        <item>中文称谓</item>
+        <item>名称</item>
+        <item>显示名称</item>
+        <item>电话</item>
+        <item>常用电话</item>
+        <item>主要电话</item>
+        <item>家庭电话</item>
+        <item>住宅电话</item>
+        <item>座机</item>
+        <item>Phone 1 - Value</item>
+        <item>常用视频电话</item>
+        <item>住宅视频电话</item>
+        <item>住宅电话 2</item>
+        <item>电话号码1 (数字)</item>
+        <item>电话号码2 (数字)</item>
+        <item>电话号码3 (数字)</item>
+        <item>电话号码4 (数字)</item>
+        <item>电话号码5 (数字)</item>
+        <item>电话号码6 (数字)</item>
+        <item>电话号码7 (数字)</item>
+        <item>电话号码8 (数字)</item>
+        <item>电话号码9 (数字)</item>
+        <item>电话号码10 (数字)</item>
+        <item>电话号码11 (数字)</item>
+        <item>电话号码12 (数字)</item>
+        <item>电话号码13 (数字)</item>
+        <item>电话号码14 (数字)</item>
+        <item>手机</item>
+        <item>移动电话</item>
+        <item>小灵通</item>
+        <item>Phone 2 - Value</item>
+        <item>常用移动电话</item>
+        <item>住宅移动电话</item>
+        <item>公司移动电话</item>
+        <item>商务电话</item>
+        <item>公司电话</item>
+        <item>公司视频电话</item>
+        <item>助理的电话</item>
+        <item>商务电话 2</item>
+        <item>回电话</item>
+        <item>单位主要电话</item>
+        <item>其他电话</item>
+        <item>寻呼机</item>
+        <item>车载电话</item>
+        <item>家庭传真</item>
+        <item>传真</item>
+        <item>住宅传真</item>
+        <item>主要传真</item>
+        <item>Phone 3 - Value</item>
+        <item>常用传真</item>
+        <item>公司传真</item>
+        <item>商务传真</item>
+        <item>其他传真</item>
+        <item>邮箱</item>
+        <item>Email</item>
+        <item>电子邮件</item>
+        <item>E-mail 1 - Value</item>
+        <item>电子邮件地址</item>
+        <item>常用电子邮件</item>
+        <item>住宅电子邮件</item>
+        <item>公司邮箱</item>
+        <item>公司Email</item>
+        <item>E-mail 2 - Value</item>
+        <item>公司电子邮件</item>
+        <item>电子邮件 2 地址</item>
+        <item>电子邮件 3 地址</item>
+        <item>家庭地址</item>
+        <item>地点</item>
+        <item>公司地址</item>
+        <item>单位地址</item>
+        <item>办公地点</item>
+        <item>街道</item>
+        <item>邮政编码</item>
+        <item>城市</item>
+        <item>省/市/自治区</item>
+        <item>国家/地址</item>
+        <item>Address 1 - Street</item>
+        <item>Address 1 - Postal Code</item>
+        <item>Address 1 - City</item>
+        <item>Address 1 - Region</item>
+        <item>Address 1 - Country</item>
+        <item>Address 2 - Street</item>
+        <item>Address 2 - Postal Code</item>
+        <item>Address 2 - City</item>
+        <item>Address 2 - Region</item>
+        <item>Address 2 - Country</item>
+        <item>公司</item>
+        <item>组织</item>
+        <item>单位</item>
+        <item>Organization 1 - Name</item>
+        <item>职务</item>
+        <item>Organization 1 - Title</item>
+        <item>部门</item>
+        <item>Organization 1 - Department</item>
+        <item>备注</item>
+        <item>notes</item>
+        <item>附注</item>
+        <item>备忘</item>
+        <item>IM 1 - Type</item>
+        <item>IM 1 - Value</item>
+        <item>qq</item>
+        <item>msn</item>
+        <item>gtalk</item>
+        <item>goolge talk</item>
+    </string-array>
+    <string-array name="csv_ai_column_names_type">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>16</item>
+        <item>16</item>
+        <item>16</item>
+        <item>31</item>
+        <item>31</item>
+        <item>31</item>
+        <item>31</item>
+        <item>31</item>
+        <item>31</item>
+        <item>31</item>
+        <item>32</item>
+        <item>32</item>
+        <item>32</item>
+        <item>32</item>
+        <item>32</item>
+        <item>32</item>
+        <item>41</item>
+        <item>41</item>
+        <item>42</item>
+        <item>42</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>51</item>
+        <item>51</item>
+        <item>51</item>
+        <item>51</item>
+        <item>52</item>
+        <item>52</item>
+        <item>53</item>
+        <item>53</item>
+        <item>61</item>
+        <item>61</item>
+        <item>61</item>
+        <item>61</item>
+        <item>61</item>
+        <item>61</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>73</item>
+    </string-array>
+    <string-array name="csv_ms_outlook_header">
+        <item>英文称谓</item>
+        <item>名</item>
+        <item>中间名</item>
+        <item>姓</item>
+        <item>中文称谓</item>
+        <item>单位</item>
+        <item>部门</item>
+        <item>职务</item>
+        <item>商务地址 街道</item>
+        <item>商务地址 街道 2</item>
+        <item>商务地址 街道 3</item>
+        <item>商务地址 市/县</item>
+        <item>商务地址 省/市/自治区</item>
+        <item>商务地址 邮政编码</item>
+        <item>商务地址 国家/地区</item>
+        <item>住宅地址 街道</item>
+        <item>住宅地址 街道 2</item>
+        <item>住宅地址 街道 3</item>
+        <item>住宅地址 市/县</item>
+        <item>住宅地址 省/市/自治区</item>
+        <item>住宅地址 邮政编码</item>
+        <item>住宅地址 国家/地区</item>
+        <item>其他地址 街道</item>
+        <item>其他地址 街道 2</item>
+        <item>其他地址 街道 3</item>
+        <item>其他地址 市/县</item>
+        <item>其他地址 省/市/自治区</item>
+        <item>其他地址 邮政编码</item>
+        <item>其他地址 国家/地区</item>
+        <item>助理的电话</item>
+        <item>商务传真</item>
+        <item>商务电话</item>
+        <item>商务电话 2</item>
+        <item>回电话</item>
+        <item>车载电话</item>
+        <item>单位主要电话</item>
+        <item>住宅传真</item>
+        <item>住宅电话</item>
+        <item>住宅电话 2</item>
+        <item>ISDN</item>
+        <item>移动电话</item>
+        <item>其他传真</item>
+        <item>其他电话</item>
+        <item>寻呼机</item>
+        <item>主要电话</item>
+        <item>无绳电话</item>
+        <item>TTY/TDD 电话</item>
+        <item>电报</item>
+        <item>Internet 忙闲</item>
+        <item>办公地点</item>
+        <item>地点</item>
+        <item>电子邮件地址</item>
+        <item>电子邮件类型</item>
+        <item>电子邮件显示名称</item>
+        <item>电子邮件 2 地址</item>
+        <item>电子邮件 2 类型</item>
+        <item>电子邮件 2 显示名</item>
+        <item>电子邮件 3 地址</item>
+        <item>电子邮件 3 类型</item>
+        <item>电子邮件 3 显示名</item>
+        <item>附注</item>
+        <item>工作证号码</item>
+        <item>关键词</item>
+        <item>记帐信息</item>
+        <item>纪念日</item>
+        <item>经理姓名</item>
+        <item>类别</item>
+        <item>里程</item>
+        <item>敏感度</item>
+        <item>目录服务器</item>
+        <item>配偶</item>
+        <item>其他地址 - 邮箱</item>
+        <item>商务地址 - 邮箱</item>
+        <item>身份证编号</item>
+        <item>生日</item>
+        <item>私有</item>
+        <item>缩写</item>
+        <item>网页</item>
+        <item>性别</item>
+        <item>业余爱好</item>
+        <item>引用者</item>
+        <item>用户 1</item>
+        <item>用户 2</item>
+        <item>用户 3</item>
+        <item>用户 4</item>
+        <item>优先级</item>
+        <item>语言</item>
+        <item>帐户</item>
+        <item>职业</item>
+        <item>住宅地址 - 邮箱</item>
+        <item>助理的姓名</item>
+        <item>子女</item>
+    </string-array>
+    <string-array name="csv_nokia_header">
+        <item>名称</item>
+        <item>名</item>
+        <item>中间名</item>
+        <item>姓</item>
+        <item>后缀</item>
+        <item>职务</item>
+        <item>公司</item>
+        <item>生日</item>
+        <item>SIP 地址</item>
+        <item>一键通</item>
+        <item>共享视图</item>
+        <item>用户 ID</item>
+        <item>备忘</item>
+        <item>常用移动电话</item>
+        <item>常用电话</item>
+        <item>常用电子邮件</item>
+        <item>常用传真</item>
+        <item>常用视频电话</item>
+        <item>常用网址</item>
+        <item>常用 VOIP 地址</item>
+        <item>常用邮政信箱</item>
+        <item>常用分机</item>
+        <item>常用街道</item>
+        <item>常用邮政编码</item>
+        <item>常用城市</item>
+        <item>常用省/市/自治区</item>
+        <item>常用国家/地址</item>
+        <item>住宅移动电话</item>
+        <item>住宅电话</item>
+        <item>住宅电子邮件</item>
+        <item>住宅传真</item>
+        <item>住宅视频电话</item>
+        <item>住宅网址</item>
+        <item>住宅 VOIP 地址</item>
+        <item>住宅邮政信箱</item>
+        <item>家庭分机</item>
+        <item>住宅街道</item>
+        <item>住宅邮政编码</item>
+        <item>住宅城市</item>
+        <item>住宅省/市/自治区</item>
+        <item>住宅国家/地区</item>
+        <item>公司移动电话</item>
+        <item>公司电话</item>
+        <item>公司电子邮件</item>
+        <item>公司传真</item>
+        <item>公司视频电话</item>
+        <item>公司网址</item>
+        <item>公司 VOIP 地址</item>
+        <item>公司邮政信箱</item>
+        <item>公司分机</item>
+        <item>公司街道</item>
+        <item>公司邮政编码</item>
+        <item>公司城市</item>
+        <item>公司省/市/自治区</item>
+        <item>公司国家/地区</item>
+    </string-array>
+    <string-array name="csv_windows_mail_header">
+        <item>名</item>
+        <item>姓</item>
+        <item>中间名</item>
+        <item>名字</item>
+        <item>昵称</item>
+        <item>电子邮件地址</item>
+        <item>住宅所在街道</item>
+        <item>住宅所在市/县</item>
+        <item>住宅所在地的邮政编码</item>
+        <item>住宅所在省/市/自治区</item>
+        <item>住宅所在国家/地区</item>
+        <item>住宅电话</item>
+        <item>住宅传真</item>
+        <item>移动电话</item>
+        <item>个人网页</item>
+        <item>工作所在地街道</item>
+        <item>公司所在城市</item>
+        <item>公司所在地的邮政编码</item>
+        <item>公司所在省/市/自治区</item>
+        <item>公司所在国家/地区</item>
+        <item>公司网页</item>
+        <item>商务电话</item>
+        <item>商务传真</item>
+        <item>寻呼机</item>
+        <item>公司</item>
+        <item>职务</item>
+        <item>部门</item>
+        <item>办公地址</item>
+        <item>注释</item>
+    </string-array>
+    <string-array name="delete">
+        <item>删除</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="detail_upgrade_menu">
+        <item></item>
+        <item>忽略升级</item>
+    </string-array>
+    <string-array name="feedback_category_names">
+        <item>应用下载问题</item>
+        <item>应用安装/升级/管理</item>
+        <item>其他游戏/应用问题</item>
+        <item>影音/电子书相关问题</item>
+        <item>手机连不上电脑</item>
+        <item>用起来卡，容易崩溃</item>
+        <item>帐号相关问题</item>
+        <item>新功能建议</item>
+        <item>表扬</item>
+        <item>其他</item>
+        <item>返流量活动问题</item>
+    </string-array>
+    <string-array name="feedback_category_values">
+        <item>1_download</item>
+        <item>2_install</item>
+        <item>3_apps</item>
+        <item>4_media</item>
+        <item>5_connect</item>
+        <item>7_crash</item>
+        <item>8_account</item>
+        <item>10_feature</item>
+        <item>11_thanks</item>
+        <item>12_others</item>
+        <item>9_fll</item>
+    </string-array>
+    <string-array name="feedback_children_category_names">
+        <item>应用下不下来</item>
+        <item>修改下载/安装位置</item>
+        <item>下载速度慢</item>
+        <item>新应用安装不上</item>
+        <item>升级时安装不上</item>
+        <item>升级提示有问题</item>
+        <item>网游相关问题</item>
+        <item>应用/游戏有问题（用不了/骗积分）</item>
+        <item>找不到需要的应用/游戏</item>
+        <item>视频缺集</item>
+        <item>看不了，播放失败</item>
+        <item>下载慢，缓存失败</item>
+        <item>字幕问题</item>
+        <item>视频其他问题</item>
+        <item>电子书相关问题</item>
+        <item>音乐相关问题</item>
+        <item>USB连接</item>
+        <item>Wi-Fi/二维码连接</item>
+        <item>操作的时候卡，不流畅</item>
+        <item>豌豆荚崩溃了</item>
+        <item>出现长时间白屏</item>
+        <item>登录/退出账号时遇到问题</item>
+        <item>更换注册账号/解除绑定/账号注销</item>
+        <item>修改密码遇到问题</item>
+        <item>新功能建议</item>
+        <item>表扬</item>
+        <item>无法退出/总是在后台运行</item>
+        <item>豌豆荚连不上网，加载不了</item>
+        <item>其他</item>
+        <item>流量没有返到豌豆荚帐号里</item>
+        <item>兑换的话费没有到账</item>
+        <item>兑换时收不到验证码</item>
+        <item>兑换话费、豌豆币失败</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="feedback_children_category_values">
+        <item>1_download_download</item>
+        <item>1_download_position</item>
+        <item>1_download_speed</item>
+        <item>2_install_install</item>
+        <item>2_install_update</item>
+        <item>2_install_updatenotification</item>
+        <item>3_apps_olgame</item>
+        <item>3_apps_ads</item>
+        <item>3_apps_search</item>
+        <item>4_media_lack</item>
+        <item>4_media_play</item>
+        <item>4_media_download</item>
+        <item>4_media_srt</item>
+        <item>4_media_other</item>
+        <item>4_media_ebook</item>
+        <item>4_media_media</item>
+        <item>5_connect_usb</item>
+        <item>5_connect_wifi</item>
+        <item>7_crash_pause</item>
+        <item>7_crash_crash</item>
+        <item>7_crash_white</item>
+        <item>8_account_quit</item>
+        <item>8_account_change</item>
+        <item>8_account_password</item>
+        <item>10_feature_feature</item>
+        <item>11_thanks_thanks</item>
+        <item>12_others_quit</item>
+        <item>12_others_network</item>
+        <item>12_others_xibaibai</item>
+        <item>12_others_others</item>
+        <item>9_fll_liuliang</item>
+        <item>9_fll_huafei</item>
+        <item>9_fll_yzm</item>
+        <item>9_fll_duihuan</item>
+        <item>9_fll_others</item>
+    </string-array>
+    <string-array name="hibernating_app_tips">
+        <item>已休眠的应用依然可以正常启动使用</item>
+        <item>普通的加速功能无法阻止应用在后台偷偷重启</item>
+        <item>经常休眠应用可以延长手机待机时间</item>
+        <item>某些应用可能会互相唤醒，无法彻底休眠</item>
+        <item>「彻底加速」可以确保顽固应用彻底休眠</item>
+        <item>睡觉前使用「彻底加速」休眠耗电应用，保证手机整晚待机</item>
+        <item>手机电量不足时使用「彻底加速」，可休眠耗电应用节省电量</item>
+    </string-array>
+    <string-array name="hibernation_onboard_tips_content">
+        <item>"普通的加速功能，无法阻止顽固应用自动启动。
+「彻底加速」则可以彻底阻止应用在后台偷偷重启，让手机顺畅如初。"</item>
+        <item>「彻底加速」利用 Android 辅助功能，在系统设置的应用管理中自动对顽固重启的进程进行「强行停止」，有效阻止应用自启拖慢手机。</item>
+        <item>"彻底加速之后，已休眠的应用如果被用户主动启动，将会脱离休眠状态，这时，可以再次使用［彻底加速］功能。
+注：系统应用可能无法完全休眠，已休眠的应用可能会无法接受消息通知。"</item>
+    </string-array>
+    <string-array name="hibernation_onboard_tips_title">
+        <item>「彻底加速」，休眠顽固应用</item>
+        <item>「彻底加速」会做什么</item>
+        <item>「彻底加速」的限制</item>
+    </string-array>
+    <string-array name="ignore_upgrade_apps_open">
+        <item></item>
+        <item>打开</item>
+        <item>卸载</item>
+        <item>取消忽略</item>
+    </string-array>
+    <string-array name="installed_apps_can_not_open">
+        <item>打开</item>
+    </string-array>
+    <string-array name="installed_apps_choose_type">
+        <item>操作</item>
+        <item>卸载多个</item>
+    </string-array>
+    <string-array name="installed_apps_open">
+        <item>打开</item>
+        <item>打开</item>
+    </string-array>
+    <string-array name="installed_apps_sort_type">
+        <item>按安装时间</item>
+        <item>按名称</item>
+        <item>按应用大小</item>
+    </string-array>
+    <string-array name="month_array">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="month_in_chinese">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+    </string-array>
+    <string-array name="music_inst_play_tags">
+        <item>华语</item>
+        <item>欧美</item>
+        <item>日语</item>
+        <item>韩语</item>
+        <item>流行</item>
+        <item>爵士</item>
+        <item>摇滚</item>
+        <item>雷鬼</item>
+        <item>古典</item>
+        <item>民谣</item>
+        <item>电子</item>
+        <item>说唱</item>
+        <item>乡村</item>
+        <item>布鲁斯</item>
+        <item>OST</item>
+        <item>动漫</item>
+    </string-array>
+    <string-array name="music_regions">
+        <item>欧美</item>
+        <item>华语</item>
+        <item>韩国</item>
+        <item>日本</item>
+    </string-array>
+    <string-array name="notification_titles">
+        <item>%1$s 等你更新</item>
+        <item>%1$s 邀请你升级新版本</item>
+        <item>%1$s 有新版本等你升级</item>
+        <item>%1$s 提示你升级新版</item>
+        <item>%1$s 有新版了，快来升级</item>
+        <item>新版 %1$s 邀请你升级</item>
+        <item>新版 %1$s 在这里等你</item>
+        <item>快人一步 体验新版 %1$s</item>
+        <item>%1$s 升级只为你，更新点这里</item>
+    </string-array>
+    <string-array name="payment_feedback_category_names">
+        <item>充值问题</item>
+        <item>账号问题</item>
+        <item>其它问题</item>
+    </string-array>
+    <string-array name="payment_feedback_category_values">
+        <item>1_charge</item>
+        <item>2_account</item>
+        <item>3_others</item>
+    </string-array>
+    <string-array name="payment_feedback_children_category_names">
+        <item>充值成功但游戏里未收到道具</item>
+        <item>充值时显示充值失败</item>
+        <item>充值时提示系统繁忙</item>
+        <item>充值方式有哪些</item>
+        <item>支付宝支付不成功</item>
+        <item>银联支付不成功</item>
+        <item>充值卡支付不成功</item>
+        <item>忘记密码</item>
+        <item>账号登录不了或被盗</item>
+        <item>修改密码收不到验证短信</item>
+        <item>账号无法验证</item>
+        <item>赠送或抽奖活动咨询</item>
+        <item>游戏其它问题</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="payment_feedback_children_category_values">
+        <item>1_charge_NoReceiveInGame</item>
+        <item>1_charge_ChargeFail</item>
+        <item>1_charge_SystemBusy</item>
+        <item>1_charge_ChargeMethod</item>
+        <item>1_charge_AlipayFail</item>
+        <item>1_charge_UnionpayFail</item>
+        <item>1_charge_ShenzhoufuFail</item>
+        <item>2_account_MissingPassword</item>
+        <item>2_account_AccountLost</item>
+        <item>2_account_ValidCodeIssue</item>
+        <item>2_account_VerifyFail</item>
+        <item>3_others_PromotionCampaign</item>
+        <item>3_others_GamesIssue</item>
+        <item>3_others_others</item>
+    </string-array>
+    <string-array name="remove_favorite">
+        <item></item>
+        <item>取消收藏</item>
+    </string-array>
+    <string-array name="ripple_notification_subtitle">
+        <item>用一个应用浏览 400+ 应用的最新内容</item>
+        <item>用一个应用浏览 400+ 应用的最新内容</item>
+        <item>用一个应用浏览「果库」等 400+ 应用的内容</item>
+    </string-array>
+    <string-array name="ripple_notification_title">
+        <item>内存不够，忍痛删掉好应用？</item>
+        <item>感兴趣的应用太多没空看？</item>
+        <item>好内容太分散，忘记打开看？</item>
+    </string-array>
+    <string-array name="upgrade_apps_open">
+        <item></item>
+        <item>打开</item>
+        <item>卸载</item>
+        <item>忽略升级</item>
+    </string-array>
+    <string-array name="wash_feedback_default_miss">
+        <item>是山寨的</item>
+        <item>有广告</item>
+        <item>扣费</item>
+        <item>木马</item>
+    </string-array>
+    <string-array name="wash_feedback_default_wrong">
+        <item>它不是山寨的</item>
+        <item>它没有广告</item>
+    </string-array>
+    <string-array name="week">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+</resources>

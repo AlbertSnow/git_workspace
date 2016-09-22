@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/card_item_game_community_topic_banner" />
+        <include layout="@layout/community_campaign_item" />
+    </LinearLayout>
+    <com.wandoujia.phoenix2.av.view.ScrollDownLayout android:id="@id/scroll_container" android:paddingBottom="@dimen/app_icon_size_big" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.wandoujia.ripple_framework.view.slidingtab.PagerSlidingTabStrip android:id="@id/tabs" android:fillViewport="false" style="@style/tab_strip" />
+        <com.wandoujia.p4.views.CommonViewPager android:layout_gravity="center|top" android:id="@id/view_pager" android:background="?contentBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dropdown_item_height" />
+        <View android:layout_gravity="top" android:layout_marginTop="@dimen/dropdown_item_height" style="@style/top_shadow" />
+    </com.wandoujia.phoenix2.av.view.ScrollDownLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/action_button_container" android:background="@drawable/bg_explore_bottombar_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/app_icon_size_big" android:weightSum="2.0">
+        <com.wandoujia.p4.button.views.StatefulButton android:textSize="@dimen/text_size_large" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/action_button" android:background="?verticalButtonBackground" android:layout_width="0.0dip" android:layout_height="@dimen/entrances_view_height" android:layout_marginTop="@dimen/app_detail_normal_padding" android:layout_marginBottom="@dimen/app_detail_normal_padding" android:text="@string/community_join_group" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:id="@id/jupiter_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

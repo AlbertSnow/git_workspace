@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.game_launcher.views.GameRecommendCellView android:id="@id/game_recommend_cell" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/game_story_card" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/game_launcher_story_layout" />
+    <include android:id="@id/daily_title" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/game_launcher_daily_title" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/game_launcher_card_no_data" />
+</com.wandoujia.game_launcher.views.GameRecommendCellView>

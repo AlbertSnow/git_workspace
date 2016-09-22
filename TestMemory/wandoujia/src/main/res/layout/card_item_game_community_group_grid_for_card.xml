@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.p4.community.card.view.CommunityGroupGridCardView android:background="@drawable/bg_community_group_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/grid_card_list_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_width="@dimen/search_item_height" android:layout_height="@dimen/search_item_height" android:layout_marginTop="10.0dip" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_black" android:gravity="center" android:id="@id/title" android:paddingBottom="@dimen/margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_below="@id/icon" android:layout_centerHorizontal="true" />
+</com.wandoujia.p4.community.card.view.CommunityGroupGridCardView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.jupiter.view.AutoInstallRecoverView android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/list_background" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/auto_install_recover_tip" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/app_auto_install_recover_title" style="@style/dialog_title_style" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_auto_install_recover_content" style="@style/dialog_message_style" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="24.0dip">
+        <Button android:id="@id/negative_button" android:text="@string/app_auto_install_setting_button" style="@style/dialog_button_normal_style" />
+        <Button android:id="@id/positive_button" android:text="@string/app_auto_install_tip_action" style="@style/dialog_button_highlight_style" />
+    </LinearLayout>
+</com.wandoujia.jupiter.view.AutoInstallRecoverView>

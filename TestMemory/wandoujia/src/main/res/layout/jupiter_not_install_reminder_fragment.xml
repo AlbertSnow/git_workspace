@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/content_container" android:background="@color/bg_list_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/close_btn" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/cancel_black" android:scaleType="center" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="@dimen/padding_xxlarge" android:textColor="#ff333333" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="@dimen/margin_xhuge" android:text="@string/not_install_promote" android:singleLine="false" android:layout_centerHorizontal="true" style="@style/text_display" />
+        <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:saveEnabled="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" />
+    </RelativeLayout>
+    <View android:id="@id/background_frame" android:background="@color/black_80_transparency" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/content_container" />
+</RelativeLayout>

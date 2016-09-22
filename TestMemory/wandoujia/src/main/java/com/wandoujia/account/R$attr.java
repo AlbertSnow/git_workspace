@@ -1,0 +1,16 @@
+package com.wandoujia.account;
+
+public final class R$attr
+{
+  public static final int content_type = 2130772341;
+  public static final int layoutManager = 2130772151;
+  public static final int reverseLayout = 2130772153;
+  public static final int spanCount = 2130772152;
+  public static final int stackFromEnd = 2130772154;
+  public static final int status_type = 2130772342;
+}
+
+/* Location:           C:\WorkSpace\WandDouJiaNotificationBar\WanDou1.jar
+ * Qualified Name:     com.wandoujia.account.R.attr
+ * JD-Core Version:    0.6.0
+ */

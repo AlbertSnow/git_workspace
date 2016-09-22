@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_radius">150</integer>
+
+    <declare-styleable name="StarView">
+        <attr name="mainStarRadius" format="integer"/>
+        <attr name="smallStarRadius" format="integer"/>
+    </declare-styleable>
+</resources>

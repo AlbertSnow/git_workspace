@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.myanimation.FiveActivity">
+
+    <Button
+        android:text="ChangeColor"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="451dp"
+        android:layout_gravity="bottom|center"
+        android:id="@+id/change_color_btn" />
+
+    <TextView
+        android:text="Helojdfjasdjfljasdlfjlasjdflj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="45dp"
+        android:id="@+id/title_view"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_five" />
+</FrameLayout>

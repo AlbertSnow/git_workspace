@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.p4.app.detail.view.CommentItemView android:orientation="horizontal" android:background="@color/white_no_transparency" android:paddingLeft="@dimen/margin_xlarge" android:paddingTop="@dimen/margin_large" android:paddingRight="@dimen/margin_xlarge" android:paddingBottom="@dimen/margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:frsco="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.p4.views.CircleAsyncImageView android:id="@id/author_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/margin_xsmall" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_xlarge" android:layout_weight="1.0">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_dark" android:ellipsize="end" android:gravity="left" android:id="@id/author_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120.0dip" android:singleLine="true" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="11.0dip" android:textColor="@color/text_color_gray" android:ellipsize="end" android:gravity="left" android:id="@id/date" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_medium" android:singleLine="true" android:layout_toRightOf="@id/author_name" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_body" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xsmall" android:singleLine="false" android:layout_below="@id/author_name" />
+    </RelativeLayout>
+    <ImageView android:gravity="center" android:id="@id/heart" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="@dimen/margin_xlarge" android:layout_marginTop="@dimen/margin_xsmall" />
+</com.wandoujia.p4.app.detail.view.CommentItemView>

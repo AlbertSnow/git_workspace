@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="@dimen/app_detail_source_font" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:text="@string/connection_tips_wifi" style="@style/connection_header_text" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_size_micro" android:src="@drawable/aa_connect_line" />
+        <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/text_size_micro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/homepage_cover_panel_padding">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_micro" android:layout_marginTop="@dimen/text_size_micro">
+                <TextView android:text="@string/step_number_1" style="@style/connection_step_number" />
+                <TextView android:text="@string/step1_info" style="@style/connection_content_text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_micro" android:layout_marginTop="@dimen/text_size_micro">
+                <TextView android:text="@string/step_number_2" style="@style/connection_step_number" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:text="@string/step2_info_header" style="@style/connection_content_text" />
+                    <TextView android:text="@string/step2_info_detail" style="@style/connection_detail_text" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_micro" android:layout_marginTop="@dimen/text_size_micro">
+                <TextView android:text="@string/step_number_3" style="@style/connection_step_number" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:text="@string/step3_info_header" style="@style/connection_content_text" />
+                    <TextView android:text="@string/step3_info_detail" style="@style/connection_detail_text" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/actionbar_min_space" android:textColor="@color/text_color_black" android:id="@id/wifi_code_text" android:background="@drawable/aa_connect_wifi_background_grey" android:paddingLeft="@dimen/sub_action_text_size" android:paddingTop="@dimen/text_size_middle" android:paddingRight="@dimen/sub_action_text_size" android:paddingBottom="@dimen/text_size_middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_size_micro" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <Button android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/close_wifi_connection_button" android:background="@drawable/bg_card_button_drawable_selector_home" android:paddingLeft="@dimen/app_detail_source_font" android:paddingTop="@dimen/homepage_cover_panel_padding" android:paddingRight="@dimen/app_detail_source_font" android:paddingBottom="@dimen/homepage_cover_panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close_wifi_mode" />
+            <Button android:textColor="@color/black_grey" android:gravity="center" android:id="@id/connection_return_from_wifi" android:background="@drawable/bg_drawable_un_high_light" android:paddingLeft="@dimen/app_detail_source_font" android:paddingTop="@dimen/homepage_cover_panel_padding" android:paddingRight="@dimen/app_detail_source_font" android:paddingBottom="@dimen/homepage_cover_panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_xsmall" android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

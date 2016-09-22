@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tips" style="@style/dialog_message_style" />
+    <TextView android:id="@id/sub_title" android:layout_marginTop="@dimen/margin_xlarge" style="@style/dialog_message_style" />
+    <com.wandoujia.ripple_framework.view.StatefulButton android:layout_gravity="center" android:id="@id/action_button" android:background="@drawable/jupiter_button_bg_normal" android:visibility="gone" android:layout_marginTop="16.0dip" android:text="@string/upgrade" style="@style/card_section_bottom_button" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/jupiter_detail_comment_title" />
+    <include layout="@layout/jupiter_detail_comment_summary" />
+    <include layout="@layout/jupiter_detail_comment_bar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/comments_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:layout_gravity="center|right" android:id="@id/more_area" android:layout_width="wrap_content" android:layout_height="@dimen/actionbar_height" android:layout_marginRight="@dimen/jupiter_large_margin" layout="@layout/jupiter_right_view_more" />
+</LinearLayout>

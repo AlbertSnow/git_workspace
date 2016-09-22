@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/bg_list_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.p4.views.NetContentListView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" style="@style/card_list_view" />
+    <RelativeLayout android:id="@id/no_content_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/content_no_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aa_error_nonetwork" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/hint_grey" android:id="@id/no_content_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_size_xxhuge" android:text="@string/no_suggestion_result_tip" android:layout_below="@id/content_no_result" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">testPlug</string>
+    <string name="title_activity_plug_main">PlugMainActivity</string>
+</resources>

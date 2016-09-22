@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="@dimen/app_detail_source_font" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:text="@string/connection_tips_usb" style="@style/connection_header_text" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_size_micro" android:src="@drawable/aa_connect_line" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/homepage_cover_panel_padding">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_micro" android:layout_marginTop="@dimen/text_size_micro">
+                <TextView android:text="@string/step_number_1" style="@style/connection_step_number" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:text="@string/step2_info_header" style="@style/connection_content_text" />
+                    <TextView android:text="@string/step2_info_detail" style="@style/connection_detail_text" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_micro" android:layout_marginTop="@dimen/text_size_micro">
+                <TextView android:text="@string/step_number_2" style="@style/connection_step_number" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:text="@string/step4_info_header" style="@style/connection_content_text" />
+                    <TextView android:text="@string/step4_info_detail" style="@style/connection_detail_text" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:textColor="@color/white" android:gravity="center" android:id="@id/connection_return_from_usb" android:background="@drawable/bg_card_button_drawable_selector_home" android:paddingLeft="@dimen/app_detail_source_font" android:paddingTop="@dimen/homepage_cover_panel_padding" android:paddingRight="@dimen/app_detail_source_font" android:paddingBottom="@dimen/homepage_cover_panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_size_xxhuge" android:text="@string/connection_kown_yet" />
+    </LinearLayout>
+</ScrollView>

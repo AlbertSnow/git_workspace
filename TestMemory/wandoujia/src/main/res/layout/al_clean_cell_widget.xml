@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.p4.app_launcher.clean.widget.CleanWidget android:layout_width="@dimen/mario_game_launcher_text_view_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/progress_area" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginBottom="4.0dip" android:layout_centerHorizontal="true">
+        <com.wandoujia.p4.app_launcher.clean.widget.CircleProgressBar android:id="@id/circle_progress" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bgColor="@color/white" app:edgeCircleSize="6.0dip" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/grey_20" android:gravity="center" android:layout_gravity="center" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/progress_img" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_launcher_clean" />
+    </FrameLayout>
+    <TextView android:id="@id/status_text" android:layout_below="@id/progress_area" android:layout_centerHorizontal="true" style="@style/launcher_cell_title" />
+</com.wandoujia.p4.app_launcher.clean.widget.CleanWidget>

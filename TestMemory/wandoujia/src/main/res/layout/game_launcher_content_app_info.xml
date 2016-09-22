@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.launcher_base.view.stateful.view.SuggestionView android:id="@id/app_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_large" custom:size_big="72.0dip" custom:size_small="28.0dip" custom:size_offset="6.0dip" />
+    <TextView android:id="@id/app_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/text_caption3" />
+</merge>

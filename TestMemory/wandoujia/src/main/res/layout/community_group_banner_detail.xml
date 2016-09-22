@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/community_transport" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.p4.community.views.CommunityAttachedReloadImageView android:id="@id/icon" android:layout_marginLeft="20.0dip" android:layout_marginTop="@dimen/margin_xlarge" android:layout_marginRight="@dimen/homepage_cover_panel_padding" android:layout_marginBottom="@dimen/margin_xlarge" android:layout_centerVertical="true" style="@style/card_icon_mini" />
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/white" android:id="@id/subTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/homepage_cover_panel_padding" android:layout_marginRight="@dimen/homepage_cover_panel_padding" android:maxLines="5" android:layout_toRightOf="@id/icon" android:layout_alignTop="@id/icon" android:layout_centerVertical="true" android:lineSpacingExtra="@dimen/list_fadding_edge" />
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/white" android:id="@id/desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/subTitle" android:layout_alignLeft="@id/subTitle" />
+</RelativeLayout>

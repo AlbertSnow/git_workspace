@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.myanimation.AnimatorActivity">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_animator_tv"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_animator_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/test_animator_btn"
+        android:layout_toRightOf="@+id/test_animator_btn"
+        android:layout_toEndOf="@+id/test_animator_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/test_animator_reset_btn" />
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/test_animator_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/test_animator_cancel_btn" />
+
+    <Button
+        android:text="Force"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/test_animator_cancel_btn"
+        android:layout_alignEnd="@+id/test_animator_cancel_btn"
+        android:layout_marginBottom="31dp"
+        android:id="@+id/button" />
+
+    <Button
+        android:text="TestHandler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/test_animator_btn"
+        android:layout_alignLeft="@+id/test_animator_btn"
+        android:layout_alignStart="@+id/test_animator_btn"
+        android:id="@+id/test_handler_btn" />
+</RelativeLayout>

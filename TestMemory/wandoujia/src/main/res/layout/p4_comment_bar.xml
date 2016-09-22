@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.p4.app.detail.view.CommentBar android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" style="@style/explore_detail_bottom_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:background="@color/light_grey" android:padding="@dimen/app_detail_left_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_detail_title_top_margin">
+        <ImageView android:id="@id/like_image" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/ic_like_small" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/text_color_black" android:id="@id/like" android:paddingLeft="@dimen/app_detail_left_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:background="@color/light_grey" android:padding="@dimen/app_detail_left_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_detail_title_top_margin">
+        <ImageView android:id="@id/dislike_image" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_dislike_small" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/text_color_black" android:id="@id/dislike" android:paddingLeft="@dimen/app_detail_left_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <EditText android:textSize="@dimen/text_size_large" android:textColor="@color/text_color_black" android:textColorHint="#ffcccccc" android:layout_gravity="center_vertical" android:id="@id/input" android:background="@drawable/bg_search_actionbar_searchbox" android:paddingLeft="@dimen/text_size_middle" android:layout_width="fill_parent" android:layout_height="31.0dip" android:layout_margin="@dimen/app_detail_title_top_margin" android:hint="@string/comment_input_hint" android:singleLine="true" />
+</com.wandoujia.p4.app.detail.view.CommentBar>

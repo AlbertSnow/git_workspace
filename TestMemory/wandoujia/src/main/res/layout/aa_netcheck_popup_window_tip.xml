@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/triangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/netcheck_triangle_magin_left" android:src="@drawable/bubble_triangle" />
+    <TextView android:textColor="@color/white" android:id="@id/textView1" android:background="@drawable/bubble_matrix" android:paddingLeft="@dimen/text_size_micro" android:paddingTop="@dimen/app_detail_security_padding" android:paddingRight="9.0dip" android:paddingBottom="@dimen/homepage_cover_panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_check_pop_tip" />
+</LinearLayout>

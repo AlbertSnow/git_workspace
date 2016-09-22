@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:textColor="@color/grey_20" android:id="@id/splitter" android:layout_width="10.0dip" android:layout_height="18.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/time_splitter" android:layout_centerInParent="true" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="@dimen/text_size_xmicro" android:textColor="@color/grey_20" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_toLeftOf="@id/splitter" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="@dimen/text_size_middle" android:textStyle="bold" android:textColor="@color/grey_20" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_toRightOf="@id/splitter" />
+</RelativeLayout>

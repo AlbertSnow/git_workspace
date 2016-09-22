@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="8.0dip" android:textColor="@color/text_color_grey" android:layout_gravity="center|left|top" android:id="@id/offline_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="7.0dip" android:text="@string/offlined" android:drawableLeft="@drawable/ic_offline_grey" android:drawablePadding="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.p4.community.views.CommunityUserInfoBannerView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/account_info_container" android:paddingTop="@dimen/padding_medium" android:paddingBottom="@dimen/padding_medium" android:layout_width="fill_parent" android:layout_height="@dimen/video_detail_icon_height" style="@style/card_item">
+        <com.wandoujia.p4.views.CircleAsyncImageView android:id="@id/avatar" android:layout_width="@dimen/community_my_info_avatar_size" android:layout_height="@dimen/community_my_info_avatar_size" android:layout_marginLeft="@dimen/padding_large" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/enter_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_large" android:src="@drawable/ic_mything_next_normal" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_large" android:id="@id/nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_small" android:singleLine="true" android:layout_toLeftOf="@id/enter_icon" android:layout_toRightOf="@id/avatar" android:layout_alignTop="@id/avatar" />
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/dark_grey" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/nickname" android:layout_alignLeft="@id/nickname" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/card_item">
+        <LinearLayout android:orientation="vertical" android:id="@id/published_container" android:background="@drawable/bg_list_item_background" android:paddingBottom="@dimen/margin_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/posted_topics_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_large" android:layout_marginTop="@dimen/padding_large" android:text="@string/community_published_topics" />
+            <TextView android:textColor="@color/list_header_label_text_color" android:id="@id/posted_topics" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_large" android:layout_marginTop="@dimen/padding_medium" android:text="@string/community_no_published_topic_card_message" />
+        </LinearLayout>
+        <View android:background="@color/wan_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="vertical" android:id="@id/replied_container" android:background="@drawable/bg_list_item_background" android:paddingBottom="@dimen/margin_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/replied_topics_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_large" android:layout_marginTop="@dimen/padding_large" android:text="@string/community_replied_topics" />
+            <TextView android:textColor="@color/list_header_label_text_color" android:id="@id/replied_topics" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_large" android:layout_marginTop="@dimen/padding_medium" android:text="@string/community_no_replied_topic_card_message" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_large" android:layout_marginTop="@dimen/padding_large" android:text="@string/community_joined_groups" />
+    <TextView android:textColor="@color/list_header_label_text_color" android:id="@id/no_joined_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_large" android:layout_marginTop="@dimen/padding_medium" android:text="@string/community_no_joined_group_card_message" />
+</com.wandoujia.p4.community.views.CommunityUserInfoBannerView>

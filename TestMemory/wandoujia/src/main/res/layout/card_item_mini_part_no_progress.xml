@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_marginLeft="@dimen/text_size_micro" android:layout_marginTop="@dimen/text_size_micro" android:layout_marginRight="@dimen/text_size_micro" android:layout_marginBottom="@dimen/text_size_micro" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/card_icon_mini" />
+    <ImageView android:id="@id/badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.wandoujia.p4.button.views.StatefulButton android:id="@id/action_button" android:layout_marginRight="@dimen/text_size_micro" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/card_action_button" />
+    <com.wandoujia.p4.button.views.SubActionButton android:id="@id/sub_action_button" android:layout_toLeftOf="@id/action_button" android:layout_centerVertical="true" style="@style/card_sub_action" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/sub_action_button" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+        <TextView android:ellipsize="middle" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@style/card_title" />
+        <TextView android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_detail_icon_left_margin" android:layout_below="@id/title" android:layout_alignLeft="@id/title" style="@style/card_sub_title" />
+    </RelativeLayout>
+</merge>

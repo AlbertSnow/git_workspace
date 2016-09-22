@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/model" android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/title" android:paddingTop="@dimen/category_list_title_text_top" android:paddingBottom="@dimen/category_list_title_text_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/category_list_title_text_left" style="@style/text_body2" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/category_list_title_text_left" android:layout_alignBaseline="@id/title" android:layout_alignParentRight="true" style="@style/text_flat_button" />
+</RelativeLayout>

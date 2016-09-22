@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/background" android:background="@color/absolute_black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/msg_container" android:background="@drawable/wan_folder_floating_bg" android:padding="25.0dip" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="12.0sp" android:textColor="@color/text_color_white" android:id="@id/msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/icon_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_launcher_launch" android:layout_centerInParent="true" />
+        <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

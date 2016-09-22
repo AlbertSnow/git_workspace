@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/jupiter_preference_item_layout" android:title="@string/version_code" android:key="setting_about" />
+    <Preference android:layout="@layout/jupiter_preference_item_layout" android:title="@string/setting_title_update" android:key="setting_update" />
+    <Preference android:layout="@layout/jupiter_preference_item_layout" android:title="@string/setting_multimedia_legal" android:key="setting_multimedia_legal" />
+    <Preference android:layout="@layout/jupiter_preference_item_layout" android:title="@string/account_user_legal" android:key="setting_terms" />
+</PreferenceScreen>

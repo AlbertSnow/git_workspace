@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/card_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:id="@id/jupiter_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" jupiter:action_menu="@menu/menu_toolbar_explore" />
+    <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/text_color_gray" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbar_height" android:text="@string/community_ballot_group_complete" android:drawableTop="@drawable/ic_nominate_ok" android:drawablePadding="@dimen/padding_medium" />
+    <Button android:textSize="@dimen/text_size_large" android:layout_gravity="bottom" android:id="@id/button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/miui_guide_back" style="@style/card_action_button" />
+</FrameLayout>

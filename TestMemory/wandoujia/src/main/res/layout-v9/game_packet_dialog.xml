@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/dialog_title" android:layout_marginBottom="12.0dip" style="@style/game_packet_dialog_title_style" />
+        <ScrollView android:id="@id/dialog_message_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="ifContentScrolls">
+            <TextView android:id="@id/dialog_message" style="@style/game_packet_dialog_message_style" />
+        </ScrollView>
+        <FrameLayout android:id="@id/dialog_custom_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/dialog_custom" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/dialog_button_container" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="24.0dip">
+            <Button android:id="@id/dialog_negativeButton" style="@style/game_packet_dialog_button_normal_style" />
+            <Button android:id="@id/dialog_positiveButton" style="@style/game_packet_dialog_button_highlight_style" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

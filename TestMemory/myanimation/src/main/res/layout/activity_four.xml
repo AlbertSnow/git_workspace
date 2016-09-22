@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_four"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.myanimation.FourActivity">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/small_view"
+        tools:text="HelloAnimation"
+        />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:id="@+id/big_view" />
+
+    <Button
+        android:id="@+id/start_animation"
+        android:text="StartAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        />
+</FrameLayout>

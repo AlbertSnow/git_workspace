@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="64.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/header" android:background="#ff2d3860" android:layout_width="fill_parent" android:layout_height="240.0dip">
+                <View android:id="@id/status_container" android:layout_width="fill_parent" android:layout_height="25.0dip" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:src="@drawable/hibernation_img_moon" android:layout_below="@id/status_container" android:layout_alignRight="@id/cloud" />
+                <ImageView android:id="@id/cloud" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:src="@drawable/hibernation_img_cloud" android:layout_below="@id/status_container" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="56.0dip" android:layout_marginTop="113.0dip" android:layout_marginRight="56.0dip" android:layout_below="@id/status_container" android:layout_centerHorizontal="true" android:lineSpacingExtra="5.0dip" />
+                <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/hibernation_arc_header" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+                <ImageView android:id="@id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_info" android:layout_below="@id/status_container" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/white_list_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="30.0dip" android:layout_below="@id/header">
+                <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:id="@id/white_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/white_more" android:layout_width="wrap_content" android:layout_height="24.0dip" android:src="@drawable/ic_arrow_down_grey" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <FrameLayout android:id="@id/white_list_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="18.0dip" android:layout_below="@id/white_list_header">
+                <com.wandoujia.accessibility.hibernation.view.FlowLayout android:id="@id/white_list_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="vertical" android:id="@id/white_list_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+            </FrameLayout>
+            <RelativeLayout android:id="@id/black_list_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="30.0dip" android:layout_below="@id/white_list_container">
+                <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:id="@id/black_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/black_more" android:layout_width="wrap_content" android:layout_height="24.0dip" android:src="@drawable/ic_arrow_down_grey" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <FrameLayout android:id="@id/black_list_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="18.0dip" android:layout_below="@id/black_list_header">
+                <com.wandoujia.accessibility.hibernation.view.FlowLayout android:id="@id/black_list_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="vertical" android:id="@id/black_list_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+            </FrameLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_alignParentBottom="true">
+        <View android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Button android:textSize="@dimen/text_size_middle" android:layout_gravity="center_horizontal" android:id="@id/button_start" android:layout_width="128.0dip" android:layout_height="36.0dip" android:text="@string/hibernation_one_key" android:layout_centerInParent="true" style="@style/card_action_button" />
+    </RelativeLayout>
+    <include android:id="@id/no_need_view" layout="@layout/hibernation_no_need_view" />
+    <include android:id="@id/loading_view" layout="@layout/hibernation_loading_view" />
+</RelativeLayout>

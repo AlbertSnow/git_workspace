@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cover_margin_top">24.0dip</dimen>
+    <dimen name="header_height_without_status_bar">164.0dip</dimen>
+    <dimen name="home_page_webview_margin_top">72.0dip</dimen>
+    <dimen name="jupiter_home_page_default_header_height">96.0dip</dimen>
+    <dimen name="jupiter_home_page_default_header_search_container_margin_top">48.0dip</dimen>
+    <dimen name="jupiter_home_page_default_header_search_margin_top">44.0dip</dimen>
+    <dimen name="jupiter_home_page_default_header_total_height">144.0dip</dimen>
+    <dimen name="jupiter_home_page_header_height">188.0dip</dimen>
+    <dimen name="jupiter_home_page_header_search_container_margin_top">136.0dip</dimen>
+    <dimen name="jupiter_home_page_header_search_margin_top">136.0dip</dimen>
+    <dimen name="jupiter_home_page_header_total_height">236.0dip</dimen>
+    <dimen name="lib_btn_margin_top">24.0dip</dimen>
+    <dimen name="splash_ad_margin_top">32.0dip</dimen>
+    <dimen name="toolbar_margin">24.0dip</dimen>
+</resources>

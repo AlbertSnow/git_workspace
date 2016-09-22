@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/margin_xlarge" android:paddingBottom="@dimen/margin_xlarge" android:layout_width="fill_parent" android:layout_height="180.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.ripple_framework.view.ForegroundImageView android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/bg_screenshot" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="center" android:id="@id/action_button" android:background="@drawable/game_video_play_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

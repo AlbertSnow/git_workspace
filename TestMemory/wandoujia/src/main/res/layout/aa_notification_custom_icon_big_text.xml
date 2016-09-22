@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/big_icon_layout" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/large_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/icon_48" />
+    </LinearLayout>
+    <TextView android:textSize="18.0dip" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="9.0dip" android:singleLine="true" android:layout_toRightOf="@id/big_icon_layout" android:layout_alignParentTop="true" style="@style/NotificationTitle" />
+    <TextView android:textSize="12.0dip" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/big_icon_layout" android:layout_below="@id/title" style="@style/NotificationText" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/button_layout" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_below="@id/content" android:layout_alignParentLeft="true">
+        <LinearLayout android:gravity="center" android:id="@id/positive_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/positive_button_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="15.0dip" android:id="@id/positive_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_toRightOf="@id/positive_button_icon" style="@style/NotificationText" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/negative_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/negative_button_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="15.0dip" android:id="@id/negative_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_toRightOf="@id/negative_button_icon" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

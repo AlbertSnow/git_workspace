@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.example.administrator.testmemory"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile("com.android.support:recyclerview-v7:23.3.0")
+}
+
+task("testCheckJava", type: Exec) {
+//    String python_script = "${project.projectDir.absolutePath}/cmbuild/change_debuggable_flag.py";
+    File file = new File("${project.projectDir.absolutePath}/testUpdate.txt")
+    boolean result = file.exists();
+    println "the result $result"
+    inputs.file(file.absolutePath)
+    outputs.upToDateWhen {false}
+
+    commandLine "java", "-version"
+}
+
+task("testSomething"){
+    File file = new File("${project.projectDir.absolutePath}/testUpdate.txt")
+    boolean result = file.exists();
+    println "the result $result"
+    inputs.file(file.absolutePath)
+    outputs.upToDateWhen { true}
+
+    doLast{
+        println "Hello world this is just try"
+        testCheckJava.execute()
+    }
+}
+
+task("testExecute", type: Exec){
+    doFirst {
+        println("testExecute First")
+    }
+
+    commandLine "cmd", "echo", "hello"
+
+    doLast{
+            println("testExecute Last")
+    }
+
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.accessibility.hibernation.view.AppIconsView android:id="@id/app_icons" android:layout_width="fill_parent" android:layout_height="103.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/z_big" android:background="@drawable/hibernation_img_zzz_big" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+    <View android:id="@id/z_small" android:background="@drawable/hibernation_img_zzz_small" android:layout_width="10.0dip" android:layout_height="10.0dip" />
+    <View android:layout_gravity="bottom|center" android:id="@id/icon_3" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginBottom="6.0dip" />
+    <View android:layout_gravity="bottom|center" android:id="@id/icon_2" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginBottom="6.0dip" />
+    <View android:layout_gravity="bottom|center" android:id="@id/icon_1" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginBottom="6.0dip" />
+    <View android:layout_gravity="bottom|center" android:id="@id/icon_0" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginBottom="6.0dip" />
+</com.wandoujia.accessibility.hibernation.view.AppIconsView>

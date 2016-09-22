@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/big_icon_layout" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/large_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/icon_48" />
+    </LinearLayout>
+    <TextView android:textSize="18.0dip" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="9.0dip" android:singleLine="true" android:layout_toRightOf="@id/big_icon_layout" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/positive_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginRight="9.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/positive_button_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+        <TextView android:id="@id/positive_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/icon_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_toLeftOf="@id/positive_button_layout" android:layout_toRightOf="@id/big_icon_layout" android:layout_below="@id/title">
+        <ImageView android:id="@id/small_icon1" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+        <ImageView android:id="@id/small_icon2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" />
+        <ImageView android:id="@id/small_icon3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" />
+        <ImageView android:id="@id/small_icon4" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" />
+        <ImageView android:id="@id/small_icon5" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" />
+        <ImageView android:id="@id/small_icon6" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" />
+        <TextView android:textSize="12.0dip" android:ellipsize="end" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="4.0dip" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

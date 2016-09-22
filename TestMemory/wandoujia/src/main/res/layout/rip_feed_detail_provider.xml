@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ripple="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_toLeftOf="@id/action_container" android:layout_toRightOf="@id/icon">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/text_color_black" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="13.0dip" android:textColor="@color/text_color_grey" android:id="@id/channel" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawableLeft="@drawable/ic_channel" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.wandoujia.ripple_framework.view.StatefulButton android:gravity="center" android:id="@id/install_app" android:visibility="gone" android:layout_marginLeft="8.0dip" style="@style/card_action_button_mini" />
+        <ImageView android:id="@id/open_app" android:background="@drawable/bg_feed_follow_btn" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_open_app" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:foreground="@drawable/bg_screenshot" android:layout_weight="1.0">
+        <com.wandoujia.image.view.AsyncImageView android:id="@id/image_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="16.0dip" android:layout_weight="2.0">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="4.0dip" android:foreground="@drawable/bg_screenshot" android:layout_weight="1.0">
+            <com.wandoujia.image.view.AsyncImageView android:id="@id/image_right_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:foreground="@drawable/bg_screenshot" android:layout_weight="1.0">
+            <com.wandoujia.image.view.AsyncImageView android:id="@id/image_right_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/bg_screenshot" android:scaleType="centerCrop" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

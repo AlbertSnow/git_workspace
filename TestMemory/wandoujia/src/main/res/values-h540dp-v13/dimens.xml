@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="essential_apps_area_width">336.0dip</dimen>
+    <dimen name="essential_bottom_margin">8.0dip</dimen>
+    <dimen name="essential_description_height">32.0dip</dimen>
+    <dimen name="essential_skip_height">48.0dip</dimen>
+    <dimen name="essential_top_margin">65.0dip</dimen>
+    <dimen name="onboard_banner_height">184.0dip</dimen>
+    <dimen name="onboard_icon_margin_top">60.0dip</dimen>
+    <dimen name="onboard_title_margin_top">116.0dip</dimen>
+</resources>

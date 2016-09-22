@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.testmemory.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToSecondActivity"
+        android:id="@+id/main_jump_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test_Load"
+        android:id="@+id/main_test_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/main_jump_btn"
+        android:layout_toEndOf="@+id/main_jump_btn" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tst" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="New Buttonververververver"
+        android:id="@+id/button"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="testAlignBtn"
+        android:id="@+id/test_align_btn"
+        android:layout_alignTop="@+id/main_anim_btn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AnimBtn"
+        android:id="@+id/main_anim_btn"
+        android:layout_below="@+id/imageView2"
+        android:layout_toLeftOf="@+id/test_align_btn"
+        android:layout_toStartOf="@+id/test_align_btn" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/banner_area" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/onboard_banner_height">
+        <com.wandoujia.image.view.AsyncImageView android:layout_gravity="center_horizontal" android:id="@id/banner_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="@dimen/onboard_icon_margin_top" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/banner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/onboard_title_margin_top" />
+    </FrameLayout>
+    <FrameLayout android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.wandoujia.ripple_framework.view.RecyclerViewAutoLoadingLayout android:layout_gravity="center" android:id="@id/loadable_recycler_view" android:saveEnabled="false" android:clipToPadding="false" android:layout_width="@dimen/onboard_content_width" android:layout_height="@dimen/onboard_content_height">
+            <com.wandoujia.ripple_framework.view.ObservableRecyclerView android:layout_gravity="center" android:id="@id/recycler_view" android:saveEnabled="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.wandoujia.ripple_framework.view.RecyclerViewAutoLoadingLayout>
+    </FrameLayout>
+</LinearLayout>

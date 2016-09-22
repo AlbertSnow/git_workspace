@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/video_play_layout" android:background="@color/absolute_black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/videoSurfaceContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:layout_gravity="center" android:id="@id/videoSurface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/controller_view_container" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/pause_view_container" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/loading_container" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="@dimen/player_loading_progress_bar_weight" android:layout_height="@dimen/player_loading_progress_bar_height" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/landing_page_container" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

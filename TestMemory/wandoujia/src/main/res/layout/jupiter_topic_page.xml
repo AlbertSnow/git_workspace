@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/topic_cover_view_height" android:scaleType="centerCrop" android:minHeight="192.0dip" />
+    <View android:id="@id/cover_mask" android:layout_width="fill_parent" android:layout_height="@dimen/topic_cover_view_height" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/rip_recycler_auto_loading" />
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:layout_width="fill_parent" android:layout_height="wrap_content" jupiter:action_menu="@menu/menu_toolbar_explore" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:layout_gravity="center|left|top" android:id="@id/title" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/text_display.white" />
+    <View android:id="@id/action_bar_mask" android:background="@drawable/jupiter_topic_cover_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" />
+</RelativeLayout>

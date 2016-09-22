@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/guess_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginRight="16.0dip" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/text_caption2" />
+</FrameLayout>

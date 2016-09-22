@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flow="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.p4.views.FlowLayout android:layout_gravity="center" android:id="@id/sub_cat_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_large" android:layout_marginTop="@dimen/margin_small" android:layout_marginRight="@dimen/text_size_xxlarge" android:layout_marginBottom="@dimen/margin_small" flow:verticalSpacing="@dimen/homepage_cover_panel_padding" />
+</FrameLayout>

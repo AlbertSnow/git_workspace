@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="@dimen/padding_xxlarge" android:textColor="#ff333333" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="@dimen/margin_xhuge" android:singleLine="false" android:layout_centerHorizontal="true" style="@style/text_display" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:saveEnabled="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/single_line_height" android:layout_below="@id/title" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/see_all" android:layout_width="wrap_content" android:layout_height="@dimen/search_box_height" android:layout_below="@id/recycler_view" android:layout_centerHorizontal="true">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/see_all" style="@style/text_flat_button" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_xxsmall" android:src="@drawable/ic_arrow_right_green_more" />
+    </LinearLayout>
+</RelativeLayout>

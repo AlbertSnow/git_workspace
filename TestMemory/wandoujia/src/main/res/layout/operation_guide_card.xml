@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.jupiter.view.OperationGuideCardView android:id="@id/operation_guide_view" android:background="@color/white_no_transparency" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/grey_96" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <ImageView android:id="@id/delete_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xlarge" android:layout_marginRight="@dimen/margin_xlarge" android:src="@drawable/ic_close_small_light" android:scaleType="centerCrop" android:layout_alignParentRight="true" />
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_below="@id/delete_icon" android:layout_centerHorizontal="true" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_large" android:layout_below="@id/icon" style="@style/card_app_install_title" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="11.0dip" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" style="@style/card_app_install_desc" />
+    <com.wandoujia.ripple_framework.view.StatefulButton android:id="@id/action_button" android:paddingLeft="@dimen/card_padding_vertical" android:paddingRight="@dimen/card_padding_vertical" android:layout_marginTop="@dimen/card_padding" android:layout_below="@id/description" android:layout_centerHorizontal="true" style="@style/card_app_install_action_button" />
+</com.wandoujia.jupiter.view.OperationGuideCardView>

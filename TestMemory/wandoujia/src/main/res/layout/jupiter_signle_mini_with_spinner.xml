@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/model" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/jupiter_card_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/jupiter_card_mini" />
+    <Spinner android:id="@id/action_spinner" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_toLeftOf="@id/action_button" android:layout_centerVertical="true" style="@style/app_category_spinner_sort_type" />
+</RelativeLayout>

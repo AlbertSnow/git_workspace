@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wandoujia="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout style="@style/game_detail_card_with_padding">
+        <LinearLayout android:orientation="horizontal" android:id="@id/meta_container" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/info_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_description" />
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:layout_gravity="center_vertical" android:id="@id/des_info_title" android:layout_marginLeft="@dimen/margin_xlarge" android:text="@string/game_detail_desc_title" android:layout_toRightOf="@id/info_icon" wandoujia:fontName="bold" style="@style/app_detail_label" />
+        </LinearLayout>
+        <com.wandoujia.p4.views.ExpandablePanel android:id="@id/game_detail_desc_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_below="@id/meta_container" wandoujia:handle="@id/collapse_value" wandoujia:content="@id/expand_value" wandoujia:iconimage="@id/icon_value" wandoujia:animationDuration="400">
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/expand_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/app_detail_title_top_margin" style="@style/p4_detail_description" />
+            <RelativeLayout android:id="@id/collapse_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/app_detail_title_top_margin" android:layout_below="@id/expand_value">
+                <com.wandoujia.p4.views.ExpandablePanelIcon android:id="@id/icon_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" wandoujia:expandedIconSrc="@drawable/ic_arrow_up_grey" wandoujia:collapsedIconSrc="@drawable/ic_arrow_down_grey" />
+            </RelativeLayout>
+        </com.wandoujia.p4.views.ExpandablePanel>
+    </RelativeLayout>
+</merge>

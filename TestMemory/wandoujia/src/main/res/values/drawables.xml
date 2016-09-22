@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="mini_list_devider">#ffbababa</item>
+    <item type="drawable" name="mini_page_bg_color">#ffededed</item>
+    <item type="drawable" name="mini_web_back_text_default">#ff333333</item>
+    <item type="drawable" name="mini_web_back_text_press">#ffcccccc</item>
+    <item type="drawable" name="mini_win_background_draw">#00000000</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+</resources>

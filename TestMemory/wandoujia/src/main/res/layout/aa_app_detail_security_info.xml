@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:paddingRight="@dimen/app_detail_left_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/app_detail_security_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_detail_icon_left_margin" />
+    <TextView android:textSize="@dimen/text_size_large" android:id="@id/app_detail_scan_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_detail_icon_left_margin" android:text="@string/app_detail_scan_result" android:layout_toRightOf="@id/app_detail_security_icon" />
+    <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/safe_color_normal" android:id="@id/app_detail_scan_ok" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/app_detail_icon_left_margin" android:text="@string/app_detail_scan_ok" android:layout_toRightOf="@id/app_detail_scan_desc" />
+    <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/app_detail_danger" android:id="@id/app_detail_scan_txt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_detail_icon_left_margin" android:layout_toRightOf="@id/app_detail_security_icon" android:layout_below="@id/app_detail_scan_desc" />
+</RelativeLayout>

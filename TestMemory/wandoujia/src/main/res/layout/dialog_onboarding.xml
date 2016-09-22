@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/bg_dialog_corner" android:layout_width="296.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/top_panel" android:background="@drawable/bg_dialog_top_corner" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <ImageView android:id="@id/game_launcher_icon" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="50.0dip" android:src="@drawable/game_launcher_update_icon" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/speed_up" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/speed_up" android:layout_alignLeft="@id/game_launcher_icon" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/game_launcher_onboard_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/launcher_onboard_title" android:layout_below="@id/top_panel" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="#ff777777" android:id="@id/game_launcher_onboard_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="32.0dip" android:text="@string/launcher_onboard_content" android:layout_below="@id/game_launcher_onboard_title" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.5" />
+        <Button android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_white" android:id="@id/positive_button" android:background="@drawable/gl_bg_card_button_drawable_selector_home" android:layout_width="96.0dip" android:layout_height="28.0dip" android:layout_marginTop="32.0dip" android:text="@string/known" android:layout_below="@id/game_launcher_onboard_content" android:layout_centerHorizontal="true" />
+        <View android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/positive_button" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.phoenix2.av.view.CommonHeaderLabel android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title_view" android:background="@color/bg_list_content" style="@style/list_header_label_text" />
+</com.wandoujia.phoenix2.av.view.CommonHeaderLabel>

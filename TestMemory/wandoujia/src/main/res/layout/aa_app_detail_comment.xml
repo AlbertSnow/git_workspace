@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:id="@id/jupiter_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/comment_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="96.0dip" android:layout_below="@id/jupiter_toolbar">
+        <com.wandoujia.p4.views.NetContentListView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@color/grey_93" android:dividerHeight="1.0px" style="@style/card_list_view" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/comment_bar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/jupiter_comment_bar_expand" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.jupiter.media.view.VideoSurfaceView android:id="@id/video_texture" android:background="@color/black_no_transparency" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.ripple_framework.view.SmartImageView android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ViewStub android:layout_gravity="center" android:id="@id/stub_video_view" android:layout="@layout/surface_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/white_no_transparency" android:layout_gravity="bottom|center|left" android:id="@id/video_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/video_control_box" />
+</com.wandoujia.jupiter.media.view.VideoSurfaceView>

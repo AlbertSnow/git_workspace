@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/hibernation_onboard_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center|top" android:layout_width="144.0dip" android:layout_height="61.0dip" android:layout_marginTop="48.0dip" layout="@layout/view_cloud_moon" />
+    <View android:layout_gravity="bottom|center" android:background="@drawable/hibernation_img_rocket" android:layout_width="fill_parent" android:layout_height="92.0dip" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v4.view.ViewPager android:id="@id/onboard_tips" android:layout_width="fill_parent" android:layout_height="140.0dip" />
+        <com.wandoujia.accessibility.hibernation.view.PageDotIndicator android:id="@id/onboard_indicator" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_marginTop="24.0dip" />
+        <Button android:textSize="@dimen/text_size_middle" android:layout_gravity="center_horizontal" android:id="@id/onboard_start" android:layout_width="128.0dip" android:layout_height="36.0dip" android:layout_marginTop="30.0dip" android:text="@string/hibernating_next" style="@style/card_action_button" />
+    </LinearLayout>
+</FrameLayout>

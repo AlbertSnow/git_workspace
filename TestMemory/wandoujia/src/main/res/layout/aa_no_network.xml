@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_xxlarge" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tip_no_network_title" />
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/list_header_label_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/video_episode_header_item_height" android:layout_marginTop="@dimen/app_detail_source_font" android:layout_marginRight="@dimen/video_episode_header_item_height" android:text="@string/no_network" />
+    <Button android:id="@id/set_network" android:text="@string/connection_network_setting" style="@style/tips_button" />
+</LinearLayout>

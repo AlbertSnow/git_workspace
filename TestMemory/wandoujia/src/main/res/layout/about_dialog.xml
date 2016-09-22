@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_gravity="center" android:background="#ff6fc7c9" android:layout_width="300.0dip" android:layout_height="353.0dip">
+            <ImageView android:layout_width="300.0dip" android:layout_height="239.0dip" android:src="@drawable/aa_version_check_bg" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+            <ImageView android:id="@id/icon_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="97.0dip" android:src="@drawable/aa_version_check_dialog" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/icon_image_view" android:layout_centerHorizontal="true" style="@style/text_body3.white" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="@string/about_dialog_slogan" android:layout_below="@id/version" android:layout_centerHorizontal="true" style="@style/text_cell_title.white" />
+            <TextView android:id="@id/declare_textView" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_dialog_declaration" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/text_body3.white" />
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

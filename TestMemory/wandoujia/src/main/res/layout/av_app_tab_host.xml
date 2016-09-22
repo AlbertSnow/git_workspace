@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.ripple.view.ScrollDownLayout android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.wandoujia.ripple_framework.view.slidingtab.PagerSlidingTabStrip android:id="@id/tabs" android:fillViewport="false" style="@style/detail_tab_strip" />
+        <android.support.v4.view.ViewPager android:layout_gravity="center|top" android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dropdown_item_height" />
+        <View android:layout_gravity="top" android:layout_marginTop="@dimen/dropdown_item_height" style="@style/top_shadow" />
+    </com.wandoujia.ripple.view.ScrollDownLayout>
+</RelativeLayout>

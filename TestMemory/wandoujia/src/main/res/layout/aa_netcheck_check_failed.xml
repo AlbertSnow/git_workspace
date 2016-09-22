@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.wandoujia.jupiter.toolbar.JupiterToolbar android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/margin_xhuge" android:textColor="@color/wan_text_red" android:id="@id/netchek_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="96.0dip" android:text="@string/net_check_failed" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:id="@id/netcheck_tip1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_icon_size_small" android:text="@string/net_check_tip1" android:layout_below="@id/netchek_title" android:layout_centerHorizontal="true" />
+        <Button android:id="@id/check_again" android:paddingLeft="@dimen/small_button_height" android:paddingTop="@dimen/homepage_cover_panel_padding" android:paddingRight="@dimen/small_button_height" android:paddingBottom="@dimen/homepage_cover_panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dropdown_item_height" android:text="@string/net_check_again" android:layout_below="@id/netcheck_tip1" android:layout_centerHorizontal="true" style="@style/button_large" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:id="@id/jupiter_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" jupiter:action_menu="@menu/menu_toolbar_explore" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.wandoujia.p4.community.views.CommunityBallotProgressView android:id="@id/ballot_progress" android:layout_width="fill_parent" android:layout_height="@dimen/community_ballot_progress_height" />
+            <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/text_color_gray" android:id="@id/ballot_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_medium" />
+            <include layout="@layout/community_ballot_info_card" />
+            <include layout="@layout/community_ballot_nominate_card" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

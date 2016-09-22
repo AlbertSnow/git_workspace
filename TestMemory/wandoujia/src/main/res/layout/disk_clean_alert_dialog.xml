@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/bg_dialog_corner" android:layout_width="296.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/top_panel" android:layout_width="fill_parent" android:layout_height="@dimen/disk_clean_icon_area_height" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <ImageView android:id="@id/close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/not_install_close_btn" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <ImageView android:id="@id/icon" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/disk_clean_icon" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/disk_clean_title_margin_top" android:text="@string/disk_clean_title" android:layout_below="@id/top_panel" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="#ff777777" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="32.0dip" android:text="@string/disk_clean_describe" android:layout_below="@id/title" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.5" />
+        <Button android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_white" android:id="@id/positive_button" android:background="@drawable/gl_bg_card_button_drawable_selector_home" android:layout_width="96.0dip" android:layout_height="28.0dip" android:layout_marginTop="32.0dip" android:text="@string/disk_clean_positive_button" android:layout_below="@id/description" android:layout_centerHorizontal="true" />
+        <View android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/positive_button" />
+    </RelativeLayout>
+</RelativeLayout>

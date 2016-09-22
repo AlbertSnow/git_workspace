@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/wanxiaodou_cheer" android:scaleType="fitCenter" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/sub_action_text_size" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/free_traffic_no_more_title" />
+    <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/normal_text_color_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/free_traffic_no_more_content" />
+</LinearLayout>

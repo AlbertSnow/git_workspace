@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/account_sdk_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/account_sdk_title_area" layout="@layout/account_sdk_title_layout" />
+    <TextView android:textSize="@dimen/account_sdk_small_textSize" android:textColor="@color/account_sdk_darker_grey" android:id="@id/account_verification_hint_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/account_sdk_large_margin" android:layout_marginTop="@dimen/account_sdk_button_xlarge_margin" android:layout_marginRight="@dimen/account_sdk_large_margin" android:text="@string/account_sdk_verification_choose_hint" android:lineSpacingExtra="3.0dip" />
+    <RadioGroup android:orientation="vertical" android:id="@id/account_verification_methods_radiogroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/account_sdk_normal_margin" android:layout_marginRight="@dimen/account_sdk_normal_margin" />
+    <Button android:textSize="@dimen/account_sdk_normal_textSize" android:textColor="@android:color/white" android:id="@id/account_verification_next" android:background="@drawable/account_sdk_aa_button" android:layout_width="fill_parent" android:layout_height="@dimen/account_sdk_button_height" android:layout_marginLeft="@dimen/account_sdk_large_margin" android:layout_marginTop="@dimen/account_sdk_normal_margin" android:layout_marginRight="@dimen/account_sdk_large_margin" android:text="@string/account_sdk_next" />
+</LinearLayout>

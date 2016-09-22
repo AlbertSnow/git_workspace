@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/model" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/jupiter_card_style_no_pressed"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/grey_96" android:layout_width="fill_parent" android:layout_height="7.0dip" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/title" android:paddingTop="@dimen/category_list_title_text_top" android:paddingBottom="@dimen/category_list_title_text_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/category_list_title_text_left" android:layout_below="@id/divider" style="@style/text_body2" />
+    <View android:background="@color/grey_96" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

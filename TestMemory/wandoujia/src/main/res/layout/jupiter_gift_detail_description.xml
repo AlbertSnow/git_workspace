@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:paddingRight="@dimen/margin_xlarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="@dimen/margin_xlarge" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="56.0dip" android:layout_centerVertical="true">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" style="@style/text_title" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xxsmall" style="@style/p4_detail_description" />
+    </LinearLayout>
+</RelativeLayout>

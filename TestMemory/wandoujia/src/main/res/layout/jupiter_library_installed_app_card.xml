@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/model" android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <include layout="@layout/jupiter_card_mini" />
+        <Spinner android:id="@id/open_spinner" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/action_button" android:layout_centerVertical="true" style="@style/app_category_spinner_sort_type" />
+        <View android:background="@color/grey_96" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/mask" android:background="@drawable/bg_explore_card_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

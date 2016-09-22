@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_all_with_arrow" android:includeFontPadding="false" style="@style/text_flat_button" />
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:src="@drawable/ic_arrow_right_green_more" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/upper_view" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/bg_startpage_subcard_icon">
+        <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.wandoujia.ripple_framework.view.TextWithAdContainer android:layout_width="@dimen/card_section_item_width" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:layout_weight="1.0">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/card_section_tiny_title_width" android:maxLines="2" android:layout_centerHorizontal="true" android:lineSpacingExtra="0.0dip" style="@style/text_cell_title" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/ad_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ads_label" />
+    </com.wandoujia.ripple_framework.view.TextWithAdContainer>
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center_horizontal" android:id="@id/sub_title" android:layout_marginTop="2.0dip" style="@style/card_section_desc" />
+</merge>

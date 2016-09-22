@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/padding_top" android:layout_width="fill_parent" android:layout_height="@dimen/jupiter_home_page_default_header_height" />
+    <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/home_page_webview_margin_top" android:layout_below="@id/padding_top" />
+</RelativeLayout>

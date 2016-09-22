@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/multi_delete_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dropdown_item_outer_height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/multi_delete_internal_layout" android:background="@color/text_color_white" android:layout_width="fill_parent" android:layout_height="@dimen/dropdown_item_height" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/reset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/back_light" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <View android:id="@id/vertical_line" android:background="@color/grey_96" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/reset" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/select_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/vertical_line" android:layout_centerVertical="true" style="@style/card_title" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/select_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:singleLine="true" android:layout_toRightOf="@id/select_number" android:layout_centerVertical="true" style="@style/text_flat_button" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_xlarge" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/uninstall_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/margin_small" android:src="@drawable/ic_manage_delete_light" android:scaleType="centerInside" />
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/uninstall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uninstall" style="@style/card_title" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/grey_93" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/multi_delete_internal_layout" />
+</RelativeLayout>

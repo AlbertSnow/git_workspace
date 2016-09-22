@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mini_element_default_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/mini_combox_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" />
+    <Spinner android:id="@id/mini_combox_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

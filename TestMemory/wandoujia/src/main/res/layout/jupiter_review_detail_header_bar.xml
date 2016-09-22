@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/micro_card" android:background="@color/bg_default" android:paddingLeft="@dimen/jupiter_card_micro_left_margin" android:paddingRight="@dimen/jupiter_card_micro_right_margin" android:layout_width="fill_parent" android:layout_height="@dimen/jupiter_card_micro_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/app_info" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/favorited" android:layout_alignParentLeft="true">
+        <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_marginRight="8.0dip" android:layout_centerVertical="true" style="@style/micro_card_icon" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" jupiter:fontName="bold" style="@style/text_title2" />
+    </RelativeLayout>
+    <ImageView android:id="@id/badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.wandoujia.ripple_framework.view.StatefulButton android:id="@id/action_button" android:layout_marginLeft="8.0dip" android:text="@string/install" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/card_action_button_mini" />
+    <ImageView android:id="@id/favorited" android:background="@drawable/jupiter_ic_bg_white" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_mark_light" android:scaleType="center" android:layout_toLeftOf="@id/action_button" android:layout_centerVertical="true" />
+</RelativeLayout>

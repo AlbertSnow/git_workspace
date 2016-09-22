@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@color/bg_default" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ripple="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.image.view.AsyncImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="48.0dip" android:scaleType="fitCenter" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginTop="48.0dip" android:layout_marginRight="48.0dip" android:lineSpacingExtra="2.0dip" ripple:fontName="black" style="@style/text_display" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/author" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:maxLines="2" style="@style/text_caption3" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/detail_margin_base" android:layout_marginTop="32.0dip" android:layout_marginRight="@dimen/detail_margin_base" android:lineSpacingExtra="@dimen/article_title_line_space" style="@style/text_caption2" />
+    <include layout="@layout/rip_end" />
+</LinearLayout>

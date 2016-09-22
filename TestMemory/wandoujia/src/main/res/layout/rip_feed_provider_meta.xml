@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/app_detail_meta" android:background="@color/bg_default" android:paddingBottom="@dimen/detail_margin_base" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/content_from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="@dimen/text_mini" android:textColor="@color/text_color_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_from" android:singleLine="true" />
+    </LinearLayout>
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/icon" android:layout_width="@dimen/icon_grande" android:layout_height="@dimen/icon_grande" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textStyle="bold" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:singleLine="true" style="@style/text_display" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:gravity="center" android:id="@id/summary" android:layout_width="256.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="snippet" android:maxLines="2" android:lineSpacingMultiplier="1.2" style="@style/text_caption3" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/footer_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <com.wandoujia.ripple_framework.view.CheckedImageView android:id="@id/follow" android:background="@drawable/bg_feed_follow_btn" android:layout_width="90.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/selector_feed_follow" android:scaleType="centerInside" />
+        <com.wandoujia.ripple_framework.view.StatefulButton android:textSize="13.0dip" android:textColor="@color/text_color_white" android:gravity="center" android:id="@id/main_button" android:layout_width="90.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/install" />
+    </LinearLayout>
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/copyright" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/detail_margin_base" android:layout_marginTop="60.0dip" android:layout_marginRight="@dimen/detail_margin_base" android:lineSpacingExtra="6.0dip" style="@style/text_caption3" />
+</LinearLayout>

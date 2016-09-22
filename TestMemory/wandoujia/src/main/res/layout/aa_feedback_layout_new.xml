@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/homepage_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:id="@id/jupiter_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/relativeLayout_feedback" android:background="@color/white_no_transparency" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <EditText android:textSize="16.0dip" android:id="@id/editText_feedback" android:background="@drawable/aa_searchbox" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:layout_toLeftOf="@id/button_feedback" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:textColor="@color/white" android:id="@id/button_feedback" android:background="@drawable/aa_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_reply" android:layout_alignBottom="@id/editText_feedback" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/listView_feedback" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:divider="#00ffffff" android:dividerHeight="8.0dip" android:layout_above="@id/relativeLayout_feedback" android:layout_below="@id/jupiter_toolbar" android:layout_alignParentLeft="true" />
+</RelativeLayout>

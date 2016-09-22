@@ -1,0 +1,69 @@
+package com.wandoujia.ripple_framework;
+
+public enum EventBusManager$Type
+{
+  static
+  {
+    COLOR_THEME_CHANGED = new Type("COLOR_THEME_CHANGED", 2);
+    SUBSCRIBE_STATUS_CHANGE = new Type("SUBSCRIBE_STATUS_CHANGE", 3);
+    FOLLOW_SYNC_SUCCESS = new Type("FOLLOW_SYNC_SUCCESS", 4);
+    FOLLOW_DATA_READY = new Type("FOLLOW_DATA_READY", 5);
+    FOLLOW_DATA_CHANGE = new Type("FOLLOW_DATA_CHANGE", 6);
+    FAVORITE_LOAD_READY = new Type("FAVORITE_LOAD_READY", 7);
+    FAVORITE_DATA_CHANGE = new Type("FAVORITE_DATA_CHANGE", 8);
+    FAVORITE_SYNC_SUCCESS = new Type("FAVORITE_SYNC_SUCCESS", 9);
+    FAVORITE_SYNC_FAIL = new Type("FAVORITE_SYNC_FAIL", 10);
+    WECHAT_SHARE_SUCCESS = new Type("WECHAT_SHARE_SUCCESS", 11);
+    USER_DATA_CHANGED = new Type("USER_DATA_CHANGED", 12);
+    APP_IN_FOREGROUND = new Type("APP_IN_FOREGROUND", 13);
+    DOWNLOAD_CLEAR_TASKS_ACTION = new Type("DOWNLOAD_CLEAR_TASKS_ACTION", 14);
+    MULTI_UNINSTALL = new Type("MULTI_UNINSTALL", 15);
+    UNINSTALL_ALL = new Type("UNINSTALL_ALL", 16);
+    MULTI_UNINSTALL_SELECT = new Type("MULTI_UNINSTALL_SELECT", 17);
+    UNINSTALL_APP = new Type("UNINSTALL_APP", 18);
+    PACKET_UNZIPPING = new Type("PACKET_UNZIPPING", 19);
+    HOMEPAGE_REFRESH = new Type("HOMEPAGE_REFRESH", 20);
+    DROP_ALL_SUBSCRIPTION = new Type("DROP_ALL_SUBSCRIPTION", 21);
+    NEW_FOLLOW_USER = new Type("NEW_FOLLOW_USER", 22);
+    OFFLINE_STATUS_CHANGED = new Type("OFFLINE_STATUS_CHANGED", 23);
+    OFFLINE_CAN_OFFLINE_CHANGED = new Type("OFFLINE_CAN_OFFLINE_CHANGED", 24);
+    OFFLINE_CAN_BACKGROUND_OFFLINE_CHANGED = new Type("OFFLINE_CAN_BACKGROUND_OFFLINE_CHANGED", 25);
+    REFRESH_TO_LOAD_NEW_FEED = new Type("REFRESH_TO_LOAD_NEW_FEED", 26);
+    CATEGORY_CHANGED = new Type("CATEGORY_CHANGED", 27);
+    Type[] arrayOfType = new Type[28];
+    arrayOfType[0] = DOWNLOADING_APP_CHANGED;
+    arrayOfType[1] = LOCAL_APP_CHANGED;
+    arrayOfType[2] = COLOR_THEME_CHANGED;
+    arrayOfType[3] = SUBSCRIBE_STATUS_CHANGE;
+    arrayOfType[4] = FOLLOW_SYNC_SUCCESS;
+    arrayOfType[5] = FOLLOW_DATA_READY;
+    arrayOfType[6] = FOLLOW_DATA_CHANGE;
+    arrayOfType[7] = FAVORITE_LOAD_READY;
+    arrayOfType[8] = FAVORITE_DATA_CHANGE;
+    arrayOfType[9] = FAVORITE_SYNC_SUCCESS;
+    arrayOfType[10] = FAVORITE_SYNC_FAIL;
+    arrayOfType[11] = WECHAT_SHARE_SUCCESS;
+    arrayOfType[12] = USER_DATA_CHANGED;
+    arrayOfType[13] = APP_IN_FOREGROUND;
+    arrayOfType[14] = DOWNLOAD_CLEAR_TASKS_ACTION;
+    arrayOfType[15] = MULTI_UNINSTALL;
+    arrayOfType[16] = UNINSTALL_ALL;
+    arrayOfType[17] = MULTI_UNINSTALL_SELECT;
+    arrayOfType[18] = UNINSTALL_APP;
+    arrayOfType[19] = PACKET_UNZIPPING;
+    arrayOfType[20] = HOMEPAGE_REFRESH;
+    arrayOfType[21] = DROP_ALL_SUBSCRIPTION;
+    arrayOfType[22] = NEW_FOLLOW_USER;
+    arrayOfType[23] = OFFLINE_STATUS_CHANGED;
+    arrayOfType[24] = OFFLINE_CAN_OFFLINE_CHANGED;
+    arrayOfType[25] = OFFLINE_CAN_BACKGROUND_OFFLINE_CHANGED;
+    arrayOfType[26] = REFRESH_TO_LOAD_NEW_FEED;
+    arrayOfType[27] = CATEGORY_CHANGED;
+    $VALUES = arrayOfType;
+  }
+}
+
+/* Location:           C:\WorkSpace\WandDouJiaNotificationBar\WanDou1.jar
+ * Qualified Name:     com.wandoujia.ripple_framework.EventBusManager.Type
+ * JD-Core Version:    0.6.0
+ */

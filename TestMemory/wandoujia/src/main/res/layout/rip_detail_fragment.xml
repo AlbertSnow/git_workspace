@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ripple="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/background" android:background="@color/black_80_transparency" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.wandoujia.ripple_framework.view.RippleSwipeBackContainer android:id="@id/swipe" android:layout_width="fill_parent" android:layout_height="fill_parent" ripple:swipeOrientation="vertical" ripple:targetIn="@id/foreground">
+        <com.wandoujia.logv3.toolkit.LogViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/foreground" android:background="@color/bg_white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.wandoujia.ripple_framework.view.RippleSwipeBackContainer>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/text_color_white" android:paddingLeft="@dimen/margin_xlarge" android:paddingTop="@dimen/margin_large" android:paddingRight="@dimen/margin_xlarge" android:paddingBottom="@dimen/margin_large" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/action_button" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/lite_list_item_title" />
+        <Spinner android:id="@id/spinner" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.wandoujia.ripple_framework.view.StatefulButton android:id="@id/action_button" android:text="@string/install" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/card_action_button_mini" />
+</RelativeLayout>

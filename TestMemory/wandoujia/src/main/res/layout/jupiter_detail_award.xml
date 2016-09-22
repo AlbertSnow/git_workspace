@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="240.0dip" android:layout_marginTop="@dimen/margin_xlarge" android:layout_marginBottom="@dimen/margin_xlarge"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/detail_award_banner_mask">
+        <com.wandoujia.image.view.AsyncImageView android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip">
+        <ImageView android:layout_width="58.0dip" android:layout_height="42.0dip" android:layout_marginLeft="35.0dip" android:src="@drawable/ic_award" android:scaleType="centerInside" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/sub_title" android:layout_width="154.0dip" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="8.0dip" android:singleLine="true" style="@style/text_body3.white" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/title" android:layout_width="160.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:maxLines="4" android:singleLine="false" android:lineSpacingExtra="6.0dip" style="@style/text_title.white" />
+    </LinearLayout>
+</FrameLayout>

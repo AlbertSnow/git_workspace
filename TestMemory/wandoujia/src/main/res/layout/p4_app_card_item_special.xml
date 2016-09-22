@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.phoenix2.av.view.AppSpecialListItem android:id="@id/card_header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/card_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/aa_app_special_card_banner_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <FrameLayout android:id="@id/app_special_banner_layout" android:background="@color/text_color_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/aa_entrance_background" android:layout_alignParentTop="true">
+            <com.wandoujia.image.view.AsyncImageView android:layout_gravity="center|top" android:id="@id/app_special_banner" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="@dimen/app_special_banner_height" android:scaleType="centerCrop" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/app_special_info_layout" android:layout_width="fill_parent" android:layout_height="@dimen/start_feed_card_banner_footer_height" android:layout_below="@id/banner">
+            <TextView android:textSize="@dimen/app_detail_source_font" android:layout_gravity="center|left" android:id="@id/app_special_info_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_micro" style="@style/card_title" />
+            <Button android:layout_gravity="center|right" android:id="@id/app_special_action_button" android:layout_marginRight="@dimen/text_size_micro" android:text="@string/view" style="@style/card_action_button" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/apps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/aa_app_special_card_banner_area">
+        <View style="@style/list_divider_line" />
+        <include android:id="@id/app_item1" layout="@layout/card_item_sub_item_downloadable" />
+        <View style="@style/list_divider_line" />
+        <include android:id="@id/app_item2" layout="@layout/card_item_sub_item_downloadable" />
+        <View style="@style/list_divider_line" />
+        <include android:id="@id/app_item3" layout="@layout/card_item_sub_item_downloadable" />
+    </LinearLayout>
+</com.wandoujia.phoenix2.av.view.AppSpecialListItem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#b3000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/pure_white" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/app_auto_install_setting_title" style="@style/card_app_install_title" />
+        <TextView android:textSize="@dimen/text_size_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_medium" android:text="@string/app_auto_install_setting_desc" android:lineSpacingMultiplier="1.2" style="@style/card_app_install_desc" />
+        <com.wandoujia.p4.button.views.StatefulButton android:layout_gravity="center_horizontal" android:id="@id/action_button" android:paddingLeft="@dimen/card_padding_vertical" android:paddingRight="@dimen/card_padding_vertical" android:layout_marginTop="@dimen/card_padding_vertical" android:text="@string/app_auto_install_setting_button" style="@style/card_app_install_action_button" />
+    </LinearLayout>
+</RelativeLayout>

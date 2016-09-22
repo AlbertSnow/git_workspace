@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.wandoujia.launcher_base.view.stateful.view.DoubleIcon android:id="@id/double_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <com.wandoujia.launcher_base.view.stateful.view.StatefulIcon android:id="@id/stateful_icon" android:visibility="invisible" android:layout_width="68.0dip" android:layout_height="60.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0dip" android:textColor="#ff777777" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/text_title" android:layout_width="68.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:lines="2" android:layout_below="@id/icon_container" android:layout_centerHorizontal="true" />
+</RelativeLayout>

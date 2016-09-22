@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.jupiter.media.view.VideoSurfaceView android:id="@id/video_texture" android:background="@color/black_no_transparency" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ViewStub android:layout_gravity="center" android:id="@id/stub_video_view" android:layout="@layout/surface_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/video_control_detail" />
+</com.wandoujia.jupiter.media.view.VideoSurfaceView>

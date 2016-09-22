@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar_container" layout="@layout/jupiter_account_layout" />
+    <com.wandoujia.p4.views.ScrollDownLayout android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_container" android:layout_alignParentBottom="true">
+        <com.wandoujia.ripple_framework.view.CustomViewPager android:id="@id/view_pager" android:paddingTop="@dimen/sliding_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.wandoujia.ripple_framework.view.slidingtab.PagerSlidingTabStrip android:id="@id/sliding_tab" style="@style/sliding_tab" />
+            <View android:layout_gravity="bottom" android:background="@color/divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </FrameLayout>
+    </com.wandoujia.p4.views.ScrollDownLayout>
+    <View android:id="@id/toolbar_margin" android:background="@color/green_primary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:id="@id/toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar_margin" jupiter:action_menu="@menu/menu_toolbar_library" />
+    <FrameLayout android:id="@id/footer_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

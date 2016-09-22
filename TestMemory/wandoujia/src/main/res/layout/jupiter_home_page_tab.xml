@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:textColor="@color/selector_home_page_tab" android:id="@id/title" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hello" android:layout_centerVertical="true" style="@style/text_cell_title" />
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/mark_new" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginLeft="2.0dip" android:src="@drawable/new_tab_mark" />
+    </FrameLayout>
+</LinearLayout>

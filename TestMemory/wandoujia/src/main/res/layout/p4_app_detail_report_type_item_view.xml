@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox android:textSize="@dimen/app_report_text_size" android:textColor="@color/black_grey" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@drawable/p4_xibaibai_checkbox_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

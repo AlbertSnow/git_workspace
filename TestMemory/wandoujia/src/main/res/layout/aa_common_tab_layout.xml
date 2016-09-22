@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:id="@id/jupiter_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" jupiter:action_menu="@menu/menu_toolbar_explore" />
+    <com.wandoujia.ripple_framework.view.slidingtab.PagerSlidingTabStrip android:id="@id/tabs" android:layout_below="@id/jupiter_toolbar" style="@style/tab_strip" />
+    <com.wandoujia.p4.views.CommonViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tabs" android:layout_centerHorizontal="true" />
+    <View android:layout_below="@id/tabs" style="@style/top_shadow" />
+</RelativeLayout>

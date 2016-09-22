@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:background="@color/holo_red_light" style="@style/floating_tips_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_color_white" android:id="@id/content_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/tips_no_notwork" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/floating_tips_text" />
+</RelativeLayout>

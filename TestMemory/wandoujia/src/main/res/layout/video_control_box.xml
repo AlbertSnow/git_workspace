@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom|center|left" android:id="@id/mute" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ProgressBar android:layout_gravity="bottom" android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="2.0dip" android:progressDrawable="@drawable/progress_bar_light" style="?android:attr/progressBarStyleHorizontal" />
+    <View android:id="@id/mask" android:background="@color/black_20_transparency" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/play" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/play_white" android:scaleType="center" />
+    <com.wandoujia.ripple_framework.view.LoadingView android:layout_gravity="center" android:id="@id/loading" android:layout_width="45.0dip" android:layout_height="45.0dip" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.p4.community.views.CommunityUnReadCountMenuView android:background="?actionBarItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|right|top" android:layout_width="@dimen/dropdown_item_height" android:layout_height="@dimen/dropdown_item_height" android:src="@drawable/community_notification" />
+    <TextView android:textSize="11.0dip" android:textStyle="bold" android:textColor="@color/text_color_white" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/message_count" android:background="@color/warning_color_normal" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="@dimen/app_detail_normal_padding" android:layout_marginRight="@dimen/app_detail_normal_padding" />
+</com.wandoujia.p4.community.views.CommunityUnReadCountMenuView>

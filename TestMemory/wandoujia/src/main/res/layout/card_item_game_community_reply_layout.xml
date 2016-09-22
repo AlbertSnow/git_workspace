@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:id="@id/jupiter_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_area" android:background="@drawable/bg_explore_bottombar_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/app_icon_size_big" android:weightSum="2.0" android:layout_alignParentBottom="true">
+        <com.wandoujia.p4.button.views.StatefulButton android:gravity="center" android:id="@id/community_like" android:layout_width="0.0dip" android:layout_height="@dimen/entrances_view_height" android:layout_marginLeft="@dimen/homepage_cover_panel_padding" android:layout_marginRight="@dimen/app_detail_normal_padding" android:text="@string/community_like" android:drawablePadding="3.0dip" android:layout_weight="1.0" style="@style/pop_detail_card_bottom_button" />
+        <com.wandoujia.p4.button.views.StatefulButton android:gravity="center" android:id="@id/community_reply" android:layout_width="0.0dip" android:layout_height="@dimen/entrances_view_height" android:layout_marginLeft="@dimen/app_detail_normal_padding" android:layout_marginRight="@dimen/homepage_cover_panel_padding" android:text="@string/feedback_reply" android:layout_weight="1.0" style="@style/pop_detail_card_bottom_button" />
+    </LinearLayout>
+    <com.wandoujia.p4.views.NetContentListView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:layout_above="@id/action_area" android:layout_below="@id/jupiter_toolbar" style="@style/card_list_view" />
+</RelativeLayout>

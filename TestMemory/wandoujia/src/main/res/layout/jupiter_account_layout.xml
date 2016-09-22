@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.jupiter.view.AccountView android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/bg_default" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/fg_avatar_circle">
+        <com.wandoujia.p4.views.CircleAsyncImageView android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/avatar_unlogin" />
+        <com.wandoujia.p4.views.CircleAsyncImageView android:id="@id/icon" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+    </FrameLayout>
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="13.0dip" android:textColor="@color/green_primary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/login" jupiter:fontName="bold" style="@style/text_flat_button" />
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/sub_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/text_caption3" />
+</com.wandoujia.jupiter.view.AccountView>

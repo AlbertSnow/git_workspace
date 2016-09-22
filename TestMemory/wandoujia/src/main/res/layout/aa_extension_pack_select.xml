@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.launcher_base.view.dialog.ExtensionPackMetaDataView android:orientation="vertical" android:background="@color/text_color_white" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/extension_radioButton" android:checked="false" style="@style/save_flow_radio_button_style" />
+    <TextView android:textColor="@color/hint_grey" android:id="@id/extension_textview" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_middle" />
+</com.wandoujia.launcher_base.view.dialog.ExtensionPackMetaDataView>

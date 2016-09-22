@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:id="@id/jupiter_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <GridView android:id="@id/girdview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/image_list" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/apply_btn_container" android:background="@drawable/bg_explore_bottombar_shadow" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:textSize="@dimen/text_size_large" android:layout_gravity="center" android:id="@id/apply_btn" android:background="@drawable/bg_drawable_explore_home" android:layout_width="230.0dip" android:layout_height="40.0dip" style="@style/card_action_button" />
+    </LinearLayout>
+</LinearLayout>

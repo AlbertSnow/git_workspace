@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_delete" android:title="@string/delete" app:showAsAction="never" />
+    <item android:id="@id/menu_stick" android:title="@string/community_stick_topic" app:showAsAction="never" />
+    <item android:id="@id/menu_feature" android:title="@string/community_feature_topic" app:showAsAction="never" />
+    <item android:id="@id/menu_forbid" android:title="@string/community_forbid_user_menu" app:showAsAction="never" />
+</menu>

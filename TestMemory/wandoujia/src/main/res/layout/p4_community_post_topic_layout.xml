@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.jupiter.toolbar.JupiterToolbar android:id="@id/jupiter_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.wandoujia.p4.button.views.StatefulButton android:gravity="center" android:id="@id/new_topic" android:layout_marginRight="@dimen/margin_large" android:layout_marginBottom="@dimen/margin_large" android:layout_alignBottom="@id/jupiter_toolbar" android:layout_alignParentRight="true" style="@style/card_action_button" />
+    <EditText android:textSize="@dimen/text_size_large" android:gravity="center|left|top" android:id="@id/topic_body" android:background="@null" android:paddingLeft="20.0dip" android:paddingTop="15.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/image_list" android:layout_below="@id/jupiter_toolbar" android:inputType="textAutoCorrect|textCapSentences|textMultiLine|textShortMessage" android:isScrollContainer="true" android:imeOptions="actionSend|flagNoEnterAction" />
+    <TextView android:textColor="@color/text_color_white" android:id="@id/tips" android:background="@color/holo_red_light" android:padding="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/homepage_cover_panel_padding" android:layout_above="@id/image_list" style="@style/floating_tips_text" />
+    <GridView android:gravity="bottom" android:id="@id/image_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:horizontalSpacing="6.0dip" android:verticalSpacing="6.0dip" android:numColumns="5" android:layout_alignParentBottom="true" android:isScrollContainer="false" />
+</RelativeLayout>

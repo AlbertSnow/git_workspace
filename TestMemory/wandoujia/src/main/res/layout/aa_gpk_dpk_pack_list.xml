@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_gpk_dpk_detail" />
+    <ListView android:id="@id/extension_listview" android:background="@color/text_color_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/aa_line" />
+</LinearLayout>

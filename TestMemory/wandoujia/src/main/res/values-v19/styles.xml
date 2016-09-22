@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/grey_96</item>
+        <item name="android:dropDownListViewStyle">@style/P4.Widget.ListView.DropDown</item>
+        <item name="android:editTextStyle">@style/edit_text_style</item>
+        <item name="android:actionModeBackground">@color/grey_20</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="actionOverflowButtonStyle">@style/P4.ActionBar.ActionButton.OverflowSearch</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:layout="@layout/jupiter_preference_checkbox_layout" android:title="@string/setting_title_alert_update" android:key="setting_alert_update" android:summary="@string/setting_summary_alert_update" android:defaultValue="true" />
+    <CheckBoxPreference android:layout="@layout/jupiter_preference_checkbox_layout" android:title="@string/setting_title_auto_push" android:key="setting_enable_push" android:summary="@string/setting_summary_auto_push" android:defaultValue="true" />
+</PreferenceScreen>

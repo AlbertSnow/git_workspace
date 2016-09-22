@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.game_launcher.views.GameFooterView android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/game_launcher_divider" />
+    <com.wandoujia.game_launcher.views.GameStoryAppInfoCardView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/app_info_card" android:layout_width="@dimen/story_app_info_width" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <include layout="@layout/game_launcher_content_app_info" />
+    </com.wandoujia.game_launcher.views.GameStoryAppInfoCardView>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/pic_launcher_end" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingLeft="48.0dip" android:paddingRight="48.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <RelativeLayout android:gravity="center" android:id="@id/left_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/left_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_backto_light" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+            <TextView android:id="@id/left_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/game_launch_view_yesterday" android:singleLine="true" android:layout_toRightOf="@id/left_icon" android:layout_centerVertical="true" style="@style/text_title2" />
+        </RelativeLayout>
+        <View android:id="@id/split" android:layout_width="32.0dip" android:layout_height="0.0dip" />
+        <RelativeLayout android:gravity="center" android:id="@id/right_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/right_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_shuffle_light" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+            <TextView android:id="@id/right_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/game_launch_view_random" android:singleLine="true" android:layout_toRightOf="@id/right_icon" android:layout_centerVertical="true" style="@style/text_title2" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.wandoujia.game_launcher.views.GameFooterView>

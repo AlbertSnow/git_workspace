@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/av_color_tab_home" android:id="@id/title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <TextView android:id="@id/number_view" android:layout_marginLeft="@dimen/app_detail_left_margin" android:layout_marginTop="4.0dip" android:layout_toRightOf="@id/title_view" android:layout_alignTop="@id/title_view" style="@style/text_message_count_tab" />
+</RelativeLayout>

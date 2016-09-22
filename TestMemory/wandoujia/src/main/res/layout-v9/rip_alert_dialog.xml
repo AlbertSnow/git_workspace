@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/close" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_close" android:scaleType="center" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/phoenix_alert_dialog_parentPanel" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:id="@id/phoenix_alert_dialog_topPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/phoenix_alert_dialog_title_template" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.wandoujia.image.view.AsyncImageView android:layout_gravity="top" android:id="@id/phoenix_alert_dialog_icon" android:paddingTop="6.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+                <TextView android:id="@id/phoenix_alert_dialog_alertTitle" style="@style/dialog_title_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/phoenix_alert_dialog_contentPanel" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ScrollView android:id="@id/phoenix_alert_dialog_scrollView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="ifContentScrolls">
+                <TextView android:id="@id/phoenix_alert_dialog_message" style="@style/dialog_message_style" />
+            </ScrollView>
+        </LinearLayout>
+        <FrameLayout android:id="@id/phoenix_alert_dialog_customPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/phoenix_alert_dialog_custom" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/phoenix_alert_dialog_buttonPanel" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="24.0dip">
+            <Button android:id="@id/phoenix_alert_dialog_negativeButton" style="@style/dialog_button_normal_style" />
+            <Button android:id="@id/phoenix_alert_dialog_neutraButton" style="@style/dialog_button_normal_style" />
+            <Button android:id="@id/phoenix_alert_dialog_positiveButton" style="@style/dialog_button_highlight_style" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

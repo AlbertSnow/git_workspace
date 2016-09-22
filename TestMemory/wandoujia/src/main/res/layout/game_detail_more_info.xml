@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout style="@style/game_detail_card_with_padding">
+        <LinearLayout android:orientation="horizontal" android:id="@id/meta_container" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/info_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_detail_info" />
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:layout_gravity="center_vertical" android:id="@id/game_meta_title" android:layout_marginLeft="@dimen/margin_xlarge" android:text="@string/game_detail_more_info" android:layout_toRightOf="@id/info_icon" app:fontName="bold" style="@style/app_detail_label" />
+        </LinearLayout>
+        <include android:id="@id/detail_content_meta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_below="@id/meta_container" layout="@layout/p4_pair_text_container" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/verified_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/detail_content_meta" android:layout_alignLeft="@id/detail_content_meta">
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/game_detail_extand_left_width" android:text="@string/verified_key" style="@style/pair_text_left" />
+            <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/verified_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_xlarge" style="@style/verified_value" />
+        </LinearLayout>
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/verified_desc" android:layout_alignParentRight="true" layout="@layout/jupiter_right_view_more" />
+    </RelativeLayout>
+</merge>

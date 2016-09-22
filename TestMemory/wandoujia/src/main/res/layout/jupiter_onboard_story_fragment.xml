@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="11.0dip" android:textColor="#ff999999" android:id="@id/status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:singleLine="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.wandoujia.ripple_framework.view.StatefulButton android:textSize="@dimen/normal_font" android:textColor="@color/bg_white" android:id="@id/action_button" android:layout_width="128.0dip" android:layout_height="36.0dip" android:layout_above="@id/status_text" android:layout_centerHorizontal="true" style="@style/card_action_button" />
+    <View android:id="@id/indicator_bg" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/onboard_banner_height" android:layout_alignParentTop="true" />
+    <com.wandoujia.jupiter.view.PageDotIndicator android:layout_gravity="center_horizontal" android:id="@id/onboard_indicator" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginBottom="20.0dip" android:layout_above="@id/action_button" />
+    <com.wandoujia.ripple_framework.view.CustomViewPager android:id="@id/view_pager" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/onboard_indicator" android:layout_alignParentTop="true" />
+</RelativeLayout>

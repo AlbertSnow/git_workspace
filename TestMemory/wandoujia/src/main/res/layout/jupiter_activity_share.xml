@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ripple="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/action_container" android:background="@color/bg_white" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/share_container_height" android:layout_alignParentBottom="true">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/text_color_black" android:layout_gravity="center_horizontal" android:padding="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share" ripple:fontName="black" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="72.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/weibo" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_weibo" android:scaleType="center" />
+                <com.wandoujia.ripple_framework.view.CustomFontTextView android:textColor="@color/text_color_black" android:gravity="center" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/weibo" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="72.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/wechat_moment" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_wechat_moment" android:scaleType="center" />
+                <com.wandoujia.ripple_framework.view.CustomFontTextView android:textColor="@color/text_color_black" android:gravity="center" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/moment" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="72.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/wechat_session" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_wechat" android:scaleType="center" />
+                <com.wandoujia.ripple_framework.view.CustomFontTextView android:textColor="@color/text_color_black" android:gravity="center" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wechat" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="72.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/qq" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_qq" android:scaleType="center" />
+                <com.wandoujia.ripple_framework.view.CustomFontTextView android:textColor="@color/text_color_black" android:gravity="center" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qq" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="72.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/link" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_link" android:scaleType="center" />
+                <com.wandoujia.ripple_framework.view.CustomFontTextView android:textColor="@color/text_color_black" android:gravity="center" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/link" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="72.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/more" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_more" android:scaleType="center" />
+                <com.wandoujia.ripple_framework.view.CustomFontTextView android:textColor="@color/text_color_black" android:gravity="center" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/more" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.wandoujia.ripple_framework.view.LoadingView android:id="@id/loading" android:layout_width="@dimen/loading_size" android:layout_height="@dimen/loading_size" android:layout_marginBottom="20.0dip" android:layout_above="@id/action_container" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ripple="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingTop="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="left" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:lineSpacingExtra="@dimen/article_title_line_space" ripple:fontName="black" style="@style/text_headline" />
+                <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:gravity="left" android:id="@id/snippet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" android:maxLines="2" android:lineSpacingExtra="4.0dip" style="@style/text_body3" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/attachment" android:background="@color/list_background" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="@dimen/margin_base" android:layout_marginRight="24.0dip">
+            <include layout="@layout/rip_item_attachment" />
+        </RelativeLayout>
+        <include layout="@layout/rip_provider" />
+    </LinearLayout>
+    <com.wandoujia.ripple_framework.view.OfflineStatusView android:id="@id/offline_status" android:layout_width="wrap_content" android:layout_height="24.0dip" />
+</FrameLayout>

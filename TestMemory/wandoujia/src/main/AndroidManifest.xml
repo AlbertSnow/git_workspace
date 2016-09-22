@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.wandoujia.phoenix2" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.CREATE_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher3.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher3.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="org.adw.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="org.adw.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.qihoo360.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.qihoo360.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.lge.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.lge.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="net.qihoo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="net.qihoo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="org.adwfreak.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="org.adwfreak.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.huawei.launcher3.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.launcher3.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.fede.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.fede.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.sec.android.app.twlauncher.settings.READ_SETTINGS"/>
+    <uses-permission android:name="com.sec.android.app.twlauncher.settings.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.lenovo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.lenovo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.google.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.google.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.yulong.android.launcher3.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.yulong.android.launcher3.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.lenovo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.lenovo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.bbk.launcher2.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.bbk.launcher2.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.AIRPLANE_MODE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="rs.permission.MDM_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.ut.permission.DEVICE_STATE"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true"/>
+    <uses-permission android:name="ANDROID.PERMISSION.INTERNET"/>
+    <application android:allowBackup="true" android:icon="@drawable/icon" android:label="@string/app_name" android:largeHeap="true" android:name="com.wandoujia.jupiter.JupiterApplication" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:alwaysRetainTaskState="false" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.wandoujia.jupiter.activity.NoDexLaunchActivity" android:process=":nodex" android:screenOrientation="portrait"/>
+        <activity android:alwaysRetainTaskState="false" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.wandoujia.jupiter.activity.DexLoadingActivity" android:process=":nodex" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.activity.HomeActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.APP_MARKET"/>
+            </intent-filter>
+            <intent-filter android:priority="-10">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="explore" android:scheme="wdj"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="explore" android:path="/homepage" android:scheme="wdj"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="phoenix.intent.action.FROM_WALLPAPER_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="shortcut"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="phoenix.intent.action.FROM_EBOOK_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="shortcut"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="phoenix.intent.action.FROM_CLEANER_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="shortcut"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="phoenix.intent.action.FROM_VIDEO_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="shortcut"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="phoenix.intent.action.EXPLORE_NAVIGATE"/>
+                <data android:scheme="navigation"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="index" android:scheme="wdj"/>
+                <data android:host="apps" android:path="/explore" android:scheme="wdj"/>
+                <data android:host="games" android:path="/explore" android:scheme="wdj"/>
+                <data android:host="explore" android:path="/app" android:scheme="wdj"/>
+                <data android:host="explore" android:path="/game" android:scheme="wdj"/>
+                <data android:host="explore" android:path="/game/home" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.wandoujia.jupiter.search.activity.SearchHotQueryActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="search" android:path="/hot" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.wandoujia.jupiter.activity.CommonActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="list" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.wandoujia.jupiter.search.activity.InAppCampaignActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="search" android:path="/ias" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.wandoujia.jupiter.search.activity.SearchQueryHistoryActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="search" android:path="/history" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.activity.CategoryListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="apps" android:path="/categories" android:scheme="wdj"/>
+                <data android:host="games" android:path="/categories" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.activity.CategoryDetailActivity" android:screenOrientation="portrait">
+            <intent-filter android:priority="-7">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="apps" android:pathPrefix="/categories/" android:scheme="wdj"/>
+                <data android:host="games" android:pathPrefix="/categories/" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.activity.TagListActivity" android:screenOrientation="portrait">
+            <intent-filter android:priority="-8">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="apps" android:pathPrefix="/tags" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.activity.OnlineGameActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="games" android:path="/online_game" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.wandoujia.jupiter.topic.activity.TopicDetailActivity" android:screenOrientation="portrait">
+            <intent-filter android:priority="-9">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="topics" android:pathPrefix="/" android:scheme="wdj"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="subscribe.wandoujia.com" android:pathPrefix="/list" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.wandoujia.jupiter.topic.activity.TopicListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="topics" android:path="/apps" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.award.AwardActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="apps" android:path="/award" android:scheme="wdj"/>
+                <data android:host="games" android:path="/award" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.app.activity.AppMustHaveActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="apps" android:path="/essential" android:scheme="wdj"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="games" android:path="/essential" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.wandoujia.jupiter.activity.RankingActivity" android:screenOrientation="portrait">
+            <intent-filter android:priority="-8">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="apps" android:path="/top" android:scheme="wdj"/>
+                <data android:host="games" android:path="/top" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.wandoujia.jupiter.activity.GiftDetailActivity" android:screenOrientation="portrait">
+            <intent-filter android:priority="-7">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="apps" android:pathPrefix="/gifts/" android:scheme="wdj"/>
+                <data android:host="games" android:pathPrefix="/gifts/" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.wandoujia.jupiter.downloadreminder.NotInstallReminderActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Translucent.NoTitleBar.NoAnim"/>
+        <activity android:name="com.wandoujia.jupiter.activity.DetailActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Translucent.NoTitleBar.NoAnim">
+            <intent-filter android:priority="-9">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="apps" android:pathPrefix="/" android:scheme="wdj"/>
+                <data android:host="games" android:pathPrefix="/" android:scheme="wdj"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="details" android:path="" android:scheme="market"/>
+                <data android:host="market.android.com" android:path="/details" android:scheme="http"/>
+                <data android:host="market.android.com" android:path="/details" android:scheme="https"/>
+                <data android:host="play.google.com" android:path="/store/apps/details" android:scheme="https"/>
+                <data android:host="play.google.com" android:path="/store/apps/details" android:scheme="http"/>
+                <data android:host="apps.wandoujia.com" android:pathPrefix="/apps" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="detail" android:pathPrefix="/app" android:scheme="wandoujia"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.wandoujia.ripple_framework.ripple.activity.DetailActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Translucent.NoTitleBar.NoAnim">
+            <intent-filter android:priority="-9">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="article" android:pathPrefix="/" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.wandoujia.jupiter.activity.ReviewActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Translucent.NoTitleBar.NoAnim">
+            <intent-filter android:priority="-9">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="review" android:pathPrefix="/article/detail" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.wandoujia.jupiter.activity.ReviewTopicActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Translucent.NoTitleBar.NoAnim">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="review" android:pathPrefix="/topic/detail" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.subscribe.activity.PublisherProfileActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="subscribe.wandoujia.com" android:pathPrefix="/publisher" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter android:priority="-9">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="follow" android:pathPrefix="/" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.subscribe.activity.SubscribeRankingActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="subscribe.wandoujia.com" android:pathPrefix="/top_app" android:scheme="http"/>
+                <data android:host="follow" android:path="/top" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.subscribe.activity.PublisherCollectionActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="subscribe.wandoujia.com" android:pathPrefix="/explore" android:scheme="http"/>
+                <data android:host="follow" android:pathPrefix="/categories" android:scheme="wdj"/>
+                <data android:host="subscribe.wandoujia.com" android:pathPrefix="/recommend" android:scheme="http"/>
+                <data android:host="explore" android:pathPrefix="/recommend" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="@bool/enable_accessibility" android:label="@string/acc_auto_install_service_name" android:name="com.wandoujia.accessibility.AccessibilityDispatcher" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" android:process=":accessibility">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility_config"/>
+        </service>
+        <provider android:authorities="com.wandoujia.accessibility.contentprovider" android:name="com.wandoujia.accessibility.content_provider.AccessibilityContentProvider" android:process=":accessibility"/>
+        <activity android:launchMode="singleTop" android:name="com.wandoujia.accessibility.hibernation.activity.BoosterHomeActivity" android:process=":accessibility" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="hibernation_home" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.wandoujia.accessibility.hibernation.activity.AppAutoInstallSettingPopupDialogActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Transparent"/>
+        <activity android:name="com.wandoujia.p4.app.detail.activity.AppCommentsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.app.detail.activity.SendCommentActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.app.detail.activity.AppCommentCaptchaActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.NoActionBar"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.campaign.CampaignActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="web" android:pathPrefix="/campaign" android:scheme="wdj"/>
+                <data android:host="web" android:pathPrefix="/doraemon" android:scheme="wdj"/>
+                <data android:host="www.wandoujia.com" android:pathPrefix="/" android:scheme="http"/>
+                <data android:host="wdj.im" android:pathPrefix="/" android:scheme="http"/>
+                <data android:host="www.wandoujia.com" android:pathPrefix="/" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.connection.ui.ConnectionActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Default">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="conn.wandoujia.com" android:pathPrefix="/qr" android:scheme="http"/>
+                <data android:host="conn.wandoujia.com" android:pathPrefix="/qr" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:launchMode="singleTop" android:name="com.wandoujia.plugin.qr.CaptureActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.activity.EntryWeiboActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.imageviewer.activity.ImageViewerActivity" android:theme="@style/Vertical.OverlayWithBg">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="explore" android:pathPrefix="/image/viewer" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.imagepicker.activity.FolderImageActivity" android:screenOrientation="portrait" android:theme="@style/Vertical.OverlayWithBg"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.imagepicker.activity.ImageChooserActivity" android:screenOrientation="portrait" android:theme="@style/Vertical.OverlayWithBg"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.wandoujia.p4.community.activity.CommunityTopicListActivity" android:screenOrientation="portrait" android:theme="@style/Community">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="group.wandoujia.com" android:pathPrefix="/groups" android:scheme="http"/>
+                <data android:host="group.wandoujia.com" android:pathPrefix="/groups" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.community.activity.CommunityGroupListActivity" android:screenOrientation="portrait" android:theme="@style/Community"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.community.activity.CommunityHomePageActivity" android:screenOrientation="portrait" android:theme="@style/Community">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="explore" android:pathPrefix="/game/community/home" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.community.activity.CommunityMessageActivity" android:screenOrientation="portrait" android:theme="@style/Community">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="group.wandoujia.com" android:pathPrefix="/notifications" android:scheme="http"/>
+                <data android:host="group.wandoujia.com" android:pathPrefix="/notifications" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|screenSize" android:launchMode="singleTask" android:name="com.wandoujia.p4.community.activity.CommunityPostContentActivity" android:screenOrientation="portrait" android:theme="@style/Community"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.community.activity.CommunityTopicDetailActivity" android:screenOrientation="portrait" android:theme="@style/Community">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="group.wandoujia.com" android:pathPrefix="/topics" android:scheme="http"/>
+                <data android:host="group.wandoujia.com" android:pathPrefix="/topics" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.community.activity.CommunityCampaignActivity" android:screenOrientation="portrait" android:theme="@style/Community"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.community.activity.CommunityMembersActivity" android:screenOrientation="portrait" android:theme="@style/Community"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.community.activity.CommunityTopicFeedActivity" android:screenOrientation="portrait" android:theme="@style/Community"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.community.activity.CommunityNewNominateActivity" android:screenOrientation="portrait" android:theme="@style/Community"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.community.activity.CommunityBallotStatusActivity" android:screenOrientation="portrait" android:theme="@style/Community">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="group.wandoujia.com" android:pathPrefix="/ballot" android:scheme="http"/>
+                <data android:host="group.wandoujia.com" android:pathPrefix="/ballot" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.game.acitvity.GameVideoActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="games" android:path="/videos" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.game.acitvity.GameVideoPlayActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="play" android:pathPrefix="/game/video" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.app.detail.activity.ReportActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Default" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.gift.activity.MyGiftBeansActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Gift"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.gift.GiftListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="apps" android:path="/gifts" android:scheme="wdj"/>
+                <data android:host="games" android:path="/gifts" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleInstance" android:name="com.wandoujia.p4.settings.FollowUsTipsTransparentActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.wandoujia.p4.account.activity.AccountProfileActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Default" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.account.activity.AccountCheckPasswordActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Default" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/icon" android:label="@string/account_login" android:launchMode="standard" android:name="com.wandoujia.p4.account.activity.PhoenixAccountActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Default" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="account.wandoujia.com" android:pathPrefix="/android/login" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/icon" android:launchMode="singleTop" android:name="com.wandoujia.p4.account.activity.AccountModifyProfileActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Default" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/icon" android:launchMode="singleTop" android:name="com.wandoujia.p4.account.activity.AccountChangePasswordActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Default" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/icon" android:launchMode="singleTop" android:name="com.wandoujia.p4.account.activity.AccountChangeActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Default" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/icon" android:launchMode="singleTop" android:name="com.wandoujia.p4.account.activity.AccountBindActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Default" android:windowSoftInputMode="stateVisible">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/icon" android:launchMode="singleTop" android:name="com.wandoujia.p4.account.activity.AccountVerificationActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Default" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.wandoujia.p4.app.activity.AppAutoInstallSettingPopupDialogActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Transparent"/>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/setting_label" android:launchMode="singleTop" android:name="com.wandoujia.p4.settings.MainSettingActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Setting">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="settings" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/setting_notify_title" android:launchMode="singleTop" android:name="com.wandoujia.p4.settings.NotifySettingActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Setting"/>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/setting_title_about" android:launchMode="singleTop" android:name="com.wandoujia.p4.settings.AboutSettingActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Setting"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.wandoujia.p4.feedback.FeedbackActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="feedback" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.feedback.FeedBackDialogActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name="com.wandoujia.p4.feedback.FeedbackListActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.p4.netcheck.NetCheckActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/wdj_paysdk_task_label" android:name="com.wandoujia.p4.pay.activity.RechargeActivity" android:screenOrientation="portrait" android:taskAffinity="com.oakenshield.sdk" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.wandoujia.oakenshield"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="Wandoujia-PaySdk-Unify"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.wandoujia.p4.pay.activity.MyBonusActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Default" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/wdj_paysdk_task_label" android:name="com.wandoujia.p4.pay.activity.PayActivity" android:taskAffinity="com.oakenshield.sdk" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.wandoujia.oakenshield"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="Wandoujia-PaySdk-Unify"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation" android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.alipay.android.mini.window.sdk.MiniLaucherActivity" android:theme="@style/MspAppTheme"/>
+        <activity android:configChanges="orientation" android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.alipay.android.mini.window.sdk.TransContainer" android:theme="@style/MspAppTheme"/>
+        <activity android:configChanges="orientation" android:excludeFromRecents="true" android:label="@string/msp_app_name" android:launchMode="singleTop" android:name="com.alipay.android.mini.window.sdk.MiniPayActivity" android:theme="@style/MspAppTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter android:priority="800">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.alipay.android.mini.window.sdk.MiniWebActivity" android:theme="@style/MspAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.activity.ShareActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Transparent"/>
+        <service android:name="com.alipay.android.app.MspService"/>
+        <receiver android:exported="true" android:name="com.alipay.ut.device.BQueryWhoHasOne" android:permission="com.ut.permission.DEVICE_STATE">
+            <intent-filter>
+                <action android:name="UT.QueryWhoHasOne"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.alipay.ut.device.BFoundIt" android:permission="com.ut.permission.DEVICE_STATE">
+            <intent-filter>
+                <action android:name="UT.FoundIT"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation" android:excludeFromRecents="true" android:label="@string/app_name" android:name="com.unionpay.uppay.PayActivityEx" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.Run"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="uppay"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.UCMobile.PayPlugin.PayPluginService">
+            <intent-filter>
+                <action android:name="android.webkit.PLUGIN"/>
+            </intent-filter>
+            <meta-data android:name="type" android:value="native"/>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.jupiter.search.activity.SearchHomeActivity" android:screenOrientation="portrait" android:theme="@style/search_spinner">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="search" android:pathPrefix="/result" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.wandoujia.jupiter.library.activity.LibActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="me" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.wandoujia.jupiter.activity.AppAutoInstallHintDialogActivity" android:screenOrientation="portrait" android:theme="@style/P4.Theme.Transparent"/>
+        <activity android:exported="true" android:label="@string/app_name" android:name="com.wandoujia.phoenix2.wxapi.WXEntryActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.wandoujia.jupiter.app.activity.IncompatibleDialogActivity" android:screenOrientation="portrait" android:theme="@style/JupiterAlertDialog"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleInstance" android:name="com.wandoujia.jupiter.app.activity.DownloadInjectorDialogActivity" android:screenOrientation="portrait" android:theme="@style/JupiterAlertDialog"/>
+        <activity android:launchMode="singleTop" android:name="com.wandoujia.jupiter.onboard.OnboardActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="onboard" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.wandoujia.jupiter.notification.notifycard.LockScreenActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Wallpaper.NoTitleBar"/>
+        <service android:exported="true" android:label="@string/app_name" android:name="com.wandoujia.p4.account.authenticator.AccountAuthenticationService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+        </service>
+        <service android:exported="true" android:label="@string/app_name" android:name="com.wandoujia.p4.account.authenticator.AccountSyncService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/account_sync"/>
+        </service>
+        <receiver android:name="com.wandoujia.p4.app.upgrade.UpgradeReceiver">
+            <intent-filter>
+                <action android:name="phoenix.intent.action.APP_CHECK_UPGRADE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="phoenix.intent.action.UPGRADE_IMPORTANT_APP"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="phoenix.intent.action.UPGRADE_APP"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="phoenix.intent.action.UPGRADE_ALL"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="phoenix.intent.action.UPGRADE_NOTIFICATION_DELETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="phoenix.intent.action.NETWORK_DISCONNECT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="phoenix.intent.action.CLICK_IMPORTANT_NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.wandoujia.jupiter.notification.NotificationReceiver"/>
+        <receiver android:name="com.wandoujia.ripple_framework.installer.install.impl.PackageChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.wandoujia.ripple_framework.download.DownloadReceiver">
+            <intent-filter>
+                <action android:name="ripple_framework.intent.action.ACTION_OPEN"/>
+                <action android:name="ripple_framework.intent.action.ACTION_REDIRECT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.wandoujia.jupiter.downloadreminder.NotInstallAppReceiver">
+            <intent-filter>
+                <action android:name="phoenix.intent.action.PromoteNotInstallApp"/>
+                <action android:name="phoenix.intent.action.HidePromote"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.wandoujia.p4.app_launcher.activity.AppLauncherActivity" android:screenOrientation="portrait" android:taskAffinity="com.wandoujia.applauncher" android:theme="@style/Theme_GameFolder" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="app_launcher" android:scheme="wdj"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.wandoujia.p4.app_launcher.activity.CleanPopupActivity" android:screenOrientation="portrait" android:theme="@style/JupiterAlertDialog"/>
+        <service android:name="com.wandoujia.p4.app_launcher.clean.notification.CleanNotificationService"/>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/app_name" android:launchMode="singleInstance" android:name="com.wandoujia.launcher.launcher.activity.GameLauncherActivity" android:screenOrientation="portrait" android:theme="@style/Theme_GameFolder" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="phoenix.intent.action.FROM_GAME_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="shortcut"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleInstance" android:name="com.wandoujia.launcher.launcher.activity.GameLauncherBlockActivity" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme_NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.wandoujia.jupiter.media.activity.VideoPlayActivity" android:screenOrientation="landscape"/>
+        <activity android:name="com.wandoujia.p4.activity.AliasActivity" android:theme="@style/P4.Theme.Transparent"/>
+        <activity-alias android:exported="true" android:name="com.wandoujia.phoenix2.NewWelcomeActivity" android:targetActivity="com.wandoujia.p4.activity.AliasActivity"/>
+        <receiver android:name="com.wandoujia.p4.receiver.OnlineConfigScheduleReceiver">
+            <intent-filter>
+                <action android:name="phoenix.intent.action.CHECK_ONLINE_CONFIG"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.wandoujia.p4.receiver.AppChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.wandoujia.p4.receiver.GameLauncherReceiver">
+            <intent-filter>
+                <action android:name="phoenix.intent.action.CREATE_GL_SHORTCUT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.wandoujia.p4.download.notification.DownloadReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="phoenix.intent.action.DOWNLOAD_OPEN"/>
+                <action android:name="phoenix.intent.action.DOWNLOAD_LIST"/>
+                <action android:name="phoenix.intent.action.DOWNLOAD_HIDE"/>
+                <action android:name="phoenix.intent.action.DOWNLOAD_LIST_HIDE"/>
+                <data android:host="com.wandoujia.p4.download" android:scheme="content"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.wandoujia.phoenix2.GROUP_NOTIFICATION_DELETE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="phoenix.intent.action.RETRY_DOWNLOAD"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.wandoujia.p4.download.ipfb.FeedbackReceiver">
+            <intent-filter>
+                <action android:name="com.wandoujia.phoenix2.ACTION_IP_FEEDBACK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.wandoujia.push_loader.PushReceiver">
+            <intent-filter>
+                <action android:name="com.wandoujia.push2.ARE_YOU_PUSH_CENTER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.wandoujia.p4.recommand.clean.CleanBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.wandoujia.p4.recommand.clean.ACTION_CHECK_BACKGROUND_APP"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.wandoujia.p4.campaign.CampaignReceiver">
+            <intent-filter>
+                <action android:name="com.wandoujia.phoenix2.ACTION_INSTALL"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.wandoujia.jupiter.service.JupiterAlarmService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.wandoujia.jupiter.update.UpdateService"/>
+        <service android:name="com.wandoujia.jupiter.service.SpeedUpService"/>
+        <service android:name="com.wandoujia.jupiter.service.AppLaunchCheckService"/>
+        <activity android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent100724372"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="WEIBO_APPKEY" android:value="1483181040"/>
+        <meta-data android:name="WEIBO_CHANNEL" android:value="weibo"/>
+        <meta-data android:name="com.wandou.internal_version_code" android:value="12022"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.wandoujia.account.activities.AccountActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="account.wandoujia.com" android:pathPrefix="/android/login" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="true" android:exported="true" android:name="com.wandoujia.logv3.ActiveTrackingReceiver">
+            <intent-filter>
+                <action android:name="com.wandoujia.logv3.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="true" android:name="com.wandoujia.update.RemoteUpdateService" android:process=":update_service"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <receiver android:name="com.wandoujia.push2.PushReceiver">
+            <intent-filter>
+                <action android:name="com.wandoujia.push2.ARE_YOU_PUSH_CENTER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.wandoujia.push2.PushService"/>
+        <activity android:name="com.wandoujia.push2.RedirectActivity" android:theme="@style/Transparent"/>
+    </application>
+</manifest>

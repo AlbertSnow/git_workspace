@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/model" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:jupiter="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/jupiter_card_mini" />
+        <Spinner android:id="@id/open_spinner" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/action_button" android:layout_alignTop="@id/action_button" style="@style/app_category_spinner_sort_type" />
+        <com.wandoujia.p4.views.ExpandablePanel android:id="@id/card_expandable_layout" android:paddingLeft="0.0dip" android:paddingRight="10.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_toRightOf="@id/icon" android:layout_below="@id/sub_title" jupiter:handle="@id/expand_icon" jupiter:content="@id/expand_layout" jupiter:iconimage="@id/expand_icon" jupiter:animationDuration="200">
+            <LinearLayout android:orientation="vertical" android:id="@id/expand_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="24.0dip">
+                <com.wandoujia.ripple_framework.view.CustomFontTextView android:id="@id/expand_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/card_description_line_space" style="@style/text_body3" />
+            </LinearLayout>
+            <com.wandoujia.p4.views.ExpandablePanelIcon android:id="@id/expand_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" jupiter:expandedIconSrc="@drawable/ic_mything_more_collapse" jupiter:collapsedIconSrc="@drawable/ic_mything_more" />
+        </com.wandoujia.p4.views.ExpandablePanel>
+        <include layout="@layout/jupiter_progress_part" />
+        <View android:background="@color/grey_96" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="@dimen/homepage_cover_panel_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="@dimen/sub_action_text_size" android:textColor="@color/normal_text_color_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/incompatible_tips" />
+        <LinearLayout android:orientation="vertical" android:id="@id/incompatible_detail_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_detail_left_margin" android:layout_marginBottom="@dimen/app_detail_left_margin" />
+    </LinearLayout>
+</ScrollView>

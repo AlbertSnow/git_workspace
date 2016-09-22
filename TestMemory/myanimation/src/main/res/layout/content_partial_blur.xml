@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.myanimation.view.PartialBlurLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_partial_blur"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark"
+    android:layerType="none">
+
+    <FrameLayout
+        android:id="@+id/partial_child"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:background="#4000ff44">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="djladsfjewofjp;asdfjp;aswjdf;lewj" />
+    </FrameLayout>
+
+</com.google.myanimation.view.PartialBlurLayout>

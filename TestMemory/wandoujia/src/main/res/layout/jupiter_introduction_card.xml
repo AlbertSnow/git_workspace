@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/model" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/jupiter_card_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.image.view.AsyncImageView android:id="@id/cover" android:background="@color/bg_list_content" android:layout_width="fill_parent" android:layout_height="@dimen/card_grand_height" android:scaleType="centerCrop" />
+    <View android:id="@id/mask" android:background="@drawable/bg_gold_mask" android:layout_width="fill_parent" android:layout_height="@dimen/card_grand_height" />
+    <LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/text_display.white" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:id="@id/sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="2" android:lineSpacingExtra="4.0dip" style="@style/text_body3.white" />
+    </LinearLayout>
+    <ImageView android:id="@id/action_more" android:background="@drawable/ic_goldcard_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

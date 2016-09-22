@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/end_divider" android:layout_width="wrap_content" android:layout_height="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/pic_launcher_end" android:scaleType="center" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_centerVertical="true">
+            <RelativeLayout android:id="@id/left_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/launcher_end_cell_outter_margin" android:layout_marginRight="@dimen/launcher_end_cell_inner_margin" android:layout_weight="1.0">
+                <ImageView android:id="@id/left_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/ic_search_light" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+                <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/left_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/title_search_app" android:layout_toRightOf="@id/left_icon" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/right_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/launcher_end_cell_inner_margin" android:layout_marginRight="@dimen/launcher_end_cell_outter_margin" android:layout_weight="1.0">
+                <ImageView android:id="@id/right_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/ic_apps_light" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+                <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/right_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/title_find_app" android:layout_toRightOf="@id/right_icon" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/root" android:background="@color/grey_98" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ripple="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/text_color_black" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" ripple:fontName="black" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="12.0dip" android:textColor="@color/text_color_hint" android:layout_gravity="center_horizontal" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" />
+    </LinearLayout>
+</FrameLayout>

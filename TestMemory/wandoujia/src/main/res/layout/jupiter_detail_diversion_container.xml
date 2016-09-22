@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.wandoujia.image.view.AsyncImageView android:layout_gravity="top" android:id="@id/icon" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="@dimen/margin_xlarge" android:layout_marginTop="10.0dip" />
+</FrameLayout>

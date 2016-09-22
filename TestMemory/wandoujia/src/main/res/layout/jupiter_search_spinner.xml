@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:id="@id/filter" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="0.5dip" android:layout_weight="1.0" android:dropDownVerticalOffset="48.0dip" style="@style/app_category_spinner_sort_type" />
+    <Spinner android:id="@id/sorter" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="0.5dip" android:layout_weight="1.0" android:dropDownVerticalOffset="48.0dip" style="@style/app_category_spinner_sort_type" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wandoujia.p4.community.PullToRefreshHeaderView android:gravity="center" android:id="@id/pull_to_refresh_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/community_pull_to_refresh_text_size" android:textColor="@color/list_header_label_text_color" android:gravity="center" android:id="@id/pull_to_refresh_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <ProgressBar android:id="@id/pull_to_refresh_progress" android:visibility="invisible" android:layout_width="@dimen/text_size_xxhuge" android:layout_height="@dimen/text_size_xxhuge" android:layout_marginRight="@dimen/margin_small" android:indeterminate="true" android:layout_toLeftOf="@id/pull_to_refresh_text" android:layout_centerVertical="true" />
+    <ImageView android:gravity="center" android:id="@id/pull_to_refresh_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/text_size_xlarge" android:src="@drawable/pull_to_refresh_arrow_down" android:scaleType="centerCrop" android:adjustViewBounds="false" android:layout_toLeftOf="@id/pull_to_refresh_text" android:layout_centerVertical="true" />
+</com.wandoujia.p4.community.PullToRefreshHeaderView>

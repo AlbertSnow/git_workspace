@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/one_key_upgrade_layout" android:background="@color/white_no_transparency" android:layout_width="fill_parent" android:layout_height="@dimen/dropdown_item_outer_height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/one_key_upgrade_internal_layout" android:layout_width="fill_parent" android:layout_height="@dimen/dropdown_item_height" android:layout_alignParentBottom="true">
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/one_key_upgrade_size_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_large" android:layout_marginRight="8.0dip" android:singleLine="true" android:layout_toLeftOf="@id/button_upgrade_all" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/margin_large" style="@style/text_subtitle" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:gravity="center" android:id="@id/button_upgrade_all" android:layout_width="82.0dip" android:layout_marginRight="17.0dip" android:text="@string/upgrade_all_apps" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="17.0dip" android:layout_alignParentEnd="true" app:fontName="normal" style="@style/app_mything_bottom_button" />
+    </RelativeLayout>
+    <View android:background="@color/grey_93" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/multi_delete_internal_layout" />
+</RelativeLayout>

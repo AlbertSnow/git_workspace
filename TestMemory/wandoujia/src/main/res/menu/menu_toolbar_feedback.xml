@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/netcheck_entrance" android:id="@id/net_check" android:orderInCategory="100" android:title="@string/net_title" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/feedback_icon2" android:id="@id/menu_feedback" android:orderInCategory="100" android:title="@string/feedback_detail" app:showAsAction="ifRoom" />
+</menu>

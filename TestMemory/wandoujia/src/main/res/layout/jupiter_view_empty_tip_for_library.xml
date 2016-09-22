@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/grey_96" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/empty_container_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="64.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty" />
+        <com.wandoujia.ripple_framework.view.CustomFontTextView android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/text_cell_title" />
+        <com.wandoujia.ripple_framework.view.StatefulButton android:layout_gravity="center_horizontal" android:id="@id/action_button" android:layout_width="88.0dip" android:layout_height="32.0dip" android:layout_marginTop="16.0dip" android:text="@string/discovery_app" style="@style/card_action_button" />
+    </LinearLayout>
+</FrameLayout>

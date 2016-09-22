@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.p4.views.NetContentListView android:id="@id/listview" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@drawable/aa_line" style="@style/card_list_view" />
+    <TextView android:textSize="@dimen/text_size_micro" android:textColor="@color/normal_text_color_light_gray" android:layout_gravity="center" android:id="@id/tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="24.0dip" android:paddingTop="@dimen/margin_large" android:paddingRight="24.0dip" android:paddingBottom="@dimen/margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wandoujia.ripple_framework.view.CustomFontTextView android:textSize="@dimen/text_size_large" android:textColor="@color/detail_content_color" android:gravity="center" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.5" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff2d3860" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/load_status_container" android:layout_width="fill_parent" android:layout_height="25.0dip" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:src="@drawable/hibernation_img_moon" android:layout_below="@id/load_status_container" android:layout_alignRight="@id/cloud" />
+    <ImageView android:id="@id/cloud" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:src="@drawable/hibernation_img_cloud" android:layout_below="@id/load_status_container" android:layout_centerHorizontal="true" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/hibernation_img_rocket" android:scaleType="centerCrop" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white_no_transparency" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hibernation_no_need" android:layout_centerInParent="true" />
+    <Button android:textSize="@dimen/text_size_middle" android:layout_gravity="center_horizontal" android:id="@id/button_exit" android:layout_width="128.0dip" android:layout_height="36.0dip" android:layout_marginTop="30.0dip" android:text="@string/hibernation_complete" android:layout_below="@id/title" android:layout_centerHorizontal="true" style="@style/card_action_button" />
+</RelativeLayout>

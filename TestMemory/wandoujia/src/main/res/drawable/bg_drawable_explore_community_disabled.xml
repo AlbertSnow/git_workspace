@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/explore_community_color_disabled" android:endColor="@color/explore_community_color_disabled" />
+    <corners android:radius="@dimen/round_button_radius" />
+</shape>

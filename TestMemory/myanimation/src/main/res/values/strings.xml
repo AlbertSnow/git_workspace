@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyAnimation</string>
+    <string name="title_activity_partial_blur">PartialBlurActivity</string>
+</resources>

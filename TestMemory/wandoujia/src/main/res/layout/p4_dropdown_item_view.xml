@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/sub_action_text_size" android:textColor="@color/text_color_black" android:gravity="center_vertical" android:paddingLeft="@dimen/padding_huge" android:paddingRight="@dimen/padding_huge" android:layout_width="wrap_content" android:layout_height="@dimen/dropdown_item_height" android:minWidth="@dimen/dropdown_item_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
