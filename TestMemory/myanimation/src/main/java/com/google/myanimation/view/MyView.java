@@ -1,4 +1,4 @@
-package com.google.myanimation;
+package com.google.myanimation.view;
 
 import android.content.Context;
 import android.graphics.Canvas;

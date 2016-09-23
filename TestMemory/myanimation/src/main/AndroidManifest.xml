@@ -23,16 +23,15 @@
         <activity android:name=".GuideActivity" />
         <activity android:name=".SvgActivity" />
         <activity android:name=".AnimatorActivity" />
-        <activity android:name=".LinearActivity"></activity>
-        <activity android:name=".RecycleActivity">
-
-        </activity>
+        <activity android:name=".LinearActivity" />
+        <activity android:name=".RecycleActivity"></activity>
         <activity
             android:name=".PartialBlurActivity"
             android:label="@string/title_activity_partial_blur"
             android:theme="@style/AppTheme.NoActionBar"
-            android:windowActionBar="false"
-            >
+            android:windowActionBar="false">
+        </activity>
+        <activity android:name=".CardActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
