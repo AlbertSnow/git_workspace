@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestMemory.iml" filepath="$PROJECT_DIR$/TestMemory.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customadapterview/customadapterview.iml" filepath="$PROJECT_DIR$/customadapterview/customadapterview.iml" />
       <module fileurl="file://$PROJECT_DIR$/myanimation/myanimation.iml" filepath="$PROJECT_DIR$/myanimation/myanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/testas/testas.iml" filepath="$PROJECT_DIR$/testas/testas.iml" />
       <module fileurl="file://$PROJECT_DIR$/testgradle/testgradle.iml" filepath="$PROJECT_DIR$/testgradle/testgradle.iml" />

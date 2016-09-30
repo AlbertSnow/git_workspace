@@ -66,7 +66,6 @@ public class MyApplication extends Application {
         });
 
         getBatteryLevel();
-        testApplicationBug();
     }
 
     private void testApplicationBug() {
