@@ -90,25 +90,17 @@ public class AbsAdapterView extends AdapterView {
         if (cache == null) {
             addViewInLayout(newUnderChild, 0, newUnderChild.getLayoutParams());
         }
+        int childWidthSpec = getChildMeasureSpec(widthMeasureSpec, getPaddingTop() + getPaddingBottom(), newUnderChild.getLayoutParams().width);
+        int childHeightSpec = getChildMeasureSpec(heightMeasureSpec, getPaddingLeft() + getPaddingRight(), newUnderChild.getLayoutParams().height);
+        newUnderChild.measure(childWidthSpec, childHeightSpec);
         newUnderChild.layout(0,0,500,500);
-    }
-    private void removeAndAddToCache(int remain) {
-        View view;
-        for (int i = 0; i < getChildCount() - remain; ) {
-            view = getChildAt(i);
-            removeViewInLayout(view);
-            cacheItems.add(view);
-        }
-    }
 
-    private void layoutChildren(int startingIndex, int adapterCount){
-        while (startingIndex < Math.min(adapterCount, 100) ) {
-            View item = getChildAt(startingIndex);
-            View newUnderChild = mAdapter.getView(startingIndex, item, this);
-            if (newUnderChild.getVisibility() != GONE) {
-                makeAndAddView(newUnderChild, startingIndex);
-            }
+        View cache2 = getChildAt(1);
+        View newUnderChild2 = mAdapter.getView(0, cache2, this);
+        if (cache == null) {
+            addViewInLayout(newUnderChild2, 1, newUnderChild2.getLayoutParams());
         }
+        newUnderChild2.layout(0,600,1000,1000);
     }
 
     @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
