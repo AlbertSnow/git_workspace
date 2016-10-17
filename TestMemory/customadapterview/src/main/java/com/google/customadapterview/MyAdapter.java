@@ -6,6 +6,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -16,7 +17,11 @@ public class MyAdapter extends BaseAdapter {
     List<String> mDatas;
 
     public MyAdapter(List<String> datas) {
-        mDatas = datas;
+//        mDatas = datas;
+        mDatas = new ArrayList<>(5);
+        mDatas.add("1");
+        mDatas.add("2");
+        mDatas.add("3");
     }
 
     @Override
