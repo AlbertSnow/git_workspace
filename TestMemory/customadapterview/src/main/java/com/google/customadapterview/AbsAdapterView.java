@@ -85,37 +85,37 @@ public class AbsAdapterView extends AdapterView {
 ////            removeAndAddToCache(0);
 //            layoutChildren(0, adapterCount);
 //        }
-        View cache = getChildAt(0);
-        View newUnderChild = mAdapter.getView(0, cache, this);
-        if (cache == null) {
-            addViewInLayout(newUnderChild, 0, newUnderChild.getLayoutParams());
+        View cache0 = getChildAt(0);
+        View newUnderChild0 = mAdapter.getView(0, cache0, this);
+        if (cache0 == null) {
+            addViewInLayout(newUnderChild0, 0, newUnderChild0.getLayoutParams());
         }
-        int childWidthSpec = getChildMeasureSpec(widthMeasureSpec, getPaddingTop() + getPaddingBottom(), newUnderChild.getLayoutParams().width);
-        int childHeightSpec = getChildMeasureSpec(heightMeasureSpec, getPaddingLeft() + getPaddingRight(), newUnderChild.getLayoutParams().height);
-        newUnderChild.measure(childWidthSpec, childHeightSpec);
-        newUnderChild.layout(0,0,newUnderChild.getMeasuredWidth(),newUnderChild.getMeasuredHeight());
+        int childWidthSpec = getChildMeasureSpec(widthMeasureSpec, getPaddingTop() + getPaddingBottom(), newUnderChild0.getLayoutParams().width);
+        int childHeightSpec = getChildMeasureSpec(heightMeasureSpec, getPaddingLeft() + getPaddingRight(), newUnderChild0.getLayoutParams().height);
+        newUnderChild0.measure(childWidthSpec, childHeightSpec);
+        newUnderChild0.layout(0,0,newUnderChild0.getMeasuredWidth(),newUnderChild0.getMeasuredHeight());
 
-        View cache2 = getChildAt(1);
-        View newUnderChild2 = mAdapter.getView(1, cache2, this);
-        if (cache == null) {
-            addViewInLayout(newUnderChild2, 1, newUnderChild2.getLayoutParams());
+        View cache1 = getChildAt(1);
+        View newUnderChild1 = mAdapter.getView(1, cache1, this);
+        if (cache0 == null) {
+            addViewInLayout(newUnderChild1, 1, newUnderChild1.getLayoutParams());
+        }
+        int childWidthSpec1 = getChildMeasureSpec(widthMeasureSpec, getPaddingTop() + getPaddingBottom(), newUnderChild1.getLayoutParams().width);
+        int childHeightSpec1 = getChildMeasureSpec(heightMeasureSpec, getPaddingLeft() + getPaddingRight(), newUnderChild1.getLayoutParams().height);
+        newUnderChild1.measure(childWidthSpec1, childHeightSpec1);
+        newUnderChild1.layout(0,newUnderChild0.getMeasuredHeight() + 5, newUnderChild1.getMeasuredWidth(),
+                newUnderChild0.getMeasuredHeight() + 5 + newUnderChild1.getMeasuredHeight());
+
+        View cache2 = getChildAt(2);
+        View newUnderChild2 = mAdapter.getView(2, cache2, this);
+        if (cache0 == null) {
+            addViewInLayout(newUnderChild2, 2, newUnderChild2.getLayoutParams());
         }
         int childWidthSpec2 = getChildMeasureSpec(widthMeasureSpec, getPaddingTop() + getPaddingBottom(), newUnderChild2.getLayoutParams().width);
         int childHeightSpec2 = getChildMeasureSpec(heightMeasureSpec, getPaddingLeft() + getPaddingRight(), newUnderChild2.getLayoutParams().height);
         newUnderChild2.measure(childWidthSpec2, childHeightSpec2);
-        newUnderChild2.layout(0,newUnderChild.getMeasuredHeight() + 5, newUnderChild2.getMeasuredWidth(),
-                newUnderChild.getMeasuredHeight() + 5 + newUnderChild2.getMeasuredHeight());
-
-        View cache3 = getChildAt(2);
-        View newUnderChild3 = mAdapter.getView(2, cache3, this);
-        if (cache == null) {
-            addViewInLayout(newUnderChild3, 2, newUnderChild3.getLayoutParams());
-        }
-        int childWidthSpec3 = getChildMeasureSpec(widthMeasureSpec, getPaddingTop() + getPaddingBottom(), newUnderChild3.getLayoutParams().width);
-        int childHeightSpec3 = getChildMeasureSpec(heightMeasureSpec, getPaddingLeft() + getPaddingRight(), newUnderChild3.getLayoutParams().height);
-        newUnderChild3.measure(childWidthSpec3, childHeightSpec3);
-        newUnderChild3.layout(0,newUnderChild.getMeasuredHeight() + 5 + newUnderChild2.getMeasuredHeight() + 5,
-                newUnderChild3.getMeasuredWidth(), newUnderChild.getMeasuredHeight() + 5 + newUnderChild3.getMeasuredHeight() + 5 + newUnderChild3.getMeasuredHeight());
+        newUnderChild2.layout(0,newUnderChild0.getMeasuredHeight() + 5 + newUnderChild1.getMeasuredHeight() + 5,
+                newUnderChild2.getMeasuredWidth(), newUnderChild0.getMeasuredHeight() + 5 + newUnderChild2.getMeasuredHeight() + 5 + newUnderChild2.getMeasuredHeight());
     }
 
     @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
