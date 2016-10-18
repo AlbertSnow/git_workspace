@@ -83,11 +83,11 @@ public class AbsAdapterView extends AdapterView {
             if (cache == null) {
                 addViewInLayout(newUnderChild, i, newUnderChild.getLayoutParams());
             }
-            int childWidthSpec = getChildMeasureSpec(widthMeasureSpec, getPaddingTop() + getPaddingBottom(), newUnderChild.getLayoutParams().width);
-            int childHeightSpec = getChildMeasureSpec(heightMeasureSpec, getPaddingLeft() + getPaddingRight(), newUnderChild.getLayoutParams().height);
-            newUnderChild.measure(childWidthSpec, childHeightSpec);
-            newUnderChild.layout(0,delta,newUnderChild.getMeasuredWidth(), delta + newUnderChild.getMeasuredHeight());
-            delta += newUnderChild.getMeasuredHeight() + 5;
+        int childWidthSpec = getChildMeasureSpec(widthMeasureSpec, getPaddingTop() + getPaddingBottom(), newUnderChild.getLayoutParams().width);
+        int childHeightSpec = getChildMeasureSpec(heightMeasureSpec, getPaddingLeft() + getPaddingRight(), newUnderChild.getLayoutParams().height);
+        newUnderChild.measure(childWidthSpec, childHeightSpec);
+        newUnderChild.layout(0,delta,newUnderChild.getMeasuredWidth(), delta + newUnderChild.getMeasuredHeight());
+        delta += newUnderChild.getMeasuredHeight() + 5;
         }
     }
 
