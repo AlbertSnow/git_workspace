@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Adapter;
 import android.widget.AdapterView;
 
+import com.google.publiclibrary.ViewUtils;
+
 import java.util.ArrayList;
 
 /**
@@ -82,7 +84,9 @@ public class AbsAdapterView extends AdapterView {
             int childHeightSpec = getChildMeasureSpec(heightMeasureSpec, getPaddingLeft() + getPaddingRight(), newUnderChild.getLayoutParams().height);
             newUnderChild.measure(childWidthSpec, childHeightSpec);
             newUnderChild.layout(0, delta, newUnderChild.getMeasuredWidth(), delta + newUnderChild.getMeasuredHeight());
-            delta += newUnderChild.getMeasuredHeight() + 5;
+            newUnderChild.setScaleX( (3- i) * 0.2f);
+            newUnderChild.setScaleY( (3- i) * 0.2f);
+            newUnderChild.offsetTopAndBottom(ViewUtils.dip2px(getContext(), i * 20f));
         }
     }
 
