@@ -1,15 +1,10 @@
 package com.google.customadapterview;
 
-import android.annotation.TargetApi;
 import android.content.Context;
-import android.os.Build;
 import android.util.AttributeSet;
-import android.view.Gravity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Adapter;
 import android.widget.AdapterView;
-import android.widget.FrameLayout;
 
 import java.util.ArrayList;
 
@@ -77,89 +72,18 @@ public class AbsAdapterView extends AdapterView {
         }
 
         int delta = 0;
-        for (int i = 0; i < 3 ; i++) {
+        for (int i = 0; i < 3; i++) {
             View cache = getChildAt(i);
             View newUnderChild = mAdapter.getView(i, cache, this);
             if (cache == null) {
                 addViewInLayout(newUnderChild, i, newUnderChild.getLayoutParams());
             }
-        int childWidthSpec = getChildMeasureSpec(widthMeasureSpec, getPaddingTop() + getPaddingBottom(), newUnderChild.getLayoutParams().width);
-        int childHeightSpec = getChildMeasureSpec(heightMeasureSpec, getPaddingLeft() + getPaddingRight(), newUnderChild.getLayoutParams().height);
-        newUnderChild.measure(childWidthSpec, childHeightSpec);
-        newUnderChild.layout(0,delta,newUnderChild.getMeasuredWidth(), delta + newUnderChild.getMeasuredHeight());
-        delta += newUnderChild.getMeasuredHeight() + 5;
+            int childWidthSpec = getChildMeasureSpec(widthMeasureSpec, getPaddingTop() + getPaddingBottom(), newUnderChild.getLayoutParams().width);
+            int childHeightSpec = getChildMeasureSpec(heightMeasureSpec, getPaddingLeft() + getPaddingRight(), newUnderChild.getLayoutParams().height);
+            newUnderChild.measure(childWidthSpec, childHeightSpec);
+            newUnderChild.layout(0, delta, newUnderChild.getMeasuredWidth(), delta + newUnderChild.getMeasuredHeight());
+            delta += newUnderChild.getMeasuredHeight() + 5;
         }
     }
-
-    @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
-    private void makeAndAddView(View child, int index) {
-
-        ViewGroup.LayoutParams lp = (ViewGroup.LayoutParams) child.getLayoutParams();
-        addViewInLayout(child, 0, lp, true);
-
-        final boolean needToMeasure = child.isLayoutRequested();
-        if (needToMeasure) {
-            int childWidthSpec = getChildMeasureSpec(widthMeasureSpec,
-//                    getPaddingLeft() + getPaddingRight() + lp.leftMargin + lp.rightMargin,
-                    getPaddingLeft() + getPaddingRight(),
-                    lp.width);
-            int childHeightSpec = getChildMeasureSpec(heightMeasureSpec,
-//                    getPaddingTop() + getPaddingBottom() + lp.topMargin + lp.bottomMargin,
-                    getPaddingTop() + getPaddingBottom(),
-                    lp.height);
-            child.measure(childWidthSpec, childHeightSpec);
-        } else {
-            cleanupLayoutState(child);
-        }
-
-        int w = child.getMeasuredWidth();
-        int h = child.getMeasuredHeight();
-
-        int gravity = Gravity.TOP | Gravity.START;
-//        }
-
-        int layoutDirection = 0;
-        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN)
-            layoutDirection = getLayoutDirection();
-        final int absoluteGravity = Gravity.getAbsoluteGravity(gravity, layoutDirection);
-        final int verticalGravity = gravity & Gravity.VERTICAL_GRAVITY_MASK;
-
-        int childLeft;
-        int childTop;
-        switch (absoluteGravity & Gravity.HORIZONTAL_GRAVITY_MASK) {
-            case Gravity.CENTER_HORIZONTAL:
-                childLeft = (getWidth() + getPaddingLeft() - getPaddingRight()  - w) / 2;
-//                        lp.leftMargin - lp.rightMargin;
-                break;
-            case Gravity.END:
-                childLeft = getWidth() + getPaddingRight() - w;
-//                        - lp.rightMargin;
-                break;
-            case Gravity.START:
-            default:
-                childLeft = getPaddingLeft();
-//                        + lp.leftMargin;
-                break;
-        }
-        switch (verticalGravity) {
-            case Gravity.CENTER_VERTICAL:
-                childTop = (getHeight() + getPaddingTop() - getPaddingBottom()  - h) / 2 + 0;
-//                        lp.topMargin - lp.bottomMargin;
-                break;
-            case Gravity.BOTTOM:
-//                childTop = getHeight() - getPaddingBottom() - h - lp.bottomMargin;
-                childTop = getHeight();
-                break;
-            case Gravity.TOP:
-            default:
-                childTop = getPaddingTop();
-//                + lp.topMargin;
-                break;
-        }
-        child.layout(childLeft, childTop, childLeft + w, childTop + h);
-    }
-
-
-
 
 }

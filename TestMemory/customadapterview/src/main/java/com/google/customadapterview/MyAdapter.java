@@ -12,10 +12,10 @@ import java.util.List;
 /**
  * Created by Administrator on 2016/9/30.
  */
-
 public class MyAdapter extends BaseAdapter {
     private List<String> mDatas;
     private int[] mColors = {android.R.color.darker_gray, android.R.color.holo_purple, android.R.color.holo_green_dark};
+
     public MyAdapter(List<String> datas) {
 //        mDatas = datas;
         mDatas = new ArrayList<>(5);
