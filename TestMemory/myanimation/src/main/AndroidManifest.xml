@@ -17,13 +17,12 @@
         <activity
             android:name=".ThirdActivity"
             android:windowSoftInputMode="" />
-        <activity android:name=".FourActivity"></activity>
+        <activity android:name=".FourActivity" />
         <activity android:name=".FiveActivity" />
         <activity android:name=".ProgressActivity" />
         <activity android:name=".GuideActivity" />
         <activity android:name=".SvgActivity" />
-        <activity android:name=".AnimatorActivity">
-        </activity>
+        <activity android:name=".AnimatorActivity"></activity>
         <activity android:name=".LinearActivity" />
         <activity android:name=".RecycleActivity" />
         <activity
@@ -31,9 +30,13 @@
             android:label="@string/title_activity_partial_blur"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowActionBar="false" />
-        <activity android:name=".CardActivity"></activity>
+        <activity android:name=".CardActivity" />
         <activity android:name=".CustomAdapterViewActivity" />
         <activity android:name=".GestureActivity">
+        </activity>
+        <activity android:name=".CustomListActivity"
+            android:hardwareAccelerated="false"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
