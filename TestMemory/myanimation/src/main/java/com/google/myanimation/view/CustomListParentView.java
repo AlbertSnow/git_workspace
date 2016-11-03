@@ -11,7 +11,7 @@ import android.widget.FrameLayout;
  * Created by Administrator on 2016/11/3.
  */
 public class CustomListParentView extends FrameLayout {
-    private boolean mListBeyondBoder;
+    private boolean mListBeyondBorder;
 
     public CustomListParentView(Context context) {
         super(context);
@@ -32,39 +32,18 @@ public class CustomListParentView extends FrameLayout {
     }
 
     @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-
-//        RecyclerView listView = getListView();
-//        View hoverView = getHoverView();
-//        if (null == listView || null == hoverView) {
-//            return;
-//        }
-    }
-
-
-    @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         layoutChildren(left, top, right, bottom, false /* no force left gravity */);
 
-        RecyclerView listView = getListView();
         View hoverView = getHoverView();
-        if (null == listView || null == hoverView) {
+        if (null == hoverView) {
             return;
         }
 
-        int childHeightSum = 0;
-        for (int i = 0; i < listView.getAdapter().getItemCount(); i++) {
-            View childView = listView.getChildAt(i);
-            if (childView != null) {
-                childHeightSum += childView.getMeasuredHeight();
-            }
-        }
-
-        if (mListBeyondBoder) {
+        if (mListBeyondBorder) {
             hoverView.layout(hoverView.getLeft(), getMeasuredHeight() - hoverView.getMeasuredHeight(), hoverView.getMeasuredWidth(), getMeasuredHeight());
         } else {
-            hoverView.layout(hoverView.getLeft(), childHeightSum, hoverView.getMeasuredWidth(), childHeightSum + hoverView.getMeasuredHeight());
+            hoverView.layout(hoverView.getLeft(), listChildBottom, hoverView.getMeasuredWidth(), listChildBottom + hoverView.getMeasuredHeight());
         }
     }
 
@@ -128,31 +107,22 @@ public class CustomListParentView extends FrameLayout {
                 }
 
                 int childBottom = childTop + height;
-
                 if (child instanceof  RecyclerView) {
-                    RecyclerView listView = (RecyclerView) child;
-                    int childHeightSum = 0;
-                    for (int j = 0; j < listView.getAdapter().getItemCount(); j++) {
-                        View childView = listView.getChildAt(j);
-                        if (childView != null) {
-                            childHeightSum += childView.getMeasuredHeight();
-                        }
-                    }
-
-                    if (getMeasuredHeight() != 0 && childHeightSum + getHoverView().getMeasuredHeight() > getMeasuredHeight()) {
+                    if (height + getHoverView().getMeasuredHeight() > getMeasuredHeight()) {
                         childBottom = getMeasuredHeight() - getHoverView().getMeasuredHeight();
-                        mListBeyondBoder = true;
+                        mListBeyondBorder = true;
                     } else {
-//                        childBottom = childTop + childHeightSum;
-                        mListBeyondBoder = false;
+                        mListBeyondBorder = false;
                     }
+                    listChildBottom = childBottom;
                 }
 
                 child.layout(childLeft, childTop, childLeft + width, childBottom);
             }
-
         }
     }
+
+    private int listChildBottom;
 
 
     public View getHoverView() {
