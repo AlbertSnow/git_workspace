@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,6 +49,7 @@ public class CustomListActivity extends AppCompatActivity {
                     data.remove(position);
                     notifyItemRemoved(position);
                     notifyDataSetChanged();
+                    Log.i("testView", "Child view count + " + mListView.getChildCount());
                 }
             });
         }
@@ -72,5 +74,6 @@ public class CustomListActivity extends AppCompatActivity {
 //        super.onBackPressed();
         data.add("adddddddddd++++++++++++++");
         mListView.getAdapter().notifyDataSetChanged();
+        Log.i("testView", "Child view count + " + mListView.getChildCount());
     }
 }

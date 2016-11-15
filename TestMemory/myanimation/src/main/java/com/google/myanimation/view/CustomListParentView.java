@@ -12,6 +12,7 @@ import android.widget.FrameLayout;
  */
 public class CustomListParentView extends FrameLayout {
     private boolean mListBeyondBorder;
+    private int listChildBottom;
 
     public CustomListParentView(Context context) {
         super(context);
@@ -122,14 +123,7 @@ public class CustomListParentView extends FrameLayout {
         }
     }
 
-    private int listChildBottom;
-
-
     public View getHoverView() {
         return getChildAt(1);
-    }
-
-    public RecyclerView getListView() {
-        return (RecyclerView) getChildAt(0);
     }
 }
