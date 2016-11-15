@@ -1,0 +1,23 @@
+class Dog {
+    int age;
+    String color;
+
+    {
+        age = 10;
+        sayHello 'HelloWorld'
+    }
+
+    void sayHello(word) {
+        println word
+    }
+}
+
+def myDog = new Dog();
+println "MyDag age: $myDog.age"
+
+myDog = 1;
+println "Dog changed：$myDog"
+
+myDog.upto(3){
+    println "The loop times $it"
+}
