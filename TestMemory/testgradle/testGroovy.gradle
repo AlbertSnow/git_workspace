@@ -21,3 +21,6 @@ println "Dog changed：$myDog"
 myDog.upto(3){
     println "The loop times $it"
 }
+
+println 'ls'.execute().text
+'ClearData.cmd'.execute()

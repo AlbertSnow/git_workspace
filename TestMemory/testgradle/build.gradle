@@ -53,3 +53,15 @@ afterEvaluate {
 //            println "------------------------end--------------------------------"
 //        }
 }
+
+task (testTask){
+    group "GradleTest"
+    println "hello"
+    doLast{
+        println "doLast hello"
+    }
+}
+
+task(clearApp, group: "GradleTest") << {
+    "ls".execute()
+}

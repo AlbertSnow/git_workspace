@@ -1,0 +1,59 @@
+println '''MOP is the abbreviation of MetaDataObjectProtocol
+    MetaClass extends MetaObjectProtocol '''
+
+def testMop = 'nihao'
+println testMop.metaClass
+
+
+println "-----------Intercept------------"
+class TestDynamic implements GroovyInterceptable{
+
+    def methodMissing(String name, args) {
+        println "You called $name and args ${args.join(', ')}."
+        println args.size()
+    }
+}
+
+def testObject = new TestDynamic();
+println testObject.saySomething("Hello World")
+testObject.with{
+    println saySomething("hello world")
+}
+
+class AnInterceptable implements GroovyInterceptable {
+    def existingMethod() {}
+    def invokeMethod(String name, args) { 'intercepted' }
+}
+
+def obj = new AnInterceptable()
+println obj.hello()
+obj.metaClass
+
+
+println "-------------getMetaData method property----------"
+println "Groovy get meta data (etc method)a little like java Method except without using reflection to invoke the method"
+
+def str = 'getMethod'
+def methodName = 'toUpperCase'
+def metaMethod = str.metaClass.getMetaMethod(methodName)
+println metaMethod.invoke(str)
+println "And we can get the method name at runtime"
+
+def word = "Whether method exist"
+println word.metaClass.respondsTo(word, "toUpperCase") ? 'true' : 'false'
+
+
+println "--------dynamic access object----------"
+def printFun(obj) {
+    def dynamicPropert = 'bytes'
+    def dynamicMethod = 'toUpperCase'
+
+    println obj[dynamicPropert]
+    println obj."$dynamicPropert"
+    println obj."$dynamicMethod"()
+    println obj.invokeMethod(dynamicMethod, null)
+}
+printFun('DynamicTest')
+
+println '---------AOP aspect-oriented programing----------'
+
