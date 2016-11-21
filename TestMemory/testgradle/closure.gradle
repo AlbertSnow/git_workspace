@@ -13,6 +13,26 @@ class Example {
 
 def f1() { println "f1 of Script called..." }
 new Example().foo {
+    println it == null? "it is null" : "it is not null"
     f1()
     f2()
+}
+
+def examiningClosure(closure) {
+    closure()
+}
+examiningClosure() {
+    println "In First Closure:"
+    println "class is " + getClass().name
+    println "this is " + this + ", super:" + this.getClass().superclass.name
+    println "owner is " + owner + ", super:" + owner.getClass().superclass.name
+    println "delegate is " + delegate +
+            ", super:" + delegate.getClass().superclass.name
+    examiningClosure() {
+        println "In Closure within the First Closure:"println "class is " + getClass().name
+        println "this is " + this + ", super:" + this.getClass().superclass.name
+        println "owner is " + owner + ", super:" + owner.getClass().superclass.name
+        println "delegate is " + delegate +
+                ", super:" + delegate.getClass().superclass.name
+    }
 }
