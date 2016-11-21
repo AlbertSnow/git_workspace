@@ -1,0 +1,37 @@
+class Car {
+    def check() {
+        System.out.println "check called..."
+    }
+
+    def start() {
+        System.out.println "start called..."
+    }
+
+    def drive() {
+        System.out.println "drive called..."
+    }
+}
+
+Car.metaClass.invokeMethod = { String name, args ->
+    println "Call to $name intercepted..."
+
+    if (name != 'check') {
+        println "running filter..."
+    Car.metaClass.getMEtaMethod('check').invo
+    }
+
+}
+
+
+def car = new Car()
+
+def saySomething(closure) {
+    closure 'hello world'
+}
+
+def closure = {
+    println "$it"
+}
+
+saySomething(closure)
+
