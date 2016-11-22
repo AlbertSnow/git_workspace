@@ -57,3 +57,32 @@ printFun('DynamicTest')
 
 println '---------AOP aspect-oriented programing----------'
 
+class StringUtil {
+    def static toSSN(self) { //write toSSN(String self) to restrict to String
+        if (self.size() == 9) {
+            "${self[0..2]}-${self[3..4]}-${self[5..8]}"
+        }
+    }
+
+    def static hello(selfi) {
+        println "say hello"
+    }
+
+    def static hello(selfi, other) {
+        println "other is $other"
+    }
+}
+use(StringUtil) {
+    println "123456789".toSSN()
+    println new StringBuilder("987654321").toSSN()
+    "234".hello()
+    1232.hello(123)
+}
+
+StringUtil.metaClass.invokeMethod = { method, params ->
+    println "Method: $method and prams: $params"
+}
+
+def util = new StringUtil();
+util.helloWorld("test")
+

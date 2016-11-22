@@ -1,0 +1,30 @@
+def list = ['Programming', 'In', "Groovy"]
+
+list.each {
+    println "lst it = $it"
+}
+
+try {
+    println list.join(' ')
+} catch (e) {
+}
+
+println '---------------------List API---------------------'
+list = [1,2,3,4,5,5]
+println 'list findAll: ' + list.findAll{it > 2}.getClass().simpleName
+println 'list join: ' + list.join('*')
+println 'list sub: ' + list - [1,5]
+println 'list collect: ' + list.collect{it + 3}
+println 'list: ' + list
+println 'list each: ' + list.each{it -> it + 3 }
+
+println '---------------------Map API---------------------'
+def score = ["zhao" : 1, "li":20, 'zhang': 0]
+score.each{
+    println "key: $it.key  value: $it.value"
+}
+
+println score.collect {
+    'Name ' + it.key
+}
+
