@@ -1,1 +1,1 @@
-include ':app', ':testprocess', ':myanimation', ':myanimation', ':testphonestate', ':testplughost', ':testplug', ':testas', ':testgradle', ':testopengl', ':customadapterview', ':publiclibrary'
+include ':app', ':testprocess', ':myanimation', ':myanimation', ':testphonestate', ':testplughost', ':testplug', ':testas', ':testgradle', ':testopengl', ':customadapterview', ':publiclibrary', ':battery', ':testgcm'

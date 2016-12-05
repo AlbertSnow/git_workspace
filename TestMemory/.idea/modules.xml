@@ -4,10 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestMemory.iml" filepath="$PROJECT_DIR$/TestMemory.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/battery/battery.iml" filepath="$PROJECT_DIR$/battery/battery.iml" />
       <module fileurl="file://$PROJECT_DIR$/customadapterview/customadapterview.iml" filepath="$PROJECT_DIR$/customadapterview/customadapterview.iml" />
       <module fileurl="file://$PROJECT_DIR$/myanimation/myanimation.iml" filepath="$PROJECT_DIR$/myanimation/myanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/publiclibrary/publiclibrary.iml" filepath="$PROJECT_DIR$/publiclibrary/publiclibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/testas/testas.iml" filepath="$PROJECT_DIR$/testas/testas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testgcm/testgcm.iml" filepath="$PROJECT_DIR$/testgcm/testgcm.iml" />
       <module fileurl="file://$PROJECT_DIR$/testgradle/testgradle.iml" filepath="$PROJECT_DIR$/testgradle/testgradle.iml" />
       <module fileurl="file://$PROJECT_DIR$/testopengl/testopengl.iml" filepath="$PROJECT_DIR$/testopengl/testopengl.iml" />
       <module fileurl="file://$PROJECT_DIR$/testphonestate/testphonestate.iml" filepath="$PROJECT_DIR$/testphonestate/testphonestate.iml" />

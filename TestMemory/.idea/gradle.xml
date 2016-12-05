@@ -10,10 +10,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/battery" />
             <option value="$PROJECT_DIR$/customadapterview" />
             <option value="$PROJECT_DIR$/myanimation" />
             <option value="$PROJECT_DIR$/publiclibrary" />
             <option value="$PROJECT_DIR$/testas" />
+            <option value="$PROJECT_DIR$/testgcm" />
             <option value="$PROJECT_DIR$/testgradle" />
             <option value="$PROJECT_DIR$/testopengl" />
             <option value="$PROJECT_DIR$/testphonestate" />
