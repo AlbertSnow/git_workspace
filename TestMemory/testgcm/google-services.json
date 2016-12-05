@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "168108861420",
+    "firebase_url": "https://albertproject-1af3e.firebaseio.com",
+    "project_id": "albertproject-1af3e",
+    "storage_bucket": "albertproject-1af3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168108861420:android:58308946c58f96bb",
+        "android_client_info": {
+          "package_name": "com.albert.testgcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168108861420-ubtec36b99d6svabsti49j3bqads3r1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA5VGbp-lezrFNruFLfWZ71uI8h4HgF54"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
