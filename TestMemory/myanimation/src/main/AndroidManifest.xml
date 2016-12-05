@@ -22,7 +22,7 @@
         <activity android:name=".ProgressActivity" />
         <activity android:name=".GuideActivity" />
         <activity android:name=".SvgActivity" />
-        <activity android:name=".AnimatorActivity"></activity>
+        <activity android:name=".AnimatorActivity" />
         <activity android:name=".LinearActivity" />
         <activity android:name=".RecycleActivity" />
         <activity
@@ -32,10 +32,14 @@
             android:windowActionBar="false" />
         <activity android:name=".CardActivity" />
         <activity android:name=".CustomAdapterViewActivity" />
-        <activity android:name=".GestureActivity">
+        <activity android:name=".GestureActivity"></activity>
+        <activity
+            android:name=".CustomListActivity"
+            android:hardwareAccelerated="false">
         </activity>
-        <activity android:name=".CustomListActivity"
-            android:hardwareAccelerated="false"
+        <activity android:name=".view.InputActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
