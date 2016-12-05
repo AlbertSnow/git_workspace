@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Battery</string>
+    <string name="test_font">充电中Charging...20%</string>
+
+</resources>
